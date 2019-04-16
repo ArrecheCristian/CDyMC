@@ -24,7 +24,7 @@ Entry point: 0xE07B (_Startup)
 _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     0
-  _Copy    *toCopyDownBeg 0xE152
+  _Copy    *toCopyDownBeg 0xE15D
 } _startupData;
 
 *********************************************************************************************
@@ -33,8 +33,8 @@ Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            192     R     0xE092     0xE151   ROM
-.copy                              2     R     0xE152     0xE153   ROM
+.text                            203     R     0xE092     0xE15C   ROM
+.copy                              2     R     0xE15D     0xE15E   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -134,7 +134,7 @@ Section Name                    Size  Type     From       To       Segment
 .stack                            64   R/W      0x100      0x13F   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         196 (dec:      406)
+READ_ONLY (R):         1A1 (dec:      417)
 READ_WRITE (R/W):       40 (dec:       64)
 NO_INIT (N/I):          6C (dec:      108)
 
@@ -156,8 +156,8 @@ MODULE:                 -- MCUinit_c.obj --
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     delay                                     E0DB      2B      43       1   .text       
-     main                                      E106      4C      76       1   .text       
+     delay                                     E0DB      2B      43       3   .text       
+     main                                      E106      57      87       1   .text       
 - VARIABLES:
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
@@ -270,7 +270,7 @@ MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                0     73     66
-  main_c.obj                                   0    119      0
+  main_c.obj                                   0    130      0
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
   other                                       64     14      2
@@ -576,8 +576,8 @@ OBJECT LIST SORTED BY ADDRESS
      Init                                      E00E      6D     109       1   .init       
      _Startup                                  E07B       9       9       1   .init       
      MCU_init                                  E092      49      73       1   .text       
-     delay                                     E0DB      2B      43       1   .text       
-     main                                      E106      4C      76       1   .text       
+     delay                                     E0DB      2B      43       3   .text       
+     main                                      E106      57      87       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -589,7 +589,7 @@ UNUSED-OBJECTS SECTION
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE152 ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE15D ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -633,6 +633,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 5
-Total size of all blocks to be downloaded: 406
+Number of blocks to be downloaded: 6
+Total size of all blocks to be downloaded: 417
 

@@ -24,4 +24,15 @@
 <definedSymbol symbol="__interrupt="/>
 </collector>
 </instance>
+<instance id="toolchain.config.hcs08.release.285530204;toolchain.config.hcs08.release.285530204.1771322917;hcs08.toolchain.compiler.372698158.557430431;hcs08.toolchain.compiler.base.input.cpp.1266227774">
+<collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<definedSymbol symbol="near="/>
+<definedSymbol symbol="far="/>
+<definedSymbol symbol="__near="/>
+<definedSymbol symbol="__linear="/>
+<definedSymbol symbol="__far="/>
+<definedSymbol symbol="interrupt="/>
+<definedSymbol symbol="__interrupt="/>
+</collector>
+</instance>
 </scannerInfo>
