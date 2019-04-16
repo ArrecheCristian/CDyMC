@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>KBI</Name>
+    <Type>KBI</Type>
+    <Description>Keyboard</Description>
+    <Author>Processor Expert/MN</Author>
+    <Version>01.096</Version>
+    <Icon>Keyboard</Icon>
+    <TypesFiles>PE,KBI\KBI</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Low</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Advanced beans;KBI</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Interrupts</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedCns>2</BW_NeedCns>
+    <Shortcut>KB</Shortcut>
+    <BW_NeedTps>no</BW_NeedTps>
+  </Options>
+</BeanCache>
+

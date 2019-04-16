@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>Init_ACMP_HCS08</Name>
+    <Type>Init_ACMP_HCS08</Type>
+    <Description>Freescale Analog Comparator (ACMP)</Description>
+    <Author>ProcessorExpert/JS</Author>
+    <Version>01.053</Version>
+    <Icon>PERIPHINSP</Icon>
+    <TypesFiles>PE,Init_ACMP_HCS08\Init_ACMP_HCS08</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Peripheral Initialization</BeanLevel>
+    <BW_HelpFiles>Init,Properties,Methods</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>Init beans</BW_HelpType>
+    <Category>CPU Internal Peripherals-Peripheral Initialization</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Init bean</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Shortcut>ACMP</Shortcut>
+  </Options>
+</BeanCache>
+

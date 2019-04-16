@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>RTC_LDD</Name>
+    <Type>RTC_LDD</Type>
+    <Description>Real Time Clock</Description>
+    <Author>Processor Expert/FL</Author>
+    <Version>01.064</Version>
+    <Icon>CLOCKS_LDD</Icon>
+    <TypesFiles>PE,RTC_LDD\RTC_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <ItemSymbolRenamedTo>MCFgrp0</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>Symbol</ItemSymbolRenamed>
+    <BW_NeedUst>13</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-Timer</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BW_NeedCns>3</BW_NeedCns>
+    <Shortcut>RTC</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

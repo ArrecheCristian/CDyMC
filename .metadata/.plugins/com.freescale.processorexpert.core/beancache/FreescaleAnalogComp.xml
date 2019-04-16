@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>FreescaleAnalogComp</Name>
+    <Type>FreescaleAnalogComp</Type>
+    <Description>Analog comparator on Freescale derivates</Description>
+    <Author>Processor Expert /MVa</Author>
+    <Version>01.213</Version>
+    <Icon>AnalogComp</Icon>
+    <TypesFiles>PE,FreescaleAnalogComp\FreescaleAnalogComp</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Low</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Advanced beans;FreescaleAnalogComp</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Measurement</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BW_NeedCns>7</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Shortcut>Cmp</Shortcut>
+  </Options>
+</BeanCache>
+

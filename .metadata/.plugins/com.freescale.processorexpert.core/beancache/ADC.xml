@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>ADC</Name>
+    <Type>ADC</Type>
+    <Description>A/D converter</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.595</Version>
+    <Icon>AD</Icon>
+    <TypesFiles>PE,ADC\ADC</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Application Notes","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsageAppNote</BW_HelpType>
+    <Category>CPU Internal Peripherals-Converter-ADC</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BW_NeedCns>1</BW_NeedCns>
+    <Shortcut>AD</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

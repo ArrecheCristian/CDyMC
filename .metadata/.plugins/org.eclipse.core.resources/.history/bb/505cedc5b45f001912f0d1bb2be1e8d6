@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PEproject>
+  <Header>
+    <Name>DeviceInitialization</Name>
+    <SavedBy>Federico</SavedBy>
+    <ModificationStamp>2</ModificationStamp>
+    <Date>2019-04-15</Date>
+    <IDE>Eclipse IDE</IDE>
+    <PEversion>4.48.0.0</PEversion>
+  </Header>
+  <Options>
+    <EventsDirectory>Sources</EventsDirectory>
+    <GeneratedCodeDirectory>Generated_Code</GeneratedCodeDirectory>
+    <DocumentationDir>Documentation</DocumentationDir>
+    <CompiledFilesSubDir />
+    <ProjectSettingsDirectory>Project_Settings</ProjectSettingsDirectory>
+    <TemporaryDir />
+    <OverwriteEvents>3</OverwriteEvents>
+    <MainModuleUpdate>3</MainModuleUpdate>
+    <EventModulesUpdate>3</EventModulesUpdate>
+    <UpdateUserModuleIncludes>true</UpdateUserModuleIncludes>
+    <GenerateISRs>false</GenerateISRs>
+    <DeleteUnusedEvents>true</DeleteUnusedEvents>
+    <OverwriteBeanDrv>0</OverwriteBeanDrv>
+    <ReviewCodeGenChanges>false</ReviewCodeGenChanges>
+    <ReviewCommentChanges>false</ReviewCommentChanges>
+    <UseExistingModules>true</UseExistingModules>
+    <RenamePeripheries>false</RenamePeripheries>
+    <Autodependency>true</Autodependency>
+    <ProjectCompNumb>2</ProjectCompNumb>
+    <DelUnusedPreviouslyGenFiles>true</DelUnusedPreviouslyGenFiles>
+    <GeneratedCodeFrozen>false</GeneratedCodeFrozen>
+    <UserInterface>MCU_INIT</UserInterface>
+    <GenerateCodeBeforeBuild>true</GenerateCodeBeforeBuild>
+    <GenerateCodeGenLog>false</GenerateCodeGenLog>
+    <McuInit_GenFileType>ANSIC</McuInit_GenFileType>
+    <McuInit_ActAfterGen>ADD_TO_PRJ</McuInit_ActAfterGen>
+    <McuInit_GenModuleName>MCUinit</McuInit_GenModuleName>
+    <McuInit_OPT_RESET_VALUES>false</McuInit_OPT_RESET_VALUES>
+    <McuInit_GENER_COMMENTS>true</McuInit_GENER_COMMENTS>
+    <McuInit_GENER_IVT>true</McuInit_GENER_IVT>
+    <McuInit_GENER_ISR>true</McuInit_GENER_ISR>
+    <McuInit_GENER_WRITE_ONCE>true</McuInit_GENER_WRITE_ONCE>
+    <McuInit_GENER_FLASH>true</McuInit_GENER_FLASH>
+    <McuInit_GENER_SHOW_INSTRUCTIONS>true</McuInit_GENER_SHOW_INSTRUCTIONS>
+    <McuInit_DoNotShowOptionsBeforeCodeGen>false</McuInit_DoNotShowOptionsBeforeCodeGen>
+    <McuInit_ShowRegisterMap_0>true</McuInit_ShowRegisterMap_0>
+    <McuInit_ShowRegisterMap_1>false</McuInit_ShowRegisterMap_1>
+    <McuInit_DestLanguagePossibilities>c</McuInit_DestLanguagePossibilities>
+    <DontWriteGeneratedModules lines_count="0" />
+  </Options>
+</PEproject>
+

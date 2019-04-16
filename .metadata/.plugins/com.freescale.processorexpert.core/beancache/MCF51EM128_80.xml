@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>MCF51EM128_80</Name>
+    <Type>MCF51EM128_80</Type>
+    <Description>Freescale ColdFireV1 family : MCF51EM128 in 80 pin LQFP package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.006</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleHC,MCF51EM128_80\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <Category>CPU-Freescale-ColdFire-ColdFire V1-MCF51EM</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>CPUs</GroupCategory>
+    <BW_NeedCns>11</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

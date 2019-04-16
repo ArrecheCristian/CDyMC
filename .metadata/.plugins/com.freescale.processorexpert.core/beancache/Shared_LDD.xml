@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>Shared_LDD</Name>
+    <Type>Shared_LDD</Type>
+    <Description>Shared Logical Device Driver</Description>
+    <Author>Processor Expert/MT</Author>
+    <Version>01.005</Version>
+    <Icon>SHARED_LDD</Icon>
+    <TypesFiles>PE,Shared_LDD\Shared_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties</BW_HelpFiles>
+    <BW_DetailedHelp>no</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <OnlyForInheritanceSharing>yes</OnlyForInheritanceSharing>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>&lt;none&gt;</BW_HelpType>
+    <Category>Logical Device Drivers</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_NeedCns>0</BW_NeedCns>
+    <BW_NeedTps>no</BW_NeedTps>
+  </Options>
+</BeanCache>
+

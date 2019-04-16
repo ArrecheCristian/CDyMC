@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>TimerOut</Name>
+    <Type>TimerOut</Type>
+    <Description>Flip-flop output 1:1</Description>
+    <Author>Processor Expert/RH</Author>
+    <Version>03.022</Version>
+    <Icon>TMROUT</Icon>
+    <TypesFiles>PE,TimerOut\TimerOut</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Timer</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BW_NeedCns>13</BW_NeedCns>
+    <Shortcut>TO</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

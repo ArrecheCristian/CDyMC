@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>Term</Name>
+    <Type>Term</Type>
+    <Description>ANSI Terminal</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>02.061</Version>
+    <Icon>MONITOR</Icon>
+    <TypesFiles>PE,Term\Term</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Advanced beans;Term</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>2</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU External Devices-Display</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Category1>SW-Communication</Category1>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Communications</GroupCategory>
+    <BW_NeedCns>8</BW_NeedCns>
+    <Shortcut>Term</Shortcut>
+    <BW_NeedTps>no</BW_NeedTps>
+  </Options>
+</BeanCache>
+

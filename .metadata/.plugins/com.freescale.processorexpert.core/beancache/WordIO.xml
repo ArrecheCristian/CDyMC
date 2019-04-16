@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>WordIO</Name>
+    <Type>WordIO</Type>
+    <Description>General Word (16-bit) Input/Output</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>02.040</Version>
+    <Icon>WORDIO</Icon>
+    <TypesFiles>PE,WordIO\WordIO</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <ItemSymbolRenamedTo>ElProp</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>Symbol</ItemSymbolRenamed>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Port I/O</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Shortcut>Word</Shortcut>
+    <BW_NeedTps>no</BW_NeedTps>
+  </Options>
+</BeanCache>
+

@@ -1,0 +1,58 @@
+#include <hidef.h> /* for EnableInterrupts macro */
+#include "derivative.h" /* include peripheral declarations */
+
+#ifdef __cplusplus
+extern "C"
+#endif
+
+void MCU_init(void); /* Device initialization function declaration */
+
+void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de miliseg de delay
+  unsigned short temp;
+  unsigned short cant;
+  /*Aca sabemos que 1a ejecucion del for equivale a 23 ciclos de reloj
+  y que hacemos 8000 ciclos por milisegundo, eso equivale a mas o menos
+  348 ejecuciones del for por milisegundo*/
+  for(cant=n; cant>0; cant--){
+	for(temp=348; temp>0; temp--);
+  }
+}
+
+void KEYPAD_SCAN(/*char * key*/){
+	unsigned short fila_act;
+	unsigned short col_act;
+	char status = '0';
+	char f = 0b1000;
+	char c = 0b1000;
+	unsigned char PTBDAux = 0b10000000;
+	
+	for(fila_act=0;fila_act<3;fila_act++){
+		PTBD = ~PTBDAux;
+		for(col_act=0;col_act<3;col_act++){
+			if(PTBD == (~f)+(~c)){
+				status = '1';
+				printf('Funciona');
+			}
+			c = c>>1;
+		}
+		f = f>>1;
+		PTBDAux = PTBDAux>>1;
+		c = 0b1000;
+	}
+	return status;
+}
+
+void main(void) {
+  unsigned char estado = 0;
+	
+  MCU_init();	/* call Device Initialization */
+  /* include your code here */
+
+  for(;;) {
+    KEYPAD_SCAN();
+    delay(20);
+	  /* __RESET_WATCHDOG(); By default COP is disabled with device init. When enabling, also reset the watchdog. */
+  } /* loop forever */
+  /* please make sure that you never leave main */
+}
+

@@ -1,0 +1,53 @@
+[create_PE_project]
+DEST_LANGUAGE=c
+DEST_LANGUAGE_POSSIBILITIES=c 
+CPUs=#DEF-LIST-CPUS-FOR-MASTER-MCU-NAME:MC9S08SH8
+DEST_COMPILER=
+%-Project name: DeviceInitialization (used for main module name)
+%-PE_MODE   : MCU_INIT (one of: CLASSIC,MCU_INIT)
+%-PE Family : HCS08
+%-CW MCUNAME: MC9S08SH8
+%-CPE FILE  : MCU10
+%-LANGUAGE  : c (language that will be used in Device Initialization, one of: c, asm, abs_asm)
+%-COMPILER  :  compiler that should be selected by default. Can be empty - the first available is automatically selected
+%-
+%-
+%SUBROUTINE split(listInString,separator,targetList)
+%:myString=%listInString
+%-define! list
+%while (%str_length(myString) > '0')
+  %:p=%str_pos(separator, myString)
+  %if (p > '0')
+    %:tmpstr=%myString
+    %substring tmpstr, 1, %EXPR(%p - 1)
+    %substring myString, %EXPR(%p + 1), %EXPR(%str_length(myString) - %p)
+    %if (%str_length(tmpstr) > '0')
+      %apploc %'targetList' %tmpstr
+    %endif
+  %else
+    %if (%str_length(myString) > '0')
+      %apploc %'targetList' %myString
+    %endif
+    %define! myString
+  %endif
+  %undef! p
+  %undef! tmpstr
+%endwhile
+%SUBROUTINE_END
+%-
+%define ECLIPSE_WIZARD_SELECTED
+%define_list Wizard_Variants {
+%define_list}
+%define_list Wizard_Configurations {
+%define_list}
+%define PE_GENERATE_AFTER_PRJ_CREATE DeviceInitialization
+%-
+%define VariantsStr ;;;;;;;;;;;;;;;;;;;;
+%define ConfigsStr ;;;;;
+%inclSUB split(%VariantsStr,;,Wizard_Variants)
+%inclSUB split(%ConfigsStr,;,Wizard_Configurations)
+%-
+%define PE_MODE MCU_INIT
+%define CW_MCU_NAME MC9S08SH8
+%include ..\Config\PE\CPE\MCU10.cpe
+[_end_]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>DMA_LDD</Name>
+    <Type>DMA_LDD</Type>
+    <Description>HAL DMA component</Description>
+    <Author>LH</Author>
+    <Version>01.024</Version>
+    <Icon>DMA_LDD</Icon>
+    <TypesFiles>PE,DMA_LDD\DMA_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <ItemSymbolRenamedTo>PeriphDevice</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>PrphDevice</ItemSymbolRenamed>
+    <BW_NeedUst>33</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-DMA</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_NeedCns>17</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Shortcut>DMA</Shortcut>
+  </Options>
+</BeanCache>
+

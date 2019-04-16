@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>TimerUnit_LDD</Name>
+    <Type>TimerUnit_LDD</Type>
+    <Description>General timer encapsulation</Description>
+    <Author>Processor Expert /RH</Author>
+    <Version>01.121</Version>
+    <Icon>CLOCKS_LDD</Icon>
+    <TypesFiles>PE,TimerUnit_LDD\TimerUnit_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>20</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-Timer</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BW_NeedCns>15</BW_NeedCns>
+    <Shortcut>TU</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

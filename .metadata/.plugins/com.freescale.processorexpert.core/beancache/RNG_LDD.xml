@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>RNG_LDD</Name>
+    <Type>RNG_LDD</Type>
+    <Description>Random number Generator</Description>
+    <Author>Processor Expert/Jesus Gaytan</Author>
+    <Version>01.095</Version>
+    <Icon>KEY_LDD</Icon>
+    <TypesFiles>PE,RNG_LDD\RNG_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <ItemSymbolRenamedTo>MCFgrp0</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>Symbol</ItemSymbolRenamed>
+    <BW_NeedUst>7</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-Security</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>SW algorithms, encoding/decoding</GroupCategory>
+    <BW_NeedCns>2</BW_NeedCns>
+    <Shortcut>RNG</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>TSI_LDD</Name>
+    <Type>TSI_LDD</Type>
+    <Description>Touch Sensing Input TSI</Description>
+    <Author>PE/Camposeco</Author>
+    <Version>01.000</Version>
+    <Icon>HAND_LDD</Icon>
+    <TypesFiles>PE,TSI_LDD\TSI_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <SubVersion>47</SubVersion>
+    <BW_NeedUst>22</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-Human Interface</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BW_NeedCns>1</BW_NeedCns>
+    <Shortcut>TSI</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

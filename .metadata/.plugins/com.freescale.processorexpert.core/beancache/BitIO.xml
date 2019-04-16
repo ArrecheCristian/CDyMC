@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>BitIO</Name>
+    <Type>BitIO</Type>
+    <Description>General 1-bit Input/Output</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>02.075</Version>
+    <Icon>BITIO</Icon>
+    <TypesFiles>PE,BitIO\BitIO</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Port I/O</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Shortcut>Bit</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

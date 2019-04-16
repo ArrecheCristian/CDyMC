@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>MC9S08DE60_64</Name>
+    <Type>MC9S08DE60_64</Type>
+    <Description>Freescale HCS08 family : MC9S08DE60 in 64 pin LQFP package</Description>
+    <Author>Processor Expert/MVa</Author>
+    <Version>01.044</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleHC</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <Category>CPU-Freescale-HCS08-DE</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_NeedCns>11</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

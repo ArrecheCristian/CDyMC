@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>InterruptVector</Name>
+    <Type>InterruptVector</Type>
+    <Description>Interrupt vector handled in user code</Description>
+    <Author>Processor Expert/RH</Author>
+    <Version>02.023</Version>
+    <Icon>PERIPHINSP</Icon>
+    <TypesFiles>PE,InterruptVector\InterruptVector</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Peripheral Initialization</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <Licence4Family>MPC5500:-</Licence4Family>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Peripheral Initialization</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Category1>CPU Internal Peripherals-Interrupts</Category1>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Shortcut>IV</Shortcut>
+    <BW_NeedTps>no</BW_NeedTps>
+  </Options>
+</BeanCache>
+

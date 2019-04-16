@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>TimerInt</Name>
+    <Type>TimerInt</Type>
+    <Description>Periodic interrupt</Description>
+    <Author>Processor Expert/RH</Author>
+    <Version>02.159</Version>
+    <Icon>TMRCNTR</Icon>
+    <TypesFiles>PE,TimerInt\TimerInt</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Basic beans</Licence>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Timer</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BW_NeedCns>19</BW_NeedCns>
+    <Shortcut>TI</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>FreescaleCAN</Name>
+    <Type>FreescaleCAN</Type>
+    <Description>CAN communication for Freescale implementation</Description>
+    <Author>Processor Expert</Author>
+    <Version>02.355</Version>
+    <Icon>CAN2</Icon>
+    <TypesFiles>PE,FreescaleCAN\FreescaleCAN</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <Licence4Cpu>56F8257:MSCAN</Licence4Cpu>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <Licence>Advanced beans;FreescaleCAN</Licence>
+    <Licence4Family>56800:FlexCAN</Licence4Family>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>CPU Internal Peripherals-Communication</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Communications</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Shortcut>CAN</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

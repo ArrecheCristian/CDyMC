@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>MCF52230_112_LQFP</Name>
+    <Type>MCF52230_112_LQFP</Type>
+    <Description>Freescale ColdFire family: MCF52230_112_LQFP</Description>
+    <Author>Processor Expert</Author>
+    <Version>01.004</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleMCF,MCF52230_112_LQFP\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>Default</BW_HelpType>
+    <Category>CPU-Freescale-ColdFire-ColdFire V2-MCF5223x</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>CPUs</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

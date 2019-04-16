@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>MCF51MM256_81</Name>
+    <Type>MCF51MM256_81</Type>
+    <Description>Freescale ColdFireV1 family : MCF51MM256 in 81 pin MAPBGA package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.003</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleHC,_HCS08\*,MCF51MM256_81\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <ItemSymbolRenamedTo>ClkGateIIC</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>ClkGateIIC1</ItemSymbolRenamed>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <Category>CPU-Freescale-ColdFire-ColdFire V1-MCF51JE/MM</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>CPUs</GroupCategory>
+    <BW_NeedCns>11</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

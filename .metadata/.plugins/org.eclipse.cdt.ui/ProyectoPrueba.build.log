@@ -1,0 +1,47 @@
+
+**** Build of configuration MC9S08SH8 for project ProyectoPrueba ****
+
+C:\Program Files (x86)\Freescale\CW MCU v10.1\gnu\bin\make all 
+'Building file: ../Sources/main.c'
+'Invoking: HCS08 Compiler'
+"C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/prog/chc08" -ArgFile"Sources/main.args" -ObjN="Sources/main_c.obj" "../Sources/main.c" -Lm="Sources/main_c.d" -LmCfg=xilmou
+../Sources/main.c
+Command Line: '-ArgFile"Sources/main.args" -ObjN="Sources/main_c.obj" "../Sources/main.c" -Lm="Sources/main_c.d" -LmCfg=xilmou'
+"C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/ProyectoPrueba/Project_Headers\../Sources\main.c"
+ "C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/include\hidef.h"
+  "C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/include\stddef.h"
+  "C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/include\stdtypes.h"
+ "C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/ProyectoPrueba/Project_Headers\derivative.h"
+  "C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/ProyectoPrueba/Project_Headers\mc9s08sh8.h"
+Option -Lm Update: Create new dependency file
+Option -Lm: Adding make info to 'Sources/main_c.d'
+Object file: Sources/main_c.obj, format ELF/DWARF 2.0
+Code Size: 34
+Global objects: 4
+HC08 Compiler: *** 0 error(s), 0 warning(s), 0 information message(s) ***
+HC08 Compiler: *** Processing ok ***
+'Finished building: ../Sources/main.c'
+' '
+'Building target: ProyectoPrueba.abs'
+'Invoking: Linker'
+"C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/prog/linker" -ArgFile"ProyectoPrueba.args" -O"ProyectoPrueba.abs" -Add("./Sources/MCUinit_c.obj" "./Sources/main_c.obj" "./Project_Settings/Startup_Code/start08_c.obj" "./Lib/mc9s08sh8_c.obj" "C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/lib/ansiis.lib")
+"C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/ProyectoPrueba/Project_Settings/Linker_Files/Project.prm"
+Command Line: '-ArgFile"ProyectoPrueba.args" -O"ProyectoPrueba.abs" -Add("./Sources/MCUinit_c.obj" "./Sources/main_c.obj" "./Project_Settings/Startup_Code/start08_c.obj" "./Lib/mc9s08sh8_c.obj" "C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/lib/ansiis.lib")'
+Linking C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/ProyectoPrueba/Project_Settings/Linker_Files/Project.prm
+Reading file './Sources/MCUinit_c.obj'
+Reading file './Sources/main_c.obj'
+Reading file './Project_Settings/Startup_Code/start08_c.obj'
+Reading file './Lib/mc9s08sh8_c.obj'
+Reading file 'C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/lib/hc08c/lib/ansiis.lib'
+Generating Symbol table
+Generating DWARF data version 2.0
+Code Size: 321
+Generating MAP file 'C:\Users\Federico\Desktop\Facultad\Circuitos digitales y microcontroladores\Workspace\ProyectoPrueba\MC9S08SH8\ProyectoPrueba.map'
+SmartLinker: *** 0 error(s), 0 warning(s), 0 information message(s) ***
+SmartLinker: *** Processing ok ***
+'Finished building target: ProyectoPrueba.abs'
+' '
+'Invoking: Burner'
+"C:/Program Files (x86)/Freescale/CW MCU v10.1/MCU/prog/burner" -ViewHidden -f="../Project_Settings/Linker_Files/burner.bbl" -env"ABS_FILE=ProyectoPrueba.abs"
+'Finished building: ProyectoPrueba.abs.s19'
+' '

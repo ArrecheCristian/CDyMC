@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>Ethernet_LDD</Name>
+    <Type>Ethernet_LDD</Type>
+    <Description>Ethernet</Description>
+    <Author>Ladislav Vadkerti</Author>
+    <Version>01.088</Version>
+    <Icon>Ethernet_LDD</Icon>
+    <TypesFiles>PE,Ethernet_LDD\Ethernet_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <SharedDriverSupport>yes</SharedDriverSupport>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>20</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <Category>Logical Device Drivers-Communication</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Communications</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Shortcut>ETH</Shortcut>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+
