@@ -6,10 +6,10 @@
 **     OR EXPLICITLY MARKED SECTIONS
 **
 **     Project   : DeviceInitialization
-**     Processor : MC9S08SH8CFK
-**     Version   : Component 01.001, Driver 01.08, CPU db: 3.00.018
+**     Processor : MC9S08SH8CPJ
+**     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
-**     Date/Time : 2019-04-15, 16:23, # CodeGen: 1
+**     Date/Time : 2019-04-22, 14:14, # CodeGen: 2
 **     Abstract  :
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.
@@ -25,7 +25,7 @@
 
 /* MODULE MCUinit */
 
-#include <mc9s08sh8.h>                 /* I/O map for MC9S08SH8CFK */
+#include <mc9s08sh8.h>                 /* I/O map for MC9S08SH8CPJ */
 #include "MCUinit.h"
 
 /* Standard ANSI C types */
@@ -56,7 +56,7 @@ typedef unsigned long int uint32_t;
 
 /*
 ** ===================================================================
-**     Method      :  MCU_init (component MC9S08SH8_24)
+**     Method      :  MCU_init (component MC9S08SH8_20)
 **
 **     Description :
 **         Device initialization code for selected peripherals.
@@ -64,7 +64,7 @@ typedef unsigned long int uint32_t;
 */
 void MCU_init(void)
 {
-  /* ### MC9S08SH8_24 "Cpu" init code ... */
+  /* ### MC9S08SH8_20 "Cpu" init code ... */
   /*  PE initialization code after reset */
   /* Common initialization of the write once registers */
   /* SOPT1: COPT=0,STOPE=0,IICPS=0,BKGDPE=1,RSTPE=0 */

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="158" y="6">
 <fastViewData fastViewLocation="1024"/>
@@ -120,12 +120,10 @@
 <viewState/>
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
-<viewState horizontalPosition="40" verticalPosition="4">
-<expanded>&#x0A;<element path="ProyectoPrueba"/>
-</expanded>
-<selection>&#x0A;<element path="C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/TP1Ej3D"/>
-</selection>
-<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
+<viewState horizontalPosition="0" verticalPosition="0">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.SharedFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.ui.CView_patternFilterId_rseHostSettingsCache.xml" isEnabled="true"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ClosedProjectFilter" isEnabled="false"/>
@@ -252,7 +250,7 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.9531502" ratioLeft="590" ratioRight="29" relationship="4" relative="org.eclipse.ui.internal.ViewStack@af4a7d">
-<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>

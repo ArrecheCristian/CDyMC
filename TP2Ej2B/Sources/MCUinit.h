@@ -5,10 +5,10 @@
 **     USER MODIFICATION ARE PRESERVED ONLY INSIDE EXPLICITLY MARKED SECTIONS.
 **
 **     Project   : DeviceInitialization
-**     Processor : MC9S08SH8CFK
-**     Version   : Component 01.001, Driver 01.08, CPU db: 3.00.018
+**     Processor : MC9S08SH8CPJ
+**     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
-**     Date/Time : 2019-04-15, 16:23, # CodeGen: 1
+**     Date/Time : 2019-04-22, 14:14, # CodeGen: 2
 **     Abstract  :
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.
@@ -41,7 +41,7 @@ extern void MCU_init(void);
 #endif
 /*
 ** ===================================================================
-**     Method      :  MCU_init (component MC9S08SH8_24)
+**     Method      :  MCU_init (component MC9S08SH8_20)
 **
 **     Description :
 **         Device initialization code for selected peripherals.

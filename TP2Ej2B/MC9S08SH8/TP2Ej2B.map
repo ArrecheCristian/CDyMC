@@ -1,13 +1,4 @@
-*** EVALUATION ************************************************************************************************
-*********************************************************************************************
-LINKING FAILED
-The linking process failed in some stage.
-Depending on the phase the linker failed, part of the information contained in this map file may be inaccurate or wrong.
-If the linking failed before the allocation phase finished, then the addresses might be inaccurate.
-Also summary information like the code size is likely to be misleading.
----------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------
-
+*** EVALUATION ***
 PROGRAM "TP2Ej2B.abs"
 
 *********************************************************************************************
@@ -15,28 +6,38 @@ TARGET SECTION
 ---------------------------------------------------------------------------------------------
 Processor   : Freescale HC08
 Memory Model: SMALL
-File Format : ELF (no debug info)
+File Format : ELF\DWARF 2.0
 Linker      : SmartLinker V-5.0.41 Build 11006, Jan  7 2011
 
 *********************************************************************************************
 FILE SECTION
 ---------------------------------------------------------------------------------------------
 MCUinit_c.obj                           Model: SMALL,         Lang: ANSI-C
+lcd_c.obj                               Model: SMALL,         Lang: ANSI-C
 main_c.obj                              Model: SMALL,         Lang: ANSI-C
 start08_c.obj                           Model: SMALL,         Lang: ANSI-C
 mc9s08sh8_c.obj                         Model: SMALL,         Lang: ANSI-C
-embedded.o (ansiis.lib)                 Model: SMALL,         Lang: ANSI-C
-printf.o (ansiis.lib)                   Model: SMALL,         Lang: ANSI-C
 rtshc08.o (ansiis.lib)                  Model: SMALL,         Lang: ANSI-C
 
 *********************************************************************************************
 STARTUP SECTION
 ---------------------------------------------------------------------------------------------
+Entry point: 0xE07B (_Startup)
+_startupData is allocated at 0xE084 and uses 6 Bytes
+extern struct _tagStartup {
+  unsigned nofZeroOut     1
+  _Range   pZeroOut       0x100     1
+  _Copy    *toCopyDownBeg 0xE3E6
+} _startupData;
 
 *********************************************************************************************
 SECTION-ALLOCATION SECTION
 Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
+.init                            132     R     0xE000     0xE083   ROM
+.startData                        14     R     0xE084     0xE091   ROM
+.text                            852     R     0xE092     0xE3E5   ROM
+.copy                              2     R     0xE3E6     0xE3E7   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -133,9 +134,12 @@ Section Name                    Size  Type     From       To       Segment
 .abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg93
 .abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg94
 .abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg95
+.bss                               1   R/W      0x100      0x100   RAM
+.stack                            64   R/W      0x101      0x140   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):          42 (dec:       66)
+READ_ONLY (R):         42A (dec:     1066)
+READ_WRITE (R/W):       41 (dec:       65)
 NO_INIT (N/I):          6C (dec:      108)
 
 *********************************************************************************************
@@ -149,36 +153,46 @@ OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 MODULE:                 -- MCUinit_c.obj --
 - PROCEDURES:
-     MCU_init                                     0'Error      49      73       0   .text       
+     MCU_init                                  E092      49      73       1   .text       
 - VARIABLES:
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
+MODULE:                 -- lcd_c.obj --
+- PROCEDURES:
+     LCD_delay_ms                              E0DB      23      35       4   .text       
+     LCD_send_nibble                           E0FE      39      57       4   .text       
+     LCD_send_byte                             E137      32      50       7   .text       
+     LCD_init                                  E169      5F      95       1   .text       
+     LCD_pos_xy                                E1C8      1D      29       3   .text       
+     LCD_write_char                            E1E5      30      48       1   .text       
+- VARIABLES:
+     lcd_mode                                   100       1       1       1   .bss        
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     delay                                        0'Error      2B      43       0   .text       
-     KEYPAD_SCAN                                  0'Error      78     120       0   .text       
-     main                                         0'Error      11      17       0   .text       
+     delay                                     E215      2B      43       1   .text       
+     devolverTecla                             E240      A6     166       1   .text       
+     KEYPAD_Scan                               E2E6      69     105       1   .text       
+     main                                      E34F      35      53       1   .text       
 - VARIABLES:
-     STRING.Funciona.1                            0'Error       9       9       0   .rodata1    
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
-     loadByte                                     0'Error       E      14       0   .text       
-     Init                                         0'Error      6D     109       0   .text       
-     _Startup                                     0'Error       9       9       0   .text       
+     loadByte                                  E000       E      14       5   .init       
+     Init                                      E00E      6D     109       1   .init       
+     _Startup                                  E07B       9       9       1   .init       
 - VARIABLES:
-     _startupData                                 0'Error       6       6       0   _STARTUP    
+     _startupData                              E084       6       6       4   .startData  
 - LABELS:
-     __SEG_END_SSTACK                             0'Error       0       0       0               
+     __SEG_END_SSTACK                           141       0       0       1               
 MODULE:                 -- mc9s08sh8_c.obj --
 - PROCEDURES:
 - VARIABLES:
-     _PTAD                                        0       1       1       0   .abs_section_0
-     _PTADD                                       1       1       1       0   .abs_section_1
-     _PTBD                                        2       1       1       0   .abs_section_2
-     _PTBDD                                       3       1       1       0   .abs_section_3
-     _PTCD                                        4       1       1       0   .abs_section_4
-     _PTCDD                                       5       1       1       0   .abs_section_5
+     _PTAD                                        0       1       1      12   .abs_section_0
+     _PTADD                                       1       1       1       4   .abs_section_1
+     _PTBD                                        2       1       1       2   .abs_section_2
+     _PTBDD                                       3       1       1       1   .abs_section_3
+     _PTCD                                        4       1       1       7   .abs_section_4
+     _PTCDD                                       5       1       1       2   .abs_section_5
      _ACMPSC                                      E       1       1       0   .abs_section_e
      _ADCSC1                                     10       1       1       0   .abs_section_10
      _ADCSC2                                     11       1       1       0   .abs_section_11
@@ -199,10 +213,10 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _SCIS2                                      3D       1       1       0   .abs_section_3d
      _SCIC3                                      3E       1       1       0   .abs_section_3e
      _SCID                                       3F       1       1       0   .abs_section_3f
-     _ICSC1                                      48       1       1       0   .abs_section_48
-     _ICSC2                                      49       1       1       0   .abs_section_49
-     _ICSTRM                                     4A       1       1       0   .abs_section_4a
-     _ICSSC                                      4B       1       1       0   .abs_section_4b
+     _ICSC1                                      48       1       1       1   .abs_section_48
+     _ICSC2                                      49       1       1       1   .abs_section_49
+     _ICSTRM                                     4A       1       1       1   .abs_section_4a
+     _ICSSC                                      4B       1       1       2   .abs_section_4b
      _SPIC1                                      50       1       1       0   .abs_section_50
      _SPIC2                                      51       1       1       0   .abs_section_51
      _SPIBR                                      52       1       1       0   .abs_section_52
@@ -222,10 +236,10 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _RTCMOD                                     6E       1       1       0   .abs_section_6e
      _SRS                                      1800       1       1       0   .abs_section_1800
      _SBDFR                                    1801       1       1       0   .abs_section_1801
-     _SOPT1                                    1802       1       1       0   .abs_section_1802
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
      _SOPT2                                    1803       1       1       0   .abs_section_1803
-     _SPMSC1                                   1809       1       1       0   .abs_section_1809
-     _SPMSC2                                   180A       1       1       0   .abs_section_180a
+     _SPMSC1                                   1809       1       1       1   .abs_section_1809
+     _SPMSC2                                   180A       1       1       1   .abs_section_180a
      _DBGC                                     1816       1       1       0   .abs_section_1816
      _DBGT                                     1817       1       1       0   .abs_section_1817
      _DBGS                                     1818       1       1       0   .abs_section_1818
@@ -236,21 +250,21 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _FSTAT                                    1825       1       1       0   .abs_section_1825
      _FCMD                                     1826       1       1       0   .abs_section_1826
      _PTAPE                                    1840       1       1       0   .abs_section_1840
-     _PTASE                                    1841       1       1       0   .abs_section_1841
-     _PTADS                                    1842       1       1       0   .abs_section_1842
+     _PTASE                                    1841       1       1       1   .abs_section_1841
+     _PTADS                                    1842       1       1       1   .abs_section_1842
      _PTASC                                    1844       1       1       0   .abs_section_1844
      _PTAPS                                    1845       1       1       0   .abs_section_1845
      _PTAES                                    1846       1       1       0   .abs_section_1846
-     _PTBPE                                    1848       1       1       0   .abs_section_1848
-     _PTBSE                                    1849       1       1       0   .abs_section_1849
-     _PTBDS                                    184A       1       1       0   .abs_section_184a
+     _PTBPE                                    1848       1       1       1   .abs_section_1848
+     _PTBSE                                    1849       1       1       1   .abs_section_1849
+     _PTBDS                                    184A       1       1       1   .abs_section_184a
      _PTBSC                                    184C       1       1       0   .abs_section_184c
      _PTBPS                                    184D       1       1       0   .abs_section_184d
      _PTBES                                    184E       1       1       0   .abs_section_184e
      _PTCPE                                    1850       1       1       0   .abs_section_1850
-     _PTCSE                                    1851       1       1       0   .abs_section_1851
-     _PTCDS                                    1852       1       1       0   .abs_section_1852
-     _GNGC                                     1853       1       1       0   .abs_section_1853
+     _PTCSE                                    1851       1       1       1   .abs_section_1851
+     _PTCDS                                    1852       1       1       1   .abs_section_1852
+     _GNGC                                     1853       1       1       1   .abs_section_1853
      _ADCR                                       12       2       2       0   .abs_section_12
      _ADCCV                                      14       2       2       0   .abs_section_14
      _TPM1CNT                                    21       2       2       0   .abs_section_21
@@ -266,100 +280,467 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _DBGCA                                    1810       2       2       0   .abs_section_1810
      _DBGCB                                    1812       2       2       0   .abs_section_1812
      _DBGF                                     1814       2       2       0   .abs_section_1814
-MODULE:                 -- embedded.o (ansiis.lib) --
-- PROCEDURES:
-     printf                                       0'Error      1C      28       0   .text       
-- VARIABLES:
-MODULE:                 -- printf.o (ansiis.lib) --
-- PROCEDURES:
-     vprintf                                      0'Error     60B    1547       0   .text       
-     _out                                         0'Error       D      13       0   .text       
-     set_printf                                   0'Error       C      12       0   .text       
-- VARIABLES:
-     pow10                                        0'Error      28      40       0   .rodata     
-     pow16                                        0'Error      20      32       0   .rodata     
-     pow8                                         0'Error      2C      44       0   .rodata     
-     pbuf                                         0'Error       6       6       0   .bss        
 MODULE:                 -- rtshc08.o (ansiis.lib) --
 - PROCEDURES:
-     _PUSH_ARGS_L                                 0'Error      20      32       0   .text       
-     _ENTER_UNARY_L                               0'Error      29      41       0   .text       
-     _ENTER_BINARY_L                              0'Error      16      22       0   .text       
-     _LSUB_k_is_k_minus_j                         0'Error      1F      31       0   .text       
-     _LCMP_k_rel_j                                0'Error      1F      31       0   .text       
-     _IMUL_STAR08                                 0'Error      27      39       0   .text       
-     _ICMP                                        0'Error      16      22       0   .text       
-     _LNEG                                        0'Error      1C      28       0   .text       
-     _LSUB                                        0'Error       6       6       0   .text       
-     _LCMP                                        0'Error       6       6       0   .text       
-     _COPY                                        0'Error      30      48       0   .text       
-     _POP32                                       0'Error      1A      26       0   .text       
-     _SEXT16_32                                   0'Error       D      13       0   .text       
-     _Jump_Table_Addr                             0'Error      16      22       0   .text       
-     _Search_Table_8_Addr                         0'Error      21      33       0   .text       
-     _Search_Table_8_Offset                       0'Error      25      37       0   .text       
+     _Jump_Table_Offset                        E384      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E39D      24      36       1   .text       
+     _Search_Table_8_Offset                    E3C1      25      37       1   .text       
 - VARIABLES:
 
 *********************************************************************************************
 MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
+  MCUinit_c.obj                                0     73     66
+  lcd_c.obj                                    1    314      0
+  main_c.obj                                   0    367      0
+  start08_c.obj                                0    132      0
+  mc9s08sh8_c.obj                            108      0      0
+  rtshc08.o (ansiis.lib)                       0     98      0
+  other                                       64     14      2
 
 *********************************************************************************************
 SECTION USE IN OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
+SECTION: ".text"
+  MCU_init LCD_delay_ms LCD_send_nibble LCD_send_byte LCD_init LCD_pos_xy 
+  LCD_write_char delay devolverTecla KEYPAD_Scan main _Jump_Table_Offset 
+  _Jump_Table_Header_Offset _Search_Table_8_Offset 
+SECTION: ".bss"
+  lcd_mode 
+SECTION: ".init"
+  loadByte Init _Startup 
+SECTION: ".abs_section_ffbd"
+  NVPROT_INIT 
+SECTION: ".abs_section_ffbf"
+  NVOPT_INIT 
+SECTION: ".abs_section_ffc0"
+  _vect 
+SECTION: ".abs_section_0"
+  _PTAD 
+SECTION: ".abs_section_1"
+  _PTADD 
+SECTION: ".abs_section_2"
+  _PTBD 
+SECTION: ".abs_section_3"
+  _PTBDD 
+SECTION: ".abs_section_4"
+  _PTCD 
+SECTION: ".abs_section_5"
+  _PTCDD 
+SECTION: ".abs_section_e"
+  _ACMPSC 
+SECTION: ".abs_section_10"
+  _ADCSC1 
+SECTION: ".abs_section_11"
+  _ADCSC2 
+SECTION: ".abs_section_16"
+  _ADCCFG 
+SECTION: ".abs_section_17"
+  _APCTL1 
+SECTION: ".abs_section_18"
+  _APCTL2 
+SECTION: ".abs_section_1a"
+  _IRQSC 
+SECTION: ".abs_section_1c"
+  _MTIMSC 
+SECTION: ".abs_section_1d"
+  _MTIMCLK 
+SECTION: ".abs_section_1e"
+  _MTIMCNT 
+SECTION: ".abs_section_1f"
+  _MTIMMOD 
+SECTION: ".abs_section_20"
+  _TPM1SC 
+SECTION: ".abs_section_25"
+  _TPM1C0SC 
+SECTION: ".abs_section_28"
+  _TPM1C1SC 
+SECTION: ".abs_section_3a"
+  _SCIC1 
+SECTION: ".abs_section_3b"
+  _SCIC2 
+SECTION: ".abs_section_3c"
+  _SCIS1 
+SECTION: ".abs_section_3d"
+  _SCIS2 
+SECTION: ".abs_section_3e"
+  _SCIC3 
+SECTION: ".abs_section_3f"
+  _SCID 
+SECTION: ".abs_section_48"
+  _ICSC1 
+SECTION: ".abs_section_49"
+  _ICSC2 
+SECTION: ".abs_section_4a"
+  _ICSTRM 
+SECTION: ".abs_section_4b"
+  _ICSSC 
+SECTION: ".abs_section_50"
+  _SPIC1 
+SECTION: ".abs_section_51"
+  _SPIC2 
+SECTION: ".abs_section_52"
+  _SPIBR 
+SECTION: ".abs_section_53"
+  _SPIS 
+SECTION: ".abs_section_55"
+  _SPID 
+SECTION: ".abs_section_58"
+  _IICA 
+SECTION: ".abs_section_59"
+  _IICF 
+SECTION: ".abs_section_5a"
+  _IICC1 
+SECTION: ".abs_section_5b"
+  _IICS 
+SECTION: ".abs_section_5c"
+  _IICD 
+SECTION: ".abs_section_5d"
+  _IICC2 
+SECTION: ".abs_section_60"
+  _TPM2SC 
+SECTION: ".abs_section_65"
+  _TPM2C0SC 
+SECTION: ".abs_section_68"
+  _TPM2C1SC 
+SECTION: ".abs_section_6c"
+  _RTCSC 
+SECTION: ".abs_section_6d"
+  _RTCCNT 
+SECTION: ".abs_section_6e"
+  _RTCMOD 
+SECTION: ".abs_section_1800"
+  _SRS 
+SECTION: ".abs_section_1801"
+  _SBDFR 
+SECTION: ".abs_section_1802"
+  _SOPT1 
+SECTION: ".abs_section_1803"
+  _SOPT2 
+SECTION: ".abs_section_1809"
+  _SPMSC1 
+SECTION: ".abs_section_180a"
+  _SPMSC2 
+SECTION: ".abs_section_1816"
+  _DBGC 
+SECTION: ".abs_section_1817"
+  _DBGT 
+SECTION: ".abs_section_1818"
+  _DBGS 
+SECTION: ".abs_section_1820"
+  _FCDIV 
+SECTION: ".abs_section_1821"
+  _FOPT 
+SECTION: ".abs_section_1823"
+  _FCNFG 
+SECTION: ".abs_section_1824"
+  _FPROT 
+SECTION: ".abs_section_1825"
+  _FSTAT 
+SECTION: ".abs_section_1826"
+  _FCMD 
+SECTION: ".abs_section_1840"
+  _PTAPE 
+SECTION: ".abs_section_1841"
+  _PTASE 
+SECTION: ".abs_section_1842"
+  _PTADS 
+SECTION: ".abs_section_1844"
+  _PTASC 
+SECTION: ".abs_section_1845"
+  _PTAPS 
+SECTION: ".abs_section_1846"
+  _PTAES 
+SECTION: ".abs_section_1848"
+  _PTBPE 
+SECTION: ".abs_section_1849"
+  _PTBSE 
+SECTION: ".abs_section_184a"
+  _PTBDS 
+SECTION: ".abs_section_184c"
+  _PTBSC 
+SECTION: ".abs_section_184d"
+  _PTBPS 
+SECTION: ".abs_section_184e"
+  _PTBES 
+SECTION: ".abs_section_1850"
+  _PTCPE 
+SECTION: ".abs_section_1851"
+  _PTCSE 
+SECTION: ".abs_section_1852"
+  _PTCDS 
+SECTION: ".abs_section_1853"
+  _GNGC 
+SECTION: ".abs_section_12"
+  _ADCR 
+SECTION: ".abs_section_14"
+  _ADCCV 
+SECTION: ".abs_section_21"
+  _TPM1CNT 
+SECTION: ".abs_section_23"
+  _TPM1MOD 
+SECTION: ".abs_section_26"
+  _TPM1C0V 
+SECTION: ".abs_section_29"
+  _TPM1C1V 
+SECTION: ".abs_section_38"
+  _SCIBD 
+SECTION: ".abs_section_61"
+  _TPM2CNT 
+SECTION: ".abs_section_63"
+  _TPM2MOD 
+SECTION: ".abs_section_66"
+  _TPM2C0V 
+SECTION: ".abs_section_69"
+  _TPM2C1V 
+SECTION: ".abs_section_1806"
+  _SDID 
+SECTION: ".abs_section_1810"
+  _DBGCA 
+SECTION: ".abs_section_1812"
+  _DBGCB 
+SECTION: ".abs_section_1814"
+  _DBGF 
 
 *********************************************************************************************
 OBJECT LIST SORTED BY ADDRESS
      Name                                      Addr   hSize   dSize     Ref    Section   RLIB
 ---------------------------------------------------------------------------------------------
+     _PTAD                                        0       1       1      12   .abs_section_0
+     _PTADD                                       1       1       1       4   .abs_section_1
+     _PTBD                                        2       1       1       2   .abs_section_2
+     _PTBDD                                       3       1       1       1   .abs_section_3
+     _PTCD                                        4       1       1       7   .abs_section_4
+     _PTCDD                                       5       1       1       2   .abs_section_5
+     _ACMPSC                                      E       1       1       0   .abs_section_e
+     _ADCSC1                                     10       1       1       0   .abs_section_10
+     _ADCSC2                                     11       1       1       0   .abs_section_11
+     _ADCR                                       12       2       2       0   .abs_section_12
+     _ADCCV                                      14       2       2       0   .abs_section_14
+     _ADCCFG                                     16       1       1       0   .abs_section_16
+     _APCTL1                                     17       1       1       0   .abs_section_17
+     _APCTL2                                     18       1       1       0   .abs_section_18
+     _IRQSC                                      1A       1       1       0   .abs_section_1a
+     _MTIMSC                                     1C       1       1       0   .abs_section_1c
+     _MTIMCLK                                    1D       1       1       0   .abs_section_1d
+     _MTIMCNT                                    1E       1       1       0   .abs_section_1e
+     _MTIMMOD                                    1F       1       1       0   .abs_section_1f
+     _TPM1SC                                     20       1       1       0   .abs_section_20
+     _TPM1CNT                                    21       2       2       0   .abs_section_21
+     _TPM1MOD                                    23       2       2       0   .abs_section_23
+     _TPM1C0SC                                   25       1       1       0   .abs_section_25
+     _TPM1C0V                                    26       2       2       0   .abs_section_26
+     _TPM1C1SC                                   28       1       1       0   .abs_section_28
+     _TPM1C1V                                    29       2       2       0   .abs_section_29
+     _SCIBD                                      38       2       2       0   .abs_section_38
+     _SCIC1                                      3A       1       1       0   .abs_section_3a
+     _SCIC2                                      3B       1       1       0   .abs_section_3b
+     _SCIS1                                      3C       1       1       0   .abs_section_3c
+     _SCIS2                                      3D       1       1       0   .abs_section_3d
+     _SCIC3                                      3E       1       1       0   .abs_section_3e
+     _SCID                                       3F       1       1       0   .abs_section_3f
+     _ICSC1                                      48       1       1       1   .abs_section_48
+     _ICSC2                                      49       1       1       1   .abs_section_49
+     _ICSTRM                                     4A       1       1       1   .abs_section_4a
+     _ICSSC                                      4B       1       1       2   .abs_section_4b
+     _SPIC1                                      50       1       1       0   .abs_section_50
+     _SPIC2                                      51       1       1       0   .abs_section_51
+     _SPIBR                                      52       1       1       0   .abs_section_52
+     _SPIS                                       53       1       1       0   .abs_section_53
+     _SPID                                       55       1       1       0   .abs_section_55
+     _IICA                                       58       1       1       0   .abs_section_58
+     _IICF                                       59       1       1       0   .abs_section_59
+     _IICC1                                      5A       1       1       0   .abs_section_5a
+     _IICS                                       5B       1       1       0   .abs_section_5b
+     _IICD                                       5C       1       1       0   .abs_section_5c
+     _IICC2                                      5D       1       1       0   .abs_section_5d
+     _TPM2SC                                     60       1       1       0   .abs_section_60
+     _TPM2CNT                                    61       2       2       0   .abs_section_61
+     _TPM2MOD                                    63       2       2       0   .abs_section_63
+     _TPM2C0SC                                   65       1       1       0   .abs_section_65
+     _TPM2C0V                                    66       2       2       0   .abs_section_66
+     _TPM2C1SC                                   68       1       1       0   .abs_section_68
+     _TPM2C1V                                    69       2       2       0   .abs_section_69
+     _RTCSC                                      6C       1       1       0   .abs_section_6c
+     _RTCCNT                                     6D       1       1       0   .abs_section_6d
+     _RTCMOD                                     6E       1       1       0   .abs_section_6e
+     lcd_mode                                   100       1       1       1   .bss        
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SDID                                     1806       2       2       0   .abs_section_1806
+     _SPMSC1                                   1809       1       1       1   .abs_section_1809
+     _SPMSC2                                   180A       1       1       1   .abs_section_180a
+     _DBGCA                                    1810       2       2       0   .abs_section_1810
+     _DBGCB                                    1812       2       2       0   .abs_section_1812
+     _DBGF                                     1814       2       2       0   .abs_section_1814
+     _DBGC                                     1816       1       1       0   .abs_section_1816
+     _DBGT                                     1817       1       1       0   .abs_section_1817
+     _DBGS                                     1818       1       1       0   .abs_section_1818
+     _FCDIV                                    1820       1       1       0   .abs_section_1820
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _PTAPE                                    1840       1       1       0   .abs_section_1840
+     _PTASE                                    1841       1       1       1   .abs_section_1841
+     _PTADS                                    1842       1       1       1   .abs_section_1842
+     _PTASC                                    1844       1       1       0   .abs_section_1844
+     _PTAPS                                    1845       1       1       0   .abs_section_1845
+     _PTAES                                    1846       1       1       0   .abs_section_1846
+     _PTBPE                                    1848       1       1       1   .abs_section_1848
+     _PTBSE                                    1849       1       1       1   .abs_section_1849
+     _PTBDS                                    184A       1       1       1   .abs_section_184a
+     _PTBSC                                    184C       1       1       0   .abs_section_184c
+     _PTBPS                                    184D       1       1       0   .abs_section_184d
+     _PTBES                                    184E       1       1       0   .abs_section_184e
+     _PTCPE                                    1850       1       1       0   .abs_section_1850
+     _PTCSE                                    1851       1       1       1   .abs_section_1851
+     _PTCDS                                    1852       1       1       1   .abs_section_1852
+     _GNGC                                     1853       1       1       1   .abs_section_1853
+     loadByte                                  E000       E      14       5   .init       
+     Init                                      E00E      6D     109       1   .init       
+     _Startup                                  E07B       9       9       1   .init       
+     MCU_init                                  E092      49      73       1   .text       
+     LCD_delay_ms                              E0DB      23      35       4   .text       
+     LCD_send_nibble                           E0FE      39      57       4   .text       
+     LCD_send_byte                             E137      32      50       7   .text       
+     LCD_init                                  E169      5F      95       1   .text       
+     LCD_pos_xy                                E1C8      1D      29       3   .text       
+     LCD_write_char                            E1E5      30      48       1   .text       
+     delay                                     E215      2B      43       1   .text       
+     devolverTecla                             E240      A6     166       1   .text       
+     KEYPAD_Scan                               E2E6      69     105       1   .text       
+     main                                      E34F      35      53       1   .text       
+     _Jump_Table_Offset                        E384      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E39D      24      36       1   .text       
+     _Search_Table_8_Offset                    E3C1      25      37       1   .text       
+     NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
+     NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
+     _vect                                     FFC0      40      64       0   .abs_section_ffc0
 
 *********************************************************************************************
 UNUSED-OBJECTS SECTION
 ---------------------------------------------------------------------------------------------
 NOT USED PROCEDURES
-embedded.o (ansiis.lib):
-  scanf gets puts fopen fflush fclose fprintf fputs fputc fgetc remove clock 
-  abort exit 
-printf.o (ansiis.lib):
-  deposit_char sprintf vsprintf 
+lcd_c.obj:
+  LCD_write_string LCD_display_on LCD_display_off LCD_cursor_on LCD_cursor_off 
+  LCD_cursor_blink_on LCD_cursor_blink_off 
 rtshc08.o (ansiis.lib):
-  _PUSH_ARGS_D _ENTER_UNARY_L64 _ENTER_UNARY_L64_4 _ENTER_BINARY_L_RC 
-  _ENTER_BINARY_L_LC _ENTER_BINARY_L64 _ENTER_BINARY_L64_LC 
-  _ENTER_BINARY_L64_RC _IDIVMOD _SPLITSIGN _LADD_k_is_k_plus_j _k_is_k_plus_j_l 
-  _k_is_k_plus_j_i _LAND_k_is_k_and_j _LOR_k_is_k_or_j _LXOR_k_is_k_xor_j 
-  _LMUL_k_is_k_mul_j _LDIVMOD _NEG_L_HX _ABS_L_HX _SPLITSIGN_L 
-  _LMODU_k_is_k_mod_j _LDIVU_k_is_k_div_j _LMODS_k_is_k_mod_j 
-  _LDIVS_k_is_k_div_j _CMP24_k_rel_j _BMULS _BDIVS _BMODS _IDIVS_STAR08 
-  _IDIVU_STAR08 _IMODS_STAR08 _IMODU_STAR08 _IDIVU_8 _IMODU_8 _IASR _ILSR _ILSL 
-  _LINC _LDEC _LNOT _LADD _LADD_RC _LSUB_LC _LSUB_RC _LAND _LAND_RC _LOR 
+  _PUSH_ARGS_L _PUSH_ARGS_D _ENTER_UNARY_L _ENTER_UNARY_L64 _ENTER_UNARY_L64_4 
+  _ENTER_BINARY_L _ENTER_BINARY_L_RC _ENTER_BINARY_L_LC _ENTER_BINARY_L64 
+  _ENTER_BINARY_L64_LC _ENTER_BINARY_L64_RC _IDIVMOD _SPLITSIGN 
+  _LADD_k_is_k_plus_j _k_is_k_plus_j_l _k_is_k_plus_j_i _LSUB_k_is_k_minus_j 
+  _LAND_k_is_k_and_j _LOR_k_is_k_or_j _LXOR_k_is_k_xor_j _LMUL_k_is_k_mul_j 
+  _LDIVMOD _NEG_L_HX _ABS_L_HX _SPLITSIGN_L _LMODU_k_is_k_mod_j 
+  _LDIVU_k_is_k_div_j _LMODS_k_is_k_mod_j _LDIVS_k_is_k_div_j _LCMP_k_rel_j 
+  _CMP24_k_rel_j _BMULS _BDIVS _BMODS _IMUL_STAR08 _IDIVS_STAR08 _IDIVU_STAR08 
+  _IMODS_STAR08 _IMODU_STAR08 _IDIVU_8 _IMODU_8 _IASR _ILSR _ILSL _ICMP _LINC 
+  _LDEC _LNEG _LNOT _LADD _LADD_RC _LSUB _LSUB_LC _LSUB_RC _LAND _LAND_RC _LOR 
   _LOR_RC _LXOR _LXOR_RC _LMUL _LMUL_RC _LDIVS _LDIVS_LC _LDIVS_RC _LDIVU 
   _LDIVU_LC _LDIVU_RC _LMODS _LMODS_LC _LMODS_RC _LMODU _LMODU_LC _LMODU_RC 
-  _LASR _LLSR _LLSL _LCMP_RC _PUSH_ARGS_24 _ENTER_BINARY_24_RC _ENTER_BINARY_24 
-  _CMP24 _CMP24_RC _COPY_L _POP64 _STORE32 _STORE64 _SEXT8_32 _CALL_STAR08 
-  _CALL_STAR08_FAR _Jump_Table_Offset _Jump_Table_Header_Addr 
-  _Jump_Table_Header_Offset _Search_Table_16_Addr _Search_Table_16_Offset 
-  _PUSH_CC _POP_CC _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR _CONV_LINEAR_TO_FAR 
+  _LASR _LLSR _LLSL _LCMP _LCMP_RC _PUSH_ARGS_24 _ENTER_BINARY_24_RC 
+  _ENTER_BINARY_24 _CMP24 _CMP24_RC _COPY _COPY_L _POP32 _POP64 _STORE32 
+  _STORE64 _SEXT8_32 _SEXT16_32 _CALL_STAR08 _CALL_STAR08_FAR _Jump_Table_Addr 
+  _Jump_Table_Header_Addr _Search_Table_16_Addr _Search_Table_16_Offset 
+  _Search_Table_8_Addr _PUSH_CC _POP_CC _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR 
+  _CONV_LINEAR_TO_FAR 
 NOT USED VARIABLES
-embedded.o (ansiis.lib):
-  STRING..1 
 rtshc08.o (ansiis.lib):
   _PowOfTwo_8 _PowOfTwo_16 _PowOfTwo_32 errno 
 
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
+------- ROM-ADDRESS: 0xE3E6 ---- SIZE       2 ---
+Filling bytes inserted
+ 0000
 
 *********************************************************************************************
 OBJECT-DEPENDENCIES SECTION
 ---------------------------------------------------------------------------------------------
+Init                      USES _startupData loadByte 
+_Startup                  USES __SEG_END_SSTACK Init main 
+MCU_init                  USES _SOPT1 _SPMSC1 _SPMSC2 _ICSTRM _ICSSC _ICSC1 
+                                _ICSC2 _GNGC _PTASE _PTBSE _PTCSE _PTADS _PTBDS 
+                                _PTCDS 
+LCD_send_nibble           USES _PTAD _PTCD 
+LCD_send_byte             USES _PTCD LCD_send_nibble 
+LCD_init                  USES _PTCDD _PTADD _PTAD _PTCD LCD_delay_ms 
+                                LCD_send_nibble LCD_send_byte lcd_mode 
+LCD_pos_xy                USES LCD_send_byte 
+LCD_write_char            USES _Jump_Table_Header_Offset LCD_send_byte 
+                                LCD_delay_ms LCD_pos_xy 
+devolverTecla             USES _Jump_Table_Offset _Search_Table_8_Offset 
+KEYPAD_Scan               USES _PTBD devolverTecla 
+main                      USES _PTBDD _PTBPE MCU_init LCD_init KEYPAD_Scan 
+                                LCD_pos_xy LCD_write_char delay 
+_vect                     USES _Startup 
 
+*********************************************************************************************
+DEPENDENCY TREE
+*********************************************************************************************
+ main and _Startup Group
+ | 
+ +- main                
+ |  | 
+ |  +- MCU_init            
+ |  |    
+ |  +- LCD_init            
+ |  |  | 
+ |  |  +- LCD_delay_ms        
+ |  |  |    
+ |  |  +- LCD_send_nibble     
+ |  |  |    
+ |  |  +- LCD_send_byte       
+ |  |     | 
+ |  |     +- LCD_send_nibble      (see above)
+ |  |        
+ |  +- KEYPAD_Scan         
+ |  |  | 
+ |  |  +- devolverTecla       
+ |  |     | 
+ |  |     +- _Jump_Table_Offset  
+ |  |     |    
+ |  |     +- _Search_Table_8_Offset
+ |  |          
+ |  +- LCD_pos_xy          
+ |  |  | 
+ |  |  +- LCD_send_byte        (see above)
+ |  |     
+ |  +- LCD_write_char      
+ |  |  | 
+ |  |  +- _Jump_Table_Header_Offset
+ |  |  |    
+ |  |  +- LCD_send_byte        (see above)
+ |  |  |  
+ |  |  +- LCD_delay_ms         (see above)
+ |  |  |  
+ |  |  +- LCD_pos_xy           (see above)
+ |  |     
+ |  +- delay               
+ |       
+ +- _Startup            
+    | 
+    +- Init                
+    |  | 
+    |  +- loadByte            
+    |       
+    +- main                 (see above)
+       
+ _vect               
+ | 
+ +- _Startup             (see above)
+    
 *********************************************************************************************
 STATISTIC SECTION
 ---------------------------------------------------------------------------------------------
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 0
-Total size of all blocks to be downloaded: 0
+Number of blocks to be downloaded: 5
+Total size of all blocks to be downloaded: 1066
 

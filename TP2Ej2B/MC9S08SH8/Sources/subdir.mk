@@ -7,26 +7,32 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS_QUOTED += \
 "../Sources/MCUinit.c" \
+"../Sources/lcd.c" \
 "../Sources/main.c" \
 
 C_SRCS += \
 ../Sources/MCUinit.c \
+../Sources/lcd.c \
 ../Sources/main.c \
 
 OBJS += \
 ./Sources/MCUinit_c.obj \
+./Sources/lcd_c.obj \
 ./Sources/main_c.obj \
 
 OBJS_QUOTED += \
 "./Sources/MCUinit_c.obj" \
+"./Sources/lcd_c.obj" \
 "./Sources/main_c.obj" \
 
 C_DEPS += \
 ./Sources/MCUinit_c.d \
+./Sources/lcd_c.d \
 ./Sources/main_c.d \
 
 OBJS_OS_FORMAT += \
 ./Sources/MCUinit_c.obj \
+./Sources/lcd_c.obj \
 ./Sources/main_c.obj \
 
 
@@ -41,6 +47,13 @@ Sources/MCUinit_c.obj: ../Sources/MCUinit.c
 Sources/%.d: ../Sources/%.c
 	@echo 'Regenerating dependency file: $@'
 	
+	@echo ' '
+
+Sources/lcd_c.obj: ../Sources/lcd.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: HCS08 Compiler'
+	"$(HC08ToolsEnv)/chc08" -ArgFile"Sources/lcd.args" -ObjN="Sources/lcd_c.obj" "$<" -Lm="$(@:%.obj=%.d)" -LmCfg=xilmou
+	@echo 'Finished building: $<'
 	@echo ' '
 
 Sources/main_c.obj: ../Sources/main.c

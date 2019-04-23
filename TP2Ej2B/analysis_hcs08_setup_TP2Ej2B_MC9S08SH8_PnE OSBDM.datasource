@@ -5,7 +5,7 @@
     GUID="2d422094-1bf4-48c6-8b48-8f46d7360cfb"
     CoreName="MCU"
     CoreID="cpuHC08"
-    DataFile="C:/Users/Federico/Desktop/Facultad/Circuitos digitales y microcontroladores/Workspace/TP2Ej2B/Trace_Profile_Results/analysis_hcs08_setup_TP2Ej2B_MC9S08SH8_PnE OSBDM_0000.datafile"
+    DataFile="C:/Users/Federico/Desktop/Workspace/TP2Ej2B/Trace_Profile_Results/analysis_hcs08_setup_TP2Ej2B_MC9S08SH8_PnE OSBDM_0000.datafile"
     UIPlugin="mcu.hcs08"
     TargetConfigPlugin="MCU_HCS08"
     TraceEnabled="0"
