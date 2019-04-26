@@ -27,7 +27,7 @@ _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     1
   _Range   pZeroOut       0x100     1
-  _Copy    *toCopyDownBeg 0xE3E6
+  _Copy    *toCopyDownBeg 0xE3E1
 } _startupData;
 
 *********************************************************************************************
@@ -36,8 +36,8 @@ Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            852     R     0xE092     0xE3E5   ROM
-.copy                              2     R     0xE3E6     0xE3E7   ROM
+.text                            847     R     0xE092     0xE3E0   ROM
+.copy                              2     R     0xE3E1     0xE3E2   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -138,7 +138,7 @@ Section Name                    Size  Type     From       To       Segment
 .stack                            64   R/W      0x101      0x140   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         42A (dec:     1066)
+READ_ONLY (R):         425 (dec:     1061)
 READ_WRITE (R/W):       41 (dec:       65)
 NO_INIT (N/I):          6C (dec:      108)
 
@@ -164,7 +164,7 @@ MODULE:                 -- lcd_c.obj --
      LCD_send_nibble                           E0FE      39      57       4   .text       
      LCD_send_byte                             E137      32      50       7   .text       
      LCD_init                                  E169      5F      95       1   .text       
-     LCD_pos_xy                                E1C8      1D      29       3   .text       
+     LCD_pos_xy                                E1C8      1D      29       2   .text       
      LCD_write_char                            E1E5      30      48       1   .text       
 - VARIABLES:
      lcd_mode                                   100       1       1       1   .bss        
@@ -172,8 +172,8 @@ MODULE:                 -- main_c.obj --
 - PROCEDURES:
      delay                                     E215      2B      43       1   .text       
      devolverTecla                             E240      A6     166       1   .text       
-     KEYPAD_Scan                               E2E6      69     105       1   .text       
-     main                                      E34F      35      53       1   .text       
+     KEYPAD_Scan                               E2E6      6D     109       1   .text       
+     main                                      E353      2C      44       1   .text       
 - VARIABLES:
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
@@ -282,9 +282,9 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _DBGF                                     1814       2       2       0   .abs_section_1814
 MODULE:                 -- rtshc08.o (ansiis.lib) --
 - PROCEDURES:
-     _Jump_Table_Offset                        E384      19      25       4   .text       
-     _Jump_Table_Header_Offset                 E39D      24      36       1   .text       
-     _Search_Table_8_Offset                    E3C1      25      37       1   .text       
+     _Jump_Table_Offset                        E37F      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E398      24      36       1   .text       
+     _Search_Table_8_Offset                    E3BC      25      37       1   .text       
 - VARIABLES:
 
 *********************************************************************************************
@@ -293,7 +293,7 @@ MODULE STATISTIC
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                0     73     66
   lcd_c.obj                                    1    314      0
-  main_c.obj                                   0    367      0
+  main_c.obj                                   0    362      0
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
   rtshc08.o (ansiis.lib)                       0     98      0
@@ -609,15 +609,15 @@ OBJECT LIST SORTED BY ADDRESS
      LCD_send_nibble                           E0FE      39      57       4   .text       
      LCD_send_byte                             E137      32      50       7   .text       
      LCD_init                                  E169      5F      95       1   .text       
-     LCD_pos_xy                                E1C8      1D      29       3   .text       
+     LCD_pos_xy                                E1C8      1D      29       2   .text       
      LCD_write_char                            E1E5      30      48       1   .text       
      delay                                     E215      2B      43       1   .text       
      devolverTecla                             E240      A6     166       1   .text       
-     KEYPAD_Scan                               E2E6      69     105       1   .text       
-     main                                      E34F      35      53       1   .text       
-     _Jump_Table_Offset                        E384      19      25       4   .text       
-     _Jump_Table_Header_Offset                 E39D      24      36       1   .text       
-     _Search_Table_8_Offset                    E3C1      25      37       1   .text       
+     KEYPAD_Scan                               E2E6      6D     109       1   .text       
+     main                                      E353      2C      44       1   .text       
+     _Jump_Table_Offset                        E37F      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E398      24      36       1   .text       
+     _Search_Table_8_Offset                    E3BC      25      37       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -655,7 +655,7 @@ rtshc08.o (ansiis.lib):
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE3E6 ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE3E1 ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -741,6 +741,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 5
-Total size of all blocks to be downloaded: 1066
+Number of blocks to be downloaded: 6
+Total size of all blocks to be downloaded: 1061
 
