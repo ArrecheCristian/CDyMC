@@ -12354,3 +12354,1402 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/Federico/D
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-04-21 18:42:59.624
 !MESSAGE Indexed 'TP2Ej2B' (4 sources, 14 headers) in 0,63 sec: 2.242 declarations; 1.616 references; 1 unresolved inclusions; 12 syntax errors; 4 unresolved names (0,10%)
+!SESSION 2019-04-29 16:24:43.249 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-29 16:24:51.850
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-04-29 16:24:53.725
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:02.693
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:02.693
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: ProjectNamePage_title in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: ProjectNamePage_Description in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: ProjectNamePage_label in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: ProjectNamePage_error in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: ProjectLocationPage_error in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_4 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_5 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_8 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_9 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_10 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_11 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.096
+!MESSAGE NLS unused message: OptionsPage_30 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: SingleEditableTable_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: SingleEditableTable_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: SingleEditableTable_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: SingleEditableTable_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: MultiEditableTable_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: MultiEditableTable_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.112
+!MESSAGE NLS unused message: MultiEditableTable_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: MultiEditableTable_4 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: MultiEditableTable_5 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_8 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_9 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_10 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: AccessPathPage_11 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: GlobalsPage_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: GlobalsPage_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.128
+!MESSAGE NLS unused message: GlobalsPage_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_6 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_7 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_8 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_9 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_10 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_12 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: GlobalsPage_13 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: FileNotFoundPage_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: FileNotFoundPage_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: FileNotFoundPage_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: FileNotFoundPage_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.143
+!MESSAGE NLS unused message: FileNotFoundPage_4 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: FileNotFoundPage_5 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_4 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_5 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_6 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_7 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_8 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_9 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_10 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_11 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.159
+!MESSAGE NLS unused message: OptionsPage_14 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_15 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_16 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_19 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_20 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_21 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_22 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_23 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_24 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_25 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_26 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_27 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_28 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.175
+!MESSAGE NLS unused message: OptionsPage_29 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: OptionsPage_30 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: OptionsPage_31 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: OptionsPage_32 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: OptionsPage_AdvancedOptions in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: OptionsPage_ImportSubProjects in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_0 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_1 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_2 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_3 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_4 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_6 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.190
+!MESSAGE NLS unused message: LoaderPage_7 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.206
+!MESSAGE NLS unused message: LoaderPage_8 in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.206
+!MESSAGE NLS unused message: AccessPathPage_FlattenRecursiveAccessPaths in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 16:25:57.206
+!MESSAGE NLS unused message: ImporterWizard_ImportingProject in: com.freescale.core.ide.cwprojectImporter.wizards.messages
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 16:26:42.278
+!MESSAGE Indexed 'TP2Ej1' (5 sources, 11 headers) in 1,02 sec: 2.148 declarations; 1.713 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.034
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.034
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.065
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.126
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.204
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.251
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.303
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.343
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.383
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.412
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.524
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.565
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.604
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.712
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.750
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.781
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 16:26:59.842
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+!SESSION 2019-04-29 21:11:24.844 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-04-29 21:12:27.338
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:12:46.792
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:12:46.792
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-04-29 21:13:06.270
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3312)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:254)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4025)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3571)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 97 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3312)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:254)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4025)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3571)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY org.eclipse.core.resources 4 567 2019-04-29 21:13:13.671
+!MESSAGE The project description file (.project) for 'ProyectoPrueba' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-04-29 21:13:13.671
+!MESSAGE Problems occurred opening the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-04-29 21:13:13.671
+!MESSAGE The project description file (.project) for 'ProyectoPrueba' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2019-04-29 21:13:56.498 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/Federico/workspace
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-04-29 21:13:59.904
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:14:06.200
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:14:06.200
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-04-29 21:14:21.034
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:07.374
+!MESSAGE Indexed 'EjemploLCD' (5 sources, 11 headers) in 1,66 sec: 2.137 declarations; 1.696 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:07.772
+!MESSAGE Indexed 'ProyectoPrueba' (4 sources, 10 headers) in 0,35 sec: 2.017 declarations; 1.449 references; 1 unresolved inclusions; 12 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:08.147
+!MESSAGE Indexed 'Prueba1' (4 sources, 10 headers) in 0,34 sec: 2.058 declarations; 1.499 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:08.582
+!MESSAGE Indexed 'RTCEjemplo' (4 sources, 10 headers) in 0,38 sec: 2.062 declarations; 1.511 references; 1 unresolved inclusions; 1 syntax errors; 7 unresolved names (0,20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:08.950
+!MESSAGE Indexed 'TP1Ej3B' (4 sources, 10 headers) in 0,33 sec: 2.061 declarations; 1.510 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:09.300
+!MESSAGE Indexed 'TP1Ej3C' (4 sources, 10 headers) in 0,32 sec: 2.061 declarations; 1.510 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:09.661
+!MESSAGE Indexed 'TP1Ej3D' (4 sources, 10 headers) in 0,32 sec: 2.061 declarations; 1.527 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:10.046
+!MESSAGE Indexed 'TP1Ej3E' (4 sources, 10 headers) in 0,35 sec: 2.062 declarations; 1.556 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:10.583
+!MESSAGE Indexed 'TP2Ej1' (5 sources, 15 headers) in 0,49 sec: 2.362 declarations; 1.878 references; 1 unresolved inclusions; 1 syntax errors; 4 unresolved names (0,09%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-29 21:15:11.048
+!MESSAGE Indexed 'TP2Ej2B' (5 sources, 15 headers) in 0,40 sec: 2.323 declarations; 1.829 references; 1 unresolved inclusions; 12 syntax errors; 4 unresolved names (0,10%)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.089
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.089
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.120
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.152
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.183
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.214
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.245
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.281
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.307
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.358
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.391
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.476
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.505
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.534
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.615
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.640
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.668
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:01.806
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.823
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.854
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.885
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.916
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.941
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.967
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:53.996
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.023
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.050
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.119
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.145
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.169
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.234
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.261
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.288
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:21:54.337
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:21:59.346
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:21:59.392
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:21:59.402
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+!SESSION 2019-04-29 21:23:28.895 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-04-29 21:23:55.296
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:24:17.498
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-04-29 21:24:17.498
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-04-29 21:24:29.474
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:46.945
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:46.945
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:46.977
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.008
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.046
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.077
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.092
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.136
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.169
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.209
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.292
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.320
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.350
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.429
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.455
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.483
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:24:47.545
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.340
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.355
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.386
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.418
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.449
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.480
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.511
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.556
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.587
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.633
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.706
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.743
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.773
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.845
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.875
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.900
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:03.953
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.662
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.688
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.718
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.749
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.780
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.810
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.841
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.870
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.894
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.961
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:36.990
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:37.018
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:37.087
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:37.115
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:37.145
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-04-29 21:25:37.198
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:25:38.992
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:25:39.004
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-04-29 21:25:39.010
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)

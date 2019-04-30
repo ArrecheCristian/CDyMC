@@ -1,0 +1,6 @@
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:25:error:C1815 seg not declared (or typename)
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:25:warning:C1801 Implicit parameter-declaration for 'itoa'
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:25:warning:C1420 Result of function-call is ignored
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:27:error:C1815 dig1 not declared (or typename)
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:28:error:C1815 dig2 not declared (or typename)
+C:/Users/Federico/workspace/RTCEjemplo/Project_Headers\../Sources\main.c:29:error:C1815 ascii not declared (or typename)

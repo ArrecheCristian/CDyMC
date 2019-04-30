@@ -1,5 +1,7 @@
-#Sun Apr 21 18:37:50 ART 2019
+#Mon Apr 29 21:23:22 ART 2019
+OPEN_REQUIRED_PROJECTS=always
 eclipse.preferences.version=1
 tipsAndTricks=true
-platformState=1553535913424
+platformState=1556583086989
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 PROBLEMS_FILTERS_MIGRATE=true
