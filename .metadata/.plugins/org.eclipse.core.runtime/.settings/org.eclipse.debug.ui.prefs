@@ -1,4 +1,7 @@
-#Tue Apr 16 00:52:29 ART 2019
+#Mon May 06 13:19:03 ART 2019
+pref_state_memento.org.eclipse.debug.ui.VariableView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.VariableView"/>\r\n</VariablesViewMemento>
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=never
 eclipse.preferences.version=1
-preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+pref_state_memento.org.eclipse.debug.ui.RegisterView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="200" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.RegisterView"/>\r\n</VariablesViewMemento>
+preferredDetailPanes=com.freescale.debug.registerDetails.RegisterDetailsPane\:com.freescale.debug.registerDetails.RegisterDetailsPane|DefaultDetailPane\:DefaultDetailPane|com.freescale.debug.registerDetails.RegisterDetailsPane,DefaultDetailPane\:com.freescale.debug.registerDetails.RegisterDetailsPane|
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n

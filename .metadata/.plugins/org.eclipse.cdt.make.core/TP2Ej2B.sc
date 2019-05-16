@@ -2,7 +2,7 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="toolchain.config.hcs08.release.1885532295;toolchain.config.hcs08.release.1885532295.;hcs08.toolchain.compiler.2028408273;hcs08.toolchain.compiler.base.input.cpp.1463024489">
+<instance id="toolchain.config.hcs08.release.1885532295;toolchain.config.hcs08.release.1885532295.;hcs08.toolchain.compiler.2028408273;hcs08.toolchain.compiler.base.input.c.1922067563">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <definedSymbol symbol="near="/>
 <definedSymbol symbol="far="/>
@@ -13,7 +13,7 @@
 <definedSymbol symbol="__interrupt="/>
 </collector>
 </instance>
-<instance id="toolchain.config.hcs08.release.1885532295;toolchain.config.hcs08.release.1885532295.;hcs08.toolchain.compiler.2028408273;hcs08.toolchain.compiler.base.input.c.1922067563">
+<instance id="toolchain.config.hcs08.release.1885532295;toolchain.config.hcs08.release.1885532295.;hcs08.toolchain.compiler.2028408273;hcs08.toolchain.compiler.base.input.cpp.1463024489">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <definedSymbol symbol="near="/>
 <definedSymbol symbol="far="/>

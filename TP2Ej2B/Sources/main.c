@@ -113,6 +113,7 @@ void main(void) {
   
   for(;;) {
     if(KEYPAD_Scan(&tecla)){
+
     	LCD_pos_xy(0,0);
     	LCD_write_char(tecla);
     }

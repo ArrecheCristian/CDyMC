@@ -9,7 +9,7 @@
 **     Processor : MC9S08SH8CPJ
 **     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
-**     Date/Time : 2019-04-29, 17:02, # CodeGen: 7
+**     Date/Time : 2019-04-29, 15:06, # CodeGen: 1
 **     Abstract  :
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.

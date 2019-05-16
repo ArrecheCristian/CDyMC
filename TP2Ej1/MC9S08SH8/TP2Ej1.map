@@ -26,18 +26,20 @@ Entry point: 0xE07B (_Startup)
 _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     1
-  _Range   pZeroOut       0x100     4
-  _Copy    *toCopyDownBeg 0xE310
+  _Range   pZeroOut       0x100     36
+  _Copy    *toCopyDownBeg 0xE712
 } _startupData;
 
 *********************************************************************************************
 SECTION-ALLOCATION SECTION
 Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
+.data                             24   R/W      0x100      0x117   RAM
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            638     R     0xE092     0xE30F   ROM
-.copy                              2     R     0xE310     0xE311   ROM
+.rodata1                         107     R     0xE092     0xE0FC   ROM
+.text                           1557     R     0xE0FD     0xE711   ROM
+.copy                             30     R     0xE712     0xE72F   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -134,12 +136,13 @@ Section Name                    Size  Type     From       To       Segment
 .abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg93
 .abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg94
 .abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg95
-.bss                               4   R/W      0x100      0x103   RAM
-.stack                            64   R/W      0x104      0x143   RAM
+.bss                              11   R/W      0x118      0x122   RAM
+.common                            1   R/W      0x123      0x123   RAM
+.stack                            64   R/W      0x124      0x163   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         354 (dec:      852)
-READ_WRITE (R/W):       44 (dec:       68)
+READ_ONLY (R):         772 (dec:     1906)
+READ_WRITE (R/W):       64 (dec:      100)
 NO_INIT (N/I):          6C (dec:      108)
 
 *********************************************************************************************
@@ -153,28 +156,63 @@ OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 MODULE:                 -- MCUinit_c.obj --
 - PROCEDURES:
-     MCU_init                                  E092      4F      79       1   .text       
-     isrVrtc                                   E0E1       A      10       1   .text       
+     MCU_init                                  E0FD      4F      79       1   .text       
+     isrVrtc                                   E14C       A      10       1   .text       
 - VARIABLES:
-     RTC_flag                                   100       1       1       2   .bss        
+     RTC_flag                                   118       1       1       3   .bss        
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
 MODULE:                 -- lcd_c.obj --
 - PROCEDURES:
-     LCD_delay_ms                              E0EB      23      35       4   .text       
-     LCD_send_nibble                           E10E      39      57       4   .text       
-     LCD_send_byte                             E147      32      50       7   .text       
-     LCD_init                                  E179      5F      95       1   .text       
-     LCD_pos_xy                                E1D8      1D      29       3   .text       
-     LCD_write_char                            E1F5      30      48       6   .text       
+     LCD_delay_ms                              E156      23      35       4   .text       
+     LCD_send_nibble                           E179      39      57       4   .text       
+     LCD_send_byte                             E1B2      32      50       7   .text       
+     LCD_init                                  E1E4      5F      95       1   .text       
+     LCD_pos_xy                                E243      1D      29      10   .text       
+     LCD_write_char                            E260      30      48      14   .text       
+     LCD_write_string                          E290      19      25       5   .text       
 - VARIABLES:
-     lcd_mode                                   101       1       1       1   .bss        
+     lcd_mode                                   119       1       1       1   .bss        
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     main                                      E225      C7     199       6   .text       
+     reloj                                     E2A9      C4     196       1   .text       
+     delay                                     E36D      2B      43       1   .text       
+     devolverTecla                             E398      A6     166       1   .text       
+     KEYPAD_Scan                               E43E      70     112       3   .text       
+     cambiarEstado                             E4AE      20      32       6   .text       
+     comprobarClave                            E4CE      66     102       1   .text       
+     timeOut                                   E534       F      15       1   .text       
+     setearClave                               E543      53      83       1   .text       
+     ejecutarEstado                            E596      BD     189       2   .text       
+     main                                      E653      5D      93       1   .text       
 - VARIABLES:
-     cont                                       102       2       2       3   .bss        
+     STRING..................3                 E092      11      17       1   .rodata1    
+     STRING.CERRADO..........4                 E0A3      11      17       1   .rodata1    
+     STRING.ABIERTO..........5                 E0B4      11      17       1   .rodata1    
+     STRING.DENEGADO........6                  E0C5      10      16       1   .rodata1    
+     STRING.Clave.act..7                       E0D5       B      11       1   .rodata1    
+     STRING.Nueva.clave..8                     E0E0       D      13       1   .rodata1    
+     STRING.FIN.NUEVA.CLAVE.9                  E0ED      10      16       1   .rodata1    
+     dig1                                       100       1       1       3   .data       
+     dig2                                       101       1       1       3   .data       
+     dig3                                       102       1       1       3   .data       
+     dig4                                       103       1       1       3   .data       
+     dig5                                       104       1       1       3   .data       
+     dig6                                       105       1       1       3   .data       
+     min                                        106       1       1       5   .data       
+     hora                                       107       1       1       5   .data       
+     estado                                     108       2       2       3   .data       
+     pass                                       10A       5       5       5   .data       
+     passAux                                    10F       5       5       2   .data       
+     dimL                                       114       2       2       1   .data       
+     cond                                       116       2       2       4   .data       
+     seg                                        11A       1       1       5   .bss        
+     cont                                       11B       2       2       3   .bss        
+     indice                                     11D       2       2       7   .bss        
+     indice2                                    11F       2       2       5   .bss        
+     timeInState                                121       2       2       4   .bss        
+     probando                                   123       1       1       1   .common     
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
      loadByte                                  E000       E      14       5   .init       
@@ -183,14 +221,14 @@ MODULE:                 -- start08_c.obj --
 - VARIABLES:
      _startupData                              E084       6       6       4   .startData  
 - LABELS:
-     __SEG_END_SSTACK                           144       0       0       1               
+     __SEG_END_SSTACK                           164       0       0       1               
 MODULE:                 -- mc9s08sh8_c.obj --
 - PROCEDURES:
 - VARIABLES:
      _PTAD                                        0       1       1      12   .abs_section_0
      _PTADD                                       1       1       1       4   .abs_section_1
-     _PTBD                                        2       1       1       0   .abs_section_2
-     _PTBDD                                       3       1       1       0   .abs_section_3
+     _PTBD                                        2       1       1       3   .abs_section_2
+     _PTBDD                                       3       1       1       1   .abs_section_3
      _PTCD                                        4       1       1       7   .abs_section_4
      _PTCDD                                       5       1       1       2   .abs_section_5
      _ACMPSC                                      E       1       1       0   .abs_section_e
@@ -255,7 +293,7 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _PTASC                                    1844       1       1       0   .abs_section_1844
      _PTAPS                                    1845       1       1       0   .abs_section_1845
      _PTAES                                    1846       1       1       0   .abs_section_1846
-     _PTBPE                                    1848       1       1       0   .abs_section_1848
+     _PTBPE                                    1848       1       1       1   .abs_section_1848
      _PTBSE                                    1849       1       1       1   .abs_section_1849
      _PTBDS                                    184A       1       1       1   .abs_section_184a
      _PTBSC                                    184C       1       1       0   .abs_section_184c
@@ -282,7 +320,9 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _DBGF                                     1814       2       2       0   .abs_section_1814
 MODULE:                 -- rtshc08.o (ansiis.lib) --
 - PROCEDURES:
-     _Jump_Table_Header_Offset                 E2EC      24      36       1   .text       
+     _Jump_Table_Offset                        E6B0      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E6C9      24      36       2   .text       
+     _Search_Table_8_Offset                    E6ED      25      37       1   .text       
 - VARIABLES:
 
 *********************************************************************************************
@@ -290,29 +330,39 @@ MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                1     89     66
-  lcd_c.obj                                    1    314      0
-  main_c.obj                                   2    199      0
+  lcd_c.obj                                    1    339      0
+  main_c.obj                                  34   1031    107
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
-  rtshc08.o (ansiis.lib)                       0     36      0
-  other                                       64     14      2
+  rtshc08.o (ansiis.lib)                       0     98      0
+  other                                       64     14     30
 
 *********************************************************************************************
 SECTION USE IN OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 SECTION: ".text"
   MCU_init isrVrtc LCD_delay_ms LCD_send_nibble LCD_send_byte LCD_init 
-  LCD_pos_xy LCD_write_char main _Jump_Table_Header_Offset 
+  LCD_pos_xy LCD_write_char LCD_write_string reloj delay devolverTecla 
+  KEYPAD_Scan cambiarEstado comprobarClave timeOut setearClave ejecutarEstado 
+  main _Jump_Table_Offset _Jump_Table_Header_Offset _Search_Table_8_Offset 
+SECTION: ".data"
+  dig1 dig2 dig3 dig4 dig5 dig6 min hora estado pass passAux dimL cond 
 SECTION: ".bss"
-  RTC_flag lcd_mode cont 
+  RTC_flag lcd_mode seg cont indice indice2 timeInState 
 SECTION: ".init"
   loadByte Init _Startup 
+SECTION: ".rodata1"
+  STRING..................3 STRING.CERRADO..........4 
+  STRING.ABIERTO..........5 STRING.DENEGADO........6 STRING.Clave.act..7 
+  STRING.Nueva.clave..8 STRING.FIN.NUEVA.CLAVE.9 
 SECTION: ".abs_section_ffbd"
   NVPROT_INIT 
 SECTION: ".abs_section_ffbf"
   NVOPT_INIT 
 SECTION: ".abs_section_ffc0"
   _vect 
+SECTION: ".common"
+  probando 
 SECTION: ".abs_section_0"
   _PTAD 
 SECTION: ".abs_section_1"
@@ -506,8 +556,8 @@ OBJECT LIST SORTED BY ADDRESS
 ---------------------------------------------------------------------------------------------
      _PTAD                                        0       1       1      12   .abs_section_0
      _PTADD                                       1       1       1       4   .abs_section_1
-     _PTBD                                        2       1       1       0   .abs_section_2
-     _PTBDD                                       3       1       1       0   .abs_section_3
+     _PTBD                                        2       1       1       3   .abs_section_2
+     _PTBDD                                       3       1       1       1   .abs_section_3
      _PTCD                                        4       1       1       7   .abs_section_4
      _PTCDD                                       5       1       1       2   .abs_section_5
      _ACMPSC                                      E       1       1       0   .abs_section_e
@@ -562,9 +612,27 @@ OBJECT LIST SORTED BY ADDRESS
      _RTCSC                                      6C       1       1       2   .abs_section_6c
      _RTCCNT                                     6D       1       1       0   .abs_section_6d
      _RTCMOD                                     6E       1       1       1   .abs_section_6e
-     RTC_flag                                   100       1       1       2   .bss        
-     lcd_mode                                   101       1       1       1   .bss        
-     cont                                       102       2       2       3   .bss        
+     dig1                                       100       1       1       3   .data       
+     dig2                                       101       1       1       3   .data       
+     dig3                                       102       1       1       3   .data       
+     dig4                                       103       1       1       3   .data       
+     dig5                                       104       1       1       3   .data       
+     dig6                                       105       1       1       3   .data       
+     min                                        106       1       1       5   .data       
+     hora                                       107       1       1       5   .data       
+     estado                                     108       2       2       3   .data       
+     pass                                       10A       5       5       5   .data       
+     passAux                                    10F       5       5       2   .data       
+     dimL                                       114       2       2       1   .data       
+     cond                                       116       2       2       4   .data       
+     RTC_flag                                   118       1       1       3   .bss        
+     lcd_mode                                   119       1       1       1   .bss        
+     seg                                        11A       1       1       5   .bss        
+     cont                                       11B       2       2       3   .bss        
+     indice                                     11D       2       2       7   .bss        
+     indice2                                    11F       2       2       5   .bss        
+     timeInState                                121       2       2       4   .bss        
+     probando                                   123       1       1       1   .common     
      _SRS                                      1800       1       1       0   .abs_section_1800
      _SBDFR                                    1801       1       1       0   .abs_section_1801
      _SOPT1                                    1802       1       1       1   .abs_section_1802
@@ -590,7 +658,7 @@ OBJECT LIST SORTED BY ADDRESS
      _PTASC                                    1844       1       1       0   .abs_section_1844
      _PTAPS                                    1845       1       1       0   .abs_section_1845
      _PTAES                                    1846       1       1       0   .abs_section_1846
-     _PTBPE                                    1848       1       1       0   .abs_section_1848
+     _PTBPE                                    1848       1       1       1   .abs_section_1848
      _PTBSE                                    1849       1       1       1   .abs_section_1849
      _PTBDS                                    184A       1       1       1   .abs_section_184a
      _PTBSC                                    184C       1       1       0   .abs_section_184c
@@ -603,16 +671,35 @@ OBJECT LIST SORTED BY ADDRESS
      loadByte                                  E000       E      14       5   .init       
      Init                                      E00E      6D     109       1   .init       
      _Startup                                  E07B       9       9       1   .init       
-     MCU_init                                  E092      4F      79       1   .text       
-     isrVrtc                                   E0E1       A      10       1   .text       
-     LCD_delay_ms                              E0EB      23      35       4   .text       
-     LCD_send_nibble                           E10E      39      57       4   .text       
-     LCD_send_byte                             E147      32      50       7   .text       
-     LCD_init                                  E179      5F      95       1   .text       
-     LCD_pos_xy                                E1D8      1D      29       3   .text       
-     LCD_write_char                            E1F5      30      48       6   .text       
-     main                                      E225      C7     199       6   .text       
-     _Jump_Table_Header_Offset                 E2EC      24      36       1   .text       
+     STRING..................3                 E092      11      17       1   .rodata1    
+     STRING.CERRADO..........4                 E0A3      11      17       1   .rodata1    
+     STRING.ABIERTO..........5                 E0B4      11      17       1   .rodata1    
+     STRING.DENEGADO........6                  E0C5      10      16       1   .rodata1    
+     STRING.Clave.act..7                       E0D5       B      11       1   .rodata1    
+     STRING.Nueva.clave..8                     E0E0       D      13       1   .rodata1    
+     STRING.FIN.NUEVA.CLAVE.9                  E0ED      10      16       1   .rodata1    
+     MCU_init                                  E0FD      4F      79       1   .text       
+     isrVrtc                                   E14C       A      10       1   .text       
+     LCD_delay_ms                              E156      23      35       4   .text       
+     LCD_send_nibble                           E179      39      57       4   .text       
+     LCD_send_byte                             E1B2      32      50       7   .text       
+     LCD_init                                  E1E4      5F      95       1   .text       
+     LCD_pos_xy                                E243      1D      29      10   .text       
+     LCD_write_char                            E260      30      48      14   .text       
+     LCD_write_string                          E290      19      25       5   .text       
+     reloj                                     E2A9      C4     196       1   .text       
+     delay                                     E36D      2B      43       1   .text       
+     devolverTecla                             E398      A6     166       1   .text       
+     KEYPAD_Scan                               E43E      70     112       3   .text       
+     cambiarEstado                             E4AE      20      32       6   .text       
+     comprobarClave                            E4CE      66     102       1   .text       
+     timeOut                                   E534       F      15       1   .text       
+     setearClave                               E543      53      83       1   .text       
+     ejecutarEstado                            E596      BD     189       2   .text       
+     main                                      E653      5D      93       1   .text       
+     _Jump_Table_Offset                        E6B0      19      25       4   .text       
+     _Jump_Table_Header_Offset                 E6C9      24      36       2   .text       
+     _Search_Table_8_Offset                    E6ED      25      37       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -622,7 +709,7 @@ UNUSED-OBJECTS SECTION
 ---------------------------------------------------------------------------------------------
 NOT USED PROCEDURES
 lcd_c.obj:
-  LCD_write_string LCD_display_on LCD_display_off LCD_cursor_on LCD_cursor_off 
+  LCD_display_on LCD_display_off LCD_cursor_on LCD_cursor_off 
   LCD_cursor_blink_on LCD_cursor_blink_off 
 rtshc08.o (ansiis.lib):
   _PUSH_ARGS_L _PUSH_ARGS_D _ENTER_UNARY_L _ENTER_UNARY_L64 _ENTER_UNARY_L64_4 
@@ -640,9 +727,9 @@ rtshc08.o (ansiis.lib):
   _LASR _LLSR _LLSL _LCMP _LCMP_RC _PUSH_ARGS_24 _ENTER_BINARY_24_RC 
   _ENTER_BINARY_24 _CMP24 _CMP24_RC _COPY _COPY_L _POP32 _POP64 _STORE32 
   _STORE64 _SEXT8_32 _SEXT16_32 _CALL_STAR08 _CALL_STAR08_FAR _Jump_Table_Addr 
-  _Jump_Table_Offset _Jump_Table_Header_Addr _Search_Table_16_Addr 
-  _Search_Table_16_Offset _Search_Table_8_Addr _Search_Table_8_Offset _PUSH_CC 
-  _POP_CC _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR _CONV_LINEAR_TO_FAR 
+  _Jump_Table_Header_Addr _Search_Table_16_Addr _Search_Table_16_Offset 
+  _Search_Table_8_Addr _PUSH_CC _POP_CC _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR 
+  _CONV_LINEAR_TO_FAR 
 NOT USED VARIABLES
 rtshc08.o (ansiis.lib):
   _PowOfTwo_8 _PowOfTwo_16 _PowOfTwo_32 errno 
@@ -650,7 +737,61 @@ rtshc08.o (ansiis.lib):
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE310 ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE712 ---- SIZE       4 ---
+Filling bytes inserted
+ 00180100
+------- ROM-ADDRESS: 0xE716 ---- RAM-ADDRESS: 0x100 ---- SIZE       1 ---
+Name of initialized Object : dig1
+ 31
+------- ROM-ADDRESS: 0xE717 ---- RAM-ADDRESS: 0x101 ---- SIZE       1 ---
+Name of initialized Object : dig2
+ 36
+------- ROM-ADDRESS: 0xE718 ---- RAM-ADDRESS: 0x102 ---- SIZE       1 ---
+Name of initialized Object : dig3
+ 35
+------- ROM-ADDRESS: 0xE719 ---- RAM-ADDRESS: 0x103 ---- SIZE       1 ---
+Name of initialized Object : dig4
+ 31
+------- ROM-ADDRESS: 0xE71A ---- RAM-ADDRESS: 0x104 ---- SIZE       1 ---
+Name of initialized Object : dig5
+ 30
+------- ROM-ADDRESS: 0xE71B ---- RAM-ADDRESS: 0x105 ---- SIZE       1 ---
+Name of initialized Object : dig6
+ 30
+------- ROM-ADDRESS: 0xE71C ---- RAM-ADDRESS: 0x106 ---- SIZE       1 ---
+Name of initialized Object : min
+ 33
+------- ROM-ADDRESS: 0xE71D ---- RAM-ADDRESS: 0x107 ---- SIZE       1 ---
+Name of initialized Object : hora
+ 10
+------- ROM-ADDRESS: 0xE71E ---- SIZE       1 ---
+Filling bytes inserted
+ 00
+------- ROM-ADDRESS: 0xE71F ---- RAM-ADDRESS: 0x109 ---- SIZE       1 ---
+Name of initialized Object : estado:1
+ 01
+------- ROM-ADDRESS: 0xE720 ---- RAM-ADDRESS: 0x10A ---- SIZE       4 ---
+Name of initialized Object : pass
+ 32353830
+------- ROM-ADDRESS: 0xE724 ---- SIZE       1 ---
+Filling bytes inserted
+ 00
+------- ROM-ADDRESS: 0xE725 ---- RAM-ADDRESS: 0x10F ---- SIZE       4 ---
+Name of initialized Object : passAux
+ 20202020
+------- ROM-ADDRESS: 0xE729 ---- SIZE       2 ---
+Filling bytes inserted
+ 0000
+------- ROM-ADDRESS: 0xE72B ---- RAM-ADDRESS: 0x115 ---- SIZE       1 ---
+Name of initialized Object : dimL:1
+ 04
+------- ROM-ADDRESS: 0xE72C ---- SIZE       1 ---
+Filling bytes inserted
+ 00
+------- ROM-ADDRESS: 0xE72D ---- RAM-ADDRESS: 0x117 ---- SIZE       1 ---
+Name of initialized Object : cond:1
+ 01
+------- ROM-ADDRESS: 0xE72E ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -670,8 +811,27 @@ LCD_init                  USES _PTCDD _PTADD _PTAD _PTCD LCD_delay_ms
 LCD_pos_xy                USES LCD_send_byte 
 LCD_write_char            USES _Jump_Table_Header_Offset LCD_send_byte 
                                 LCD_delay_ms LCD_pos_xy 
-main                      USES MCU_init LCD_init LCD_pos_xy main 
-                                LCD_write_char RTC_flag cont 
+LCD_write_string          USES LCD_write_char 
+reloj                     USES cont seg dig5 dig6 timeInState LCD_write_char 
+                                min dig3 dig4 LCD_pos_xy hora dig1 dig2 
+devolverTecla             USES _Jump_Table_Offset _Search_Table_8_Offset 
+KEYPAD_Scan               USES _PTBD devolverTecla 
+cambiarEstado             USES estado timeInState indice indice2 LCD_pos_xy 
+                                STRING..................3 LCD_write_string cond 
+comprobarClave            USES indice pass probando cond dimL cambiarEstado 
+                                LCD_pos_xy LCD_write_char estado 
+timeOut                   USES timeInState cambiarEstado 
+setearClave               USES indice2 passAux pass LCD_pos_xy cambiarEstado 
+ejecutarEstado            USES estado _Jump_Table_Header_Offset KEYPAD_Scan 
+                                cambiarEstado ejecutarEstado STRING.CERRADO..........4 
+                                LCD_write_string STRING.ABIERTO..........5 
+                                STRING.DENEGADO........6 STRING.Clave.act..7 indice 
+                                STRING.Nueva.clave..8 setearClave indice2 STRING.FIN.NUEVA.CLAVE.9 
+                                LCD_pos_xy LCD_write_char comprobarClave delay 
+                                timeInState 
+main                      USES _PTBDD _PTBPE MCU_init LCD_init LCD_pos_xy dig1 
+                                LCD_write_char dig2 dig3 dig4 dig5 dig6 RTC_flag cont reloj 
+                                ejecutarEstado timeOut 
 _vect                     USES isrVrtc _Startup 
 
 *********************************************************************************************
@@ -698,14 +858,66 @@ DEPENDENCY TREE
  |  |  +- LCD_send_byte        (see above)
  |  |     
  |  +- LCD_write_char      
+ |  |  | 
+ |  |  +- _Jump_Table_Header_Offset
+ |  |  |    
+ |  |  +- LCD_send_byte        (see above)
+ |  |  |  
+ |  |  +- LCD_delay_ms         (see above)
+ |  |  |  
+ |  |  +- LCD_pos_xy           (see above)
+ |  |     
+ |  +- reloj               
+ |  |  | 
+ |  |  +- LCD_write_char       (see above)
+ |  |  |  
+ |  |  +- LCD_pos_xy           (see above)
+ |  |     
+ |  +- ejecutarEstado      
+ |  |  | 
+ |  |  +- _Jump_Table_Header_Offset (see above)
+ |  |  |  
+ |  |  +- KEYPAD_Scan         
+ |  |  |  | 
+ |  |  |  +- devolverTecla       
+ |  |  |     | 
+ |  |  |     +- _Jump_Table_Offset  
+ |  |  |     |    
+ |  |  |     +- _Search_Table_8_Offset
+ |  |  |          
+ |  |  +- cambiarEstado       
+ |  |  |  | 
+ |  |  |  +- LCD_pos_xy           (see above)
+ |  |  |  |  
+ |  |  |  +- LCD_write_string    
+ |  |  |     | 
+ |  |  |     +- LCD_write_char       (see above)
+ |  |  |        
+ |  |  +- LCD_write_string     (see above)
+ |  |  |  
+ |  |  +- setearClave         
+ |  |  |  | 
+ |  |  |  +- LCD_pos_xy           (see above)
+ |  |  |  |  
+ |  |  |  +- cambiarEstado        (see above)
+ |  |  |     
+ |  |  +- LCD_pos_xy           (see above)
+ |  |  |  
+ |  |  +- LCD_write_char       (see above)
+ |  |  |  
+ |  |  +- comprobarClave      
+ |  |  |  | 
+ |  |  |  +- cambiarEstado        (see above)
+ |  |  |  |  
+ |  |  |  +- LCD_pos_xy           (see above)
+ |  |  |  |  
+ |  |  |  +- LCD_write_char       (see above)
+ |  |  |     
+ |  |  +- delay               
+ |  |       
+ |  +- timeOut             
  |     | 
- |     +- _Jump_Table_Header_Offset
- |     |    
- |     +- LCD_send_byte        (see above)
- |     |  
- |     +- LCD_delay_ms         (see above)
- |     |  
- |     +- LCD_pos_xy           (see above)
+ |     +- cambiarEstado        (see above)
  |        
  +- _Startup            
     | 
@@ -727,6 +939,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 6
-Total size of all blocks to be downloaded: 852
+Number of blocks to be downloaded: 7
+Total size of all blocks to be downloaded: 1906
 

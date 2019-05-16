@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1024" x="158" y="6">
+<window height="731" maximized="true" width="689" x="-3" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -42,11 +42,11 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP2Ej1/Sources/main.c" title="main.c" tooltip="TP2Ej1/Sources/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP2Ej1/Sources/main.c"/>
-<editorState selectionLength="0" selectionOffset="1773"/>
+<editorState selectionLength="0" selectionOffset="1356"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" partName="MCUinit.c" path="C:/Users/Federico/workspace/TP2Ej1/Sources/MCUinit.c" title="MCUinit.c" tooltip="TP2Ej1/Sources/MCUinit.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP2Ej1/Sources/MCUinit.c"/>
-<editorState selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="funcionesPropias.c" partName="funcionesPropias.c" path="C:/Users/Federico/workspace/TP2Ej1/Sources/funcionesPropias.c" title="funcionesPropias.c" tooltip="TP2Ej1/Sources/funcionesPropias.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP2Ej1/Sources/funcionesPropias.c"/>
+<editorState selectionLength="0" selectionOffset="156"/>
 </editor>
 </editors>
 <views>
@@ -116,7 +116,11 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" detailsPane="false" detailsPaneDivider="750,250" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -255,7 +259,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.72374797" ratioLeft="448" ratioRight="171" relationship="4" relative="org.eclipse.ui.internal.ViewStack@af4a7d">
+<info folder="true" part="bottom" ratio="0.75121164" ratioLeft="465" ratioRight="154" relationship="4" relative="org.eclipse.ui.internal.ViewStack@af4a7d">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -416,7 +420,7 @@
 </folder>
 </info>
 <info part="com.freescale.debuggershell.views.DebuggerShell" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
-<info part="org.eclipse.ui.editorss" ratio="0.37430167" ratioLeft="201" ratioRight="336" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.43510056" ratioLeft="238" ratioRight="309" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 <info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.50110704" ratioLeft="679" ratioRight="676" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -424,7 +428,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.RegisterView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="com.freescale.core.debugger.cacheviewer.views.CacheView" label="Cache"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="Registers"/>
@@ -446,13 +450,158 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej1/Sources/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej1/Sources/MCUinit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej1/Sources/funcionesPropias.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej2B/Sources/main.c"/>
 </editors>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1638" y="0"/>
+<position info="not_deleted" x="3936" y="0"/>
 </item>
-<item active="true" historyLabel="MCUinit.c" index="1">
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4107" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3836" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3956" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4065" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4092" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5352" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4888" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3836" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3836" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3836" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3836" y="0"/>
+</item>
+<item historyLabel="funcionesPropias.c" index="1">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
 <position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5936" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3907" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4675" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5847" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5846" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4896" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6525" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6540" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6770" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5245" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5617" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5299" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5614" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5441" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5337" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5610" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5492" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4210" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4819" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4894" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7752" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5664" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6148" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1246" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1517" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1681" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4639" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4659" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="0">
+<position info="not_deleted" x="4414" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -472,32 +621,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP2Ej1/Sources/MCUinit.c">
-<persistable path="/TP2Ej1/Sources/MCUinit.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP2Ej1/Sources/main.c">
-<persistable path="/TP2Ej1/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.freescale.analysis.editors.datasource.DataSourceEditor" name="analysis_hcs08_setup_TP1Ej3E_MC9S08SH8_PnE OSBDM.datasource" tooltip="TP1Ej3E/analysis_hcs08_setup_TP1Ej3E_MC9S08SH8_PnE OSBDM.datasource">
-<persistable path="/TP1Ej3E/analysis_hcs08_setup_TP1Ej3E_MC9S08SH8_PnE OSBDM.datasource"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP1Ej3E/Sources/main.c">
-<persistable path="/TP1Ej3E/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mc9s08sh8.c" tooltip="TP2Ej2B/Lib/mc9s08sh8.c">
-<persistable path="/TP2Ej2B/Lib/mc9s08sh8.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="mc9s08sh8_c.obj" tooltip="TP2Ej2B/MC9S08SH8/Lib/mc9s08sh8_c.obj">
-<persistable path="/TP2Ej2B/MC9S08SH8/Lib/mc9s08sh8_c.obj"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP2Ej2B/Sources/main.c">
 <persistable path="/TP2Ej2B/Sources/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="DeviceInitialization.pe" tooltip="ProyectoPrueba/DeviceInitialization.pe">
-<persistable path="/ProyectoPrueba/DeviceInitialization.pe"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="start08.c" tooltip="ProyectoPrueba/Project_Settings/Startup_Code/start08.c">
-<persistable path="/ProyectoPrueba/Project_Settings/Startup_Code/start08.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="funcionesPropias.c" tooltip="TP2Ej1/Sources/funcionesPropias.c">
+<persistable path="/TP2Ej1/Sources/funcionesPropias.c"/>
 </file>
 </mruList>
 </workbench>

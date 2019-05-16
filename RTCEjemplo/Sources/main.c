@@ -22,11 +22,11 @@ PTBD=0x55;
 	  if(RTC_flag==1){
 		  PTBD=~PTBD; //Accion cada 100ms
 		  RTC_flag=0;
-		  itoa(seg);//Para traerme los ASCII de los segundos, asi lo imprimo en la pantalla
+		  //itoa(seg);//Para traerme los ASCII de los segundos, asi lo imprimo en la pantalla
 		  //seg va de 0 a 59
-		  dig1 = seg/10;
-		  dig2 = seg%10;
-		  ascii = dig1+'0';
+		  //dig1 = seg/10;
+		  //dig2 = seg%10;
+		  //ascii = dig1+'0';
 	  }
     /* __RESET_WATCHDOG(); By default COP is disabled with device init. When enabling, also reset the watchdog. */
   } /* loop forever */

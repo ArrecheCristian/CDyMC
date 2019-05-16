@@ -10,7 +10,7 @@
 **     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
 **     Date/Time : 2019-04-22, 14:14, # CodeGen: 2
-**     Abstract  :
+**     Abstract  : 
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.
 **     Contents  :
