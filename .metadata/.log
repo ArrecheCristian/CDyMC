@@ -2539,3 +2539,2481 @@ Created Time: 2019-05-06 15:45:37.058
 
 !ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-06 16:57:42.941
 !MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+!SESSION 2019-05-16 13:50:38.161 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-05-16 13:52:01.644
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-05-16 13:53:10.474
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-05-16 13:53:10.474
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-05-16 13:53:25.860
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-3".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.384
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.384
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.384
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.384
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.399
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.399
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.399
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.399
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.399
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.415
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.415
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.415
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.415
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.415
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.430
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.430
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.430
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.430
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.430
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.446
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.446
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.446
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.462
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.462
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.462
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.462
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.477
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.477
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.477
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.477
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.477
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.493
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.509
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.509
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.509
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.509
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.509
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.524
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.524
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.540
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.540
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.540
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.540
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.540
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.555
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.555
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.555
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.555
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.555
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.571
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.571
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.571
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.571
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.571
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.587
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.587
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.587
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.587
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.587
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.602
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.602
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.602
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.618
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.618
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.618
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.618
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.634
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.634
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.634
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.634
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.634
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.649
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.649
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.649
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.649
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.649
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.665
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.665
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.665
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.665
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.665
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.680
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 13:57:21.680
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-16 13:57:43.089
+!MESSAGE Indexed 'TP2EJ1v2' (0 sources, 3 headers) in 0,06 sec: 0 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.freescale.processorexpert.core 4 0 2019-05-16 13:57:45.864
+!MESSAGE Corrupted build tools for project :TP2EJ1v2
+
+!ENTRY org.eclipse.jface 4 0 2019-05-16 13:57:46.123
+!MESSAGE Unhandled event loop exception during blocked modal context.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:382)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:934)
+	at com.freescale.core.ide.newprojectwizard.CWWizard.invokeRunnable(Unknown Source)
+	at com.freescale.core.ide.newprojectwizard.CWWizard.performFinish(Unknown Source)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3984)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3577)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.freescale.core.ide.newprojectwizard.MenuHandler.execute(Unknown Source)
+	at com.freescale.mcu.projectwizard.MCUMenuHandler.execute(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:247)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:619)
+	at org.eclipse.ui.menus.CommandContributionItem.access$10(CommandContributionItem.java:605)
+	at org.eclipse.ui.menus.CommandContributionItem$4.handleEvent(CommandContributionItem.java:595)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3984)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3577)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: java.lang.NullPointerException
+	at com.freescale.core.ide.cdt.toolchain.BuilderStateInitializer.initializeBuilderState(Unknown Source)
+	at com.freescale.core.ide.cdt.toolchain.BuilderStateInitializer$1.runInUIThread(Unknown Source)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 51 more
+
+!ENTRY com.freescale.processorexpert.ui.projectpanel 4 0 2019-05-16 13:59:07.652
+!MESSAGE null argument:
+
+!ENTRY com.freescale.processorexpert.ui.projectpanel 4 0 2019-05-16 13:59:07.659
+!MESSAGE null argument:
+
+!ENTRY com.freescale.processorexpert.core 4 0 2019-05-16 14:07:05.704
+!MESSAGE Corrupted build tools for project :TP2EJ1v2
+
+!ENTRY com.freescale.processorexpert.core 4 0 2019-05-16 14:07:42.890
+!MESSAGE Corrupted build tools for project :TP2EJ1v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.827
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.827
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.843
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.843
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.843
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.843
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.843
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.858
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.858
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.858
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.858
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.874
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.874
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.874
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.874
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.874
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.889
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.889
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.889
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.889
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.889
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.905
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.905
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.905
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.921
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.921
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.921
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.921
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.936
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.936
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.936
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.936
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.936
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.952
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.952
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.952
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.952
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.952
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.967
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.967
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.967
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.967
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.967
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.983
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.983
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.983
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.983
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:24.999
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.014
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.014
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.014
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.014
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.030
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.030
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.030
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.030
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.030
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.046
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.061
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.061
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.061
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.061
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.061
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.077
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.077
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.077
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.077
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.093
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.093
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.093
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.108
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.108
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.108
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.108
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.108
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.124
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.124
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.124
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.124
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.124
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.139
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.139
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.139
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.139
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.139
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.155
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.155
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.155
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.155
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.155
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2019-05-16 14:10:25.171
+!MESSAGE The SystemTypeId is not configured for 'mcu.projectwizard.chip.family.hcs08'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-16 14:10:43.627
+!MESSAGE Indexed 'TP2EJ1v2' (3 sources, 9 headers) in 1,39 sec: 2.010 declarations; 1.370 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.173
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.173
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.266
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.360
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.439
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.508
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.576
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.650
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.720
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.788
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.871
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:03.931
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.000
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.184
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.255
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.320
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.498
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.566
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.626
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:12:04.908
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+!SESSION 2019-05-16 14:15:31.243 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-05-16 14:16:36.814
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-05-16 14:17:17.014
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-05-16 14:17:17.016
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-05-16 14:17:27.056
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY com.freescale.processorexpert.ui.projectpanel 4 0 2019-05-16 14:18:53.749
+!MESSAGE null argument:
+
+!ENTRY com.freescale.processorexpert.ui.projectpanel 4 0 2019-05-16 14:18:53.751
+!MESSAGE null argument:
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.504
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.506
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.541
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.573
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.606
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.646
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.674
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.710
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.745
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.776
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.807
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.840
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.871
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:19.900
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.004
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.034
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.063
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.156
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.185
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.212
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:20:20.338
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.756
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.788
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.815
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.842
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.874
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.901
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.925
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.956
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:08.984
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.016
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.058
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.086
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.116
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.195
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.220
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.251
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.321
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.353
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.381
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:09.431
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:34.991
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.022
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.046
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.071
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.100
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.129
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.155
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.183
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.209
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.234
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.267
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.299
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.329
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.405
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.432
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.460
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.526
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.551
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.578
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:24:35.628
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.608
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.637
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.665
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.689
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.717
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.748
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.776
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.805
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.834
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.868
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.899
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.931
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.961
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:23.990
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.103
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.135
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.166
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.246
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.275
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.302
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:38:24.363
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.470
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.496
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.523
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.552
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.578
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.602
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.629
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.656
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.682
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.710
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.744
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.780
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.858
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.886
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.913
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:16.980
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:17.007
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:17.039
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:17.111
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.599
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.627
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.655
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.684
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.711
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.739
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.767
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.791
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.818
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.849
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.882
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.913
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:23.991
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.021
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.045
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.109
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.138
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.167
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:24.218
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.840
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.867
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.891
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.919
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.946
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:44.972
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.000
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.025
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.051
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.080
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.113
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.143
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.220
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.247
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.275
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.338
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.365
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.391
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:39:45.440
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.365
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.394
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.421
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.450
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.474
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.501
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.531
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.558
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.586
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.615
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.647
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.680
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.756
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.785
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.812
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.880
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.910
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.938
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:40:13.989
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.619
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.649
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.679
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.703
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.733
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.761
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.789
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.820
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.848
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.881
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.914
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.946
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:15.975
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.057
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.087
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.117
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.184
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.208
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.237
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:42:16.285
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY org.eclipse.osgi 2 1 2019-05-16 14:44:02.021
+!MESSAGE NLS missing message: AbstractFileCreationWizardPage_error_GroupsNotAllowed in: org.eclipse.cdt.internal.ui.wizards.filewizard.NewFileWizardMessages
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:28.945
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:28.974
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.002
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.030
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.059
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.086
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.109
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.138
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.165
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.194
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.237
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.269
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.297
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.373
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.401
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.430
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.484
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.512
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.538
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.603
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.626
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.652
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:54:29.701
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.842
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.871
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.900
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.930
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.965
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:02.996
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.024
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.053
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.085
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.127
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.152
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.184
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.214
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.244
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.321
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.351
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.379
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.435
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.459
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.486
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.548
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.575
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.601
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:57:03.650
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.674
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.702
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.729
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.756
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.784
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.811
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.834
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.863
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.890
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.917
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.954
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:29.989
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.016
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.087
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.114
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.143
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.196
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.225
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.253
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.317
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.347
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.375
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:30.427
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.541
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.572
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.601
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.630
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.654
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.690
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.722
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.749
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.776
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.810
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.846
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.875
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.963
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:58.995
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.025
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.088
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.120
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.149
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.228
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.261
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.289
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 14:58:59.340
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.453
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.477
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.509
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.536
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.565
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.591
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.619
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.646
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.669
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.700
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.740
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.770
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.799
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.827
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.857
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.884
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.967
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:55.995
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.023
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.072
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.098
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.124
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.186
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.210
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.237
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:01:56.285
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.521
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.552
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.579
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.605
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.634
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.658
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.684
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.712
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.739
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.768
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.808
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.839
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.865
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.894
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.922
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:26.951
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.031
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.061
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.089
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.139
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.163
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.189
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.251
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.278
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.304
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:27.360
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.126
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.156
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.183
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.211
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.239
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.266
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.289
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.317
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.344
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.376
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.411
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.444
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.474
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.504
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.529
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.558
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.646
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.676
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.703
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.752
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.778
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.802
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.863
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.890
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.916
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:43.972
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.007
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.037
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.065
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.093
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.123
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.152
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.176
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.204
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.232
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.264
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.301
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.332
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.361
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.386
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.415
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.445
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.527
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.557
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.585
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.641
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.667
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.694
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.755
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.781
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.806
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:04:55.853
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.198
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.230
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.257
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.284
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.309
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.336
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.363
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.390
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.417
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.445
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.483
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.511
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.540
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.570
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.598
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.625
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.703
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.732
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.757
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.807
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.833
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.859
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.921
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.947
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:09.973
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:10.028
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.783
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.807
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.834
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.864
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.892
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.920
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.950
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:36.977
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.000
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.030
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.065
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.104
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.135
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.165
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.194
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.279
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.308
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.337
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.387
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.414
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.440
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.499
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.523
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.549
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:05:37.594
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.468
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.496
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.520
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.548
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.576
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.604
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.628
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.656
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.684
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.714
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.743
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.784
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.814
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.839
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.872
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.970
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:27.997
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.024
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.082
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.108
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.132
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.209
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.235
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.261
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-05-16 15:30:28.325
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'

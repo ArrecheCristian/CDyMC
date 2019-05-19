@@ -4,8 +4,8 @@
 <TaskGroup GroupName="Root" NumberOfElements="0"/>
 </Element>
 <RunConfiguration ContextName="Active Debug Context" ExecutionContextType="ActiveDebugContext"/>
-<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TP2Ej1/Project_Settings/Debugger/TP2Ej1_MC9S08SH8_PnE OSBDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="TP2Ej1_MC9S08SH8_PnE OSBDM" ExecutionContextType="LaunchConfiguration"/>
-<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TP2Ej1/Project_Settings/Debugger/TP2Ej1_MC9S08SH8_PnE Full Chip Simulator.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="TP2Ej1_MC9S08SH8_PnE Full Chip Simulator" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TP2EJ1v2/Project_Settings/Debugger/TP2EJ1v2_MC9S08SH8_PnE OSBDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="TP2EJ1v2_MC9S08SH8_PnE OSBDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TP2EJ1v2/Project_Settings/Debugger/TP2EJ1v2_MC9S08SH8_PnE Full Chip Simulator.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="TP2EJ1v2_MC9S08SH8_PnE Full Chip Simulator" ExecutionContextType="LaunchConfiguration"/>
 <Provider ProviderName="Flash Programmer for ARM"/>
 <Provider ProviderName="Flash Programmer for ColdFire V234"/>
 <Provider ProviderName="Flash Programmer"/>
