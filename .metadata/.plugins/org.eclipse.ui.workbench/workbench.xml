@@ -45,7 +45,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP2EJ1v2/Sources/main.c" title="main.c" tooltip="TP2EJ1v2/Sources/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP2EJ1v2/Sources/main.c"/>
-<editorState selectionLength="0" selectionOffset="1841"/>
+<editorState selectionLength="0" selectionOffset="1782"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" partName="MCUinit.c" path="C:/Users/Federico/workspace/TP2EJ1v2/Sources/MCUinit.c" title="MCUinit.c" tooltip="TP2EJ1v2/Sources/MCUinit.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP2EJ1v2/Sources/MCUinit.c"/>
@@ -131,8 +131,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" detailsPane="false" detailsPaneDivider="750,250" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Errors (14 items)"/>
 </expanded>
@@ -149,17 +148,13 @@
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
 <viewState horizontalPosition="78" verticalPosition="19">
-<expanded>
-<element path="TP2EJ1v2  :  MC9S08SH8"/>
+<expanded>&#x0A;<element path="TP2EJ1v2  :  MC9S08SH8"/>
 <element path="TP2EJ1v2  :  MC9S08SH8--restore_state_delimiter--Sources"/>
 <element path="TP2EJ1v2  :  MC9S08SH8--restore_state_delimiter--Sources--restore_state_delimiter--Reloj"/>
 </expanded>
-<selection>
-<element path="C:/Users/Federico/workspace/TP2EJ1v2/Sources/funcion_teclado.c"/>
+<selection>&#x0A;<element path="C:/Users/Federico/workspace/TP2EJ1v2/Sources/funcion_teclado.c"/>
 </selection>
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.SharedFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.ui.CView_patternFilterId_rseHostSettingsCache.xml" isEnabled="true"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ClosedProjectFilter" isEnabled="false"/>
@@ -477,138 +472,129 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/MCUinit.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/funcionesPropias.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/funcion_delay.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/Reloj/funcion_reloj.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/funcion_teclado.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/MCUinit.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/funcion_delay.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/Reloj/funcion_reloj.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2EJ1v2/Sources/funcion_teclado.c"/>
 </editors>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="1763" y="0"/>
+<position/>
 </item>
-<item historyLabel="funcionesPropias.c" index="2">
+<item historyLabel="funcion_reloj.c" index="3">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="770" y="0"/>
 </item>
-<item historyLabel="funcion_delay.c" index="3">
-<position info="not_deleted" x="664" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position/>
-</item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="770" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="770" y="0"/>
-</item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="1329" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="522" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="448" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="4227" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="262" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="4151" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="262" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="1076" y="22"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="4149" y="0"/>
 </item>
-<item historyLabel="funcion_delay.c" index="3">
+<item historyLabel="funcion_delay.c" index="2">
 <position info="not_deleted" x="664" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="16" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="4149" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="funcion_delay.c" index="3">
+<item historyLabel="funcion_delay.c" index="2">
 <position info="not_deleted" x="664" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="4317" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="770" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="0" y="132"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position/>
 </item>
-<item historyLabel="funcion_delay.c" index="3">
+<item historyLabel="funcion_delay.c" index="2">
 <position info="not_deleted" x="664" y="0"/>
 </item>
-<item historyLabel="funcion_reloj.c" index="4">
+<item historyLabel="funcion_reloj.c" index="3">
 <position info="not_deleted" x="15" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position info="not_deleted" x="263" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position info="not_deleted" x="263" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="181" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position info="not_deleted" x="263" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="2725" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position info="not_deleted" x="1599" y="17"/>
 </item>
 <item historyLabel="main.c" index="1">
@@ -623,14 +609,26 @@
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="2725" y="0"/>
 </item>
-<item historyLabel="funcion_teclado.c" index="5">
+<item historyLabel="funcion_teclado.c" index="4">
 <position info="not_deleted" x="1599" y="17"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="2725" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="1">
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="3454" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="5">
+<position info="not_deleted" x="5251" y="190"/>
+</item>
+<item historyLabel="funcion_delay.c" index="6">
+<position info="not_deleted" x="664" y="0"/>
+</item>
+<item historyLabel="funcion_reloj.c" index="7">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item active="true" historyLabel="funcion_teclado.c" index="8">
+<position info="not_deleted" x="1599" y="17"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -638,16 +636,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@893bd6"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@af4a7d"/>
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="topRight"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
