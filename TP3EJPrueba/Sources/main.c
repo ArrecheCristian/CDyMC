@@ -26,16 +26,23 @@ void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de m
 
 //char comando[]="AT+PIN\r\n";//Este modulo como es chino necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
-	char respuesta[30];
+	char respuesta[5];
 	char bienvenida[]="Bienvenido";
+	char aux;
 
 	short int i=0;
 	MCU_init();
   
 	while(PTBD_PTBD2==0);
 	for(;;) {
-		//SCI_enviar_cadena(bienvenida);
-		delay(1000);
+			if(SCIS1_RDRF!=0){
+				respuesta[i]=SCID;
+				i++;
+			}
+			else{
+				respuesta[i] = '\0';
+				SCI_enviar_cadena(respuesta);
+				i=0;
+			}
 	}
 }
-

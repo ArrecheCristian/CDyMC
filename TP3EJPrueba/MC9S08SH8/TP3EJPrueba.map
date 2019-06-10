@@ -24,7 +24,7 @@ Entry point: 0xE07B (_Startup)
 _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     0
-  _Copy    *toCopyDownBeg 0xE158
+  _Copy    *toCopyDownBeg 0xE176
 } _startupData;
 
 *********************************************************************************************
@@ -33,8 +33,8 @@ Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            198     R     0xE092     0xE157   ROM
-.copy                              2     R     0xE158     0xE159   ROM
+.text                            228     R     0xE092     0xE175   ROM
+.copy                              2     R     0xE176     0xE177   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -134,7 +134,7 @@ Section Name                    Size  Type     From       To       Segment
 .stack                            64   R/W      0x100      0x13F   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         19C (dec:      412)
+READ_ONLY (R):         1BA (dec:      442)
 READ_WRITE (R/W):       40 (dec:       64)
 NO_INIT (N/I):          6C (dec:      108)
 
@@ -159,8 +159,8 @@ MODULE:                 -- MCUinit_c.obj --
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     delay                                     E0F3      2B      43       1   .text       
-     main                                      E11E      3A      58       1   .text       
+     SCI_enviar_cadena                         E0F3      1B      27       1   .text       
+     main                                      E10E      68     104       1   .text       
 - VARIABLES:
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
@@ -196,10 +196,10 @@ MODULE:                 -- mc9s08sh8_c.obj --
      _TPM1C1SC                                   28       1       1       0   .abs_section_28
      _SCIC1                                      3A       1       1       1   .abs_section_3a
      _SCIC2                                      3B       1       1       2   .abs_section_3b
-     _SCIS1                                      3C       1       1       1   .abs_section_3c
+     _SCIS1                                      3C       1       1       3   .abs_section_3c
      _SCIS2                                      3D       1       1       1   .abs_section_3d
      _SCIC3                                      3E       1       1       1   .abs_section_3e
-     _SCID                                       3F       1       1       1   .abs_section_3f
+     _SCID                                       3F       1       1       3   .abs_section_3f
      _ICSC1                                      48       1       1       1   .abs_section_48
      _ICSC2                                      49       1       1       1   .abs_section_49
      _ICSTRM                                     4A       1       1       1   .abs_section_4a
@@ -273,7 +273,7 @@ MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                0     97     66
-  main_c.obj                                   0    101      0
+  main_c.obj                                   0    131      0
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
   other                                       64     14      2
@@ -282,7 +282,7 @@ MODULE STATISTIC
 SECTION USE IN OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 SECTION: ".text"
-  MCU_init isrVscitx isrVscirx isrVscierr delay main 
+  MCU_init isrVscitx isrVscirx isrVscierr SCI_enviar_cadena main 
 SECTION: ".init"
   loadByte Init _Startup 
 SECTION: ".abs_section_ffbd"
@@ -511,10 +511,10 @@ OBJECT LIST SORTED BY ADDRESS
      _SCIBD                                      38       2       2       2   .abs_section_38
      _SCIC1                                      3A       1       1       1   .abs_section_3a
      _SCIC2                                      3B       1       1       2   .abs_section_3b
-     _SCIS1                                      3C       1       1       1   .abs_section_3c
+     _SCIS1                                      3C       1       1       3   .abs_section_3c
      _SCIS2                                      3D       1       1       1   .abs_section_3d
      _SCIC3                                      3E       1       1       1   .abs_section_3e
-     _SCID                                       3F       1       1       1   .abs_section_3f
+     _SCID                                       3F       1       1       3   .abs_section_3f
      _ICSC1                                      48       1       1       1   .abs_section_48
      _ICSC2                                      49       1       1       1   .abs_section_49
      _ICSTRM                                     4A       1       1       1   .abs_section_4a
@@ -582,8 +582,8 @@ OBJECT LIST SORTED BY ADDRESS
      isrVscitx                                 E0F0       1       1       1   .text       
      isrVscirx                                 E0F1       1       1       1   .text       
      isrVscierr                                E0F2       1       1       1   .text       
-     delay                                     E0F3      2B      43       1   .text       
-     main                                      E11E      3A      58       1   .text       
+     SCI_enviar_cadena                         E0F3      1B      27       1   .text       
+     main                                      E10E      68     104       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -593,12 +593,12 @@ UNUSED-OBJECTS SECTION
 ---------------------------------------------------------------------------------------------
 NOT USED PROCEDURES
 main_c.obj:
-  SCI_enviar_cadena 
+  delay 
 
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE158 ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE176 ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -611,7 +611,8 @@ MCU_init                  USES _SOPT1 _SPMSC1 _SPMSC2 _ICSTRM _ICSSC _ICSC1
                                 _ICSC2 _GNGC _PTASE _PTBSE _PTCSE _PTADS _PTBDS 
                                 _PTCDS _SCIC2 _SCIS1 _SCID _SCIS2 _SCIBD _SCIC1 
                                 _SCIC3 
-main                      USES MCU_init _PTBD delay 
+SCI_enviar_cadena         USES _SCIS1 _SCID 
+main                      USES MCU_init _PTBD _SCIS1 _SCID SCI_enviar_cadena 
 _vect                     USES isrVscitx isrVscirx isrVscierr _Startup 
 
 *********************************************************************************************
@@ -623,7 +624,7 @@ DEPENDENCY TREE
  |  | 
  |  +- MCU_init            
  |  |    
- |  +- delay               
+ |  +- SCI_enviar_cadena   
  |       
  +- _Startup            
     | 
@@ -649,6 +650,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 6
-Total size of all blocks to be downloaded: 412
+Number of blocks to be downloaded: 5
+Total size of all blocks to be downloaded: 442
 
