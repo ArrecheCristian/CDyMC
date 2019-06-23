@@ -51,6 +51,9 @@ typedef unsigned long int uint32_t;
 
 /* User declarations and definitions */
 /*   Code, declarations and definitions here will be preserved during code generation */
+volatile short int RX_flag;
+volatile short int TX_flag;
+
 /* End of user declarations and definitions */
 
 
@@ -139,8 +142,7 @@ void MCU_init(void)
 */
 __interrupt void isrVscitx(void)
 {
-  /* Write your interrupt code here ... */
-
+	TX_flag = 1; //Se activa el flag de la interrupción	para transmitir
 }
 /* end of isrVscitx */
 
@@ -157,8 +159,7 @@ __interrupt void isrVscitx(void)
 */
 __interrupt void isrVscirx(void)
 {
-  /* Write your interrupt code here ... */
-
+	RX_flag = 1; //Se activa el flag de la interrupción de recepcion
 }
 /* end of isrVscirx */
 
