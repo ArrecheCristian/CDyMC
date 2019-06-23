@@ -1,7 +1,10 @@
 #include <hidef.h> /* for EnableInterrupts macro */
 #include "derivative.h" /* include peripheral declarations */
 #include <string.h>
+
 #define N 50
+#define FALSE 0
+#define TRUE 1
 
 
 void MCU_init(void); /* Device initialization function declaration */
@@ -65,15 +68,71 @@ void menu_inicio(){
 }
 
 
-void guardar_buffer(){
+void escribir_buffer(){
 	buffer[vacio] = SCID;
 	vacio = (vacio+1) % N;
 }
 
 
+unsigned short int leer_buffer(char* comando, unsigned short int i){
+	
+	if(vacio == lleno){
+		return FALSE;
+	}
+	else{
+		comando[i] = buffer[lleno];
+		lleno = (lleno+1) % N;	
+		return TRUE;
+	}
+}
+
+
+void leer_comando(char *comando){
+	unsigned short int i = 0;
+	unsigned short int corte;
+	comando="     ";
+	
+	corte = leer_buffer(comando,i);
+	
+	while (!corte && i<5){
+		corte = leer_buffer(comando,i);
+		i++;
+	}
+}
+
+void ejecutar_comando(char *comando){
+	
+	switch(comando){
+	
+		case "ON":
+		case "on":
+		{
+			
+		}
+		case "OFF":
+		case "off":
+		{
+					
+		}
+		case "RESET":
+		case "reset":
+		{
+					
+		}
+		case "100":
+		{
+			
+		}
+	
+	}
+	
+}
+
 
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
+	
+	char comando[5];
 	
 	MCU_init();
 	
@@ -84,13 +143,14 @@ void main(void) {
 	
 	for(;;) {
 			if(RX_flag){
-				guardar_buffer();
+				escribir_buffer();
 				sync_flag = 1;
 			}
 			
 			if(TX_flag){
 				if(sync_flag){
-					
+					leer_comando(comando);
+					ejecutar_comando(comando);
 				}
 			}	
 	}
