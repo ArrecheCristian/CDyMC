@@ -49,7 +49,7 @@
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].useMemoryConfigFile" value="true"/>
 <property key="host.defaultEncoding" value=""/>
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].networkUDPPort" value="1234"/>
-<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1560193205824"/>
+<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1561315264009"/>
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].executeReset" value="false"/>
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].useNetworkUDPPort" value="false"/>
 <property key="hidden.applicator.com.freescale.debugger.applicator.launchconfiguration.lc.TP3EJPrueba_MC9S08SH8_PnE OSBDM.proj.TP3EJPrueba" value="com.freescale.debugger.applicator.launchconfiguration.lc.TP3EJPrueba_MC9S08SH8_PnE OSBDM.proj.TP3EJPrueba"/>
@@ -85,7 +85,7 @@
 <property key="propertySet.[cw.dbg.ct.bareboard].networkNetMask" value="255.255.255.255"/>
 <property key="propertySet.[cw.ide.settingscache].hidden.HostID" value="com.freescale.cdt.debug.cw.core.ui.rse.systemtype.bareboard.hardware.190527142022-0300.1"/>
 <property key="host.defaultEncoding" value=""/>
-<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1560193205825"/>
+<property key="propertySet.[cw.ide.settingscache].hidden.TimeStamp" value="1561315264009"/>
 <property key="propertySet.[cw.dbg.ct.targetConnLost].RetryTimeout" value="20"/>
 <property key="propertySet.[cw.dbg.ct.bareboard].useNetworkUDPPort" value="false"/>
 <property key="propertySet.[cw.dbg.ct.bareboard].useMemoryConfigFile" value="true"/>
