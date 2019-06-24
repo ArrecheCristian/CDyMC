@@ -25,7 +25,7 @@ _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     1
   _Range   pZeroOut       0x100     5
-  _Copy    *toCopyDownBeg 0xE32A
+  _Copy    *toCopyDownBeg 0xE333
 } _startupData;
 
 *********************************************************************************************
@@ -34,8 +34,9 @@ Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            664     R     0xE092     0xE329   ROM
-.copy                              2     R     0xE32A     0xE32B   ROM
+.rodata1                         364     R     0xE092     0xE1FD   ROM
+.text                            309     R     0xE1FE     0xE332   ROM
+.copy                              2     R     0xE333     0xE334   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -137,7 +138,7 @@ Section Name                    Size  Type     From       To       Segment
 .stack                            64   R/W      0x105      0x144   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         36E (dec:      878)
+READ_ONLY (R):         377 (dec:      887)
 READ_WRITE (R/W):       45 (dec:       69)
 NO_INIT (N/I):          6C (dec:      108)
 
@@ -152,23 +153,35 @@ OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 MODULE:                 -- MCUinit_c.obj --
 - PROCEDURES:
-     MCU_init                                  E092      5E      94       1   .text       
-     isrVscitx                                 E0F0       9       9       1   .text       
-     isrVscirx                                 E0F9       9       9       1   .text       
-     isrVscierr                                E102       1       1       1   .text       
+     MCU_init                                  E1FE      5E      94       1   .text       
+     isrVscitx                                 E25C       9       9       1   .text       
+     isrVscirx                                 E265       9       9       1   .text       
+     isrVscierr                                E26E       1       1       1   .text       
 - VARIABLES:
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
-     RX_flag                                    101       2       2       3   .common     
-     TX_flag                                    103       2       2       3   .common     
+     RX_flag                                    101       2       2       1   .common     
+     TX_flag                                    103       2       2       1   .common     
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     SCI_enviar_cadena                         E103      1B      27       3   .text       
-     menu_inicio                               E11E     17B     379       1   .text       
-     main                                      E299      91     145       1   .text       
+     SCI_enviar_cadena                         E26F      1B      27      12   .text       
+     menu_inicio                               E28A      3D      61       1   .text       
+     main                                      E2C7      6C     108       1   .text       
 - VARIABLES:
-     sync_flag                                  100       1       1       2   .bss        
+     STRING...Bienvenido..elija..1             E092      21      33       1   .rodata1    
+     STRING....Comandos.para.con.2             E0B3      2F      47       1   .rodata1    
+     STRING.......1..100.....100.3             E0E2      18      24       1   .rodata1    
+     STRING.......2..300.....300.4             E0FA      18      24       1   .rodata1    
+     STRING.......3..1k.....1000.5             E112      18      24       1   .rodata1    
+     STRING.......4..2k.....2000.6             E12A      18      24       1   .rodata1    
+     STRING.......1..100.....100.7             E142      18      24       1   .rodata1    
+     STRING.......1..100.....100.8             E15A      18      24       1   .rodata1    
+     STRING....Comandos.de.contr.9             E172      18      24       1   .rodata1    
+     STRING.......1..ON.....Ence.10            E18A      23      35       1   .rodata1    
+     STRING.......2..OFF.....Apa.11            E1AD      22      34       1   .rodata1    
+     STRING.......3..RESET.....V.12            E1CF      2F      47       1   .rodata1    
+     sync_flag                                  100       1       1       1   .bss        
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
      loadByte                                  E000       E      14       5   .init       
@@ -280,7 +293,7 @@ MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                4    113     66
-  main_c.obj                                   1    551      0
+  main_c.obj                                   1    196    364
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
   other                                       64     14      2
@@ -294,6 +307,13 @@ SECTION: ".bss"
   sync_flag 
 SECTION: ".init"
   loadByte Init _Startup 
+SECTION: ".rodata1"
+  STRING...Bienvenido..elija..1 STRING....Comandos.para.con.2 
+  STRING.......1..100.....100.3 STRING.......2..300.....300.4 
+  STRING.......3..1k.....1000.5 STRING.......4..2k.....2000.6 
+  STRING.......1..100.....100.7 STRING.......1..100.....100.8 
+  STRING....Comandos.de.contr.9 STRING.......1..ON.....Ence.10 
+  STRING.......2..OFF.....Apa.11 STRING.......3..RESET.....V.12 
 SECTION: ".abs_section_ffbd"
   NVPROT_INIT 
 SECTION: ".abs_section_ffbf"
@@ -551,9 +571,9 @@ OBJECT LIST SORTED BY ADDRESS
      _RTCSC                                      6C       1       1       0   .abs_section_6c
      _RTCCNT                                     6D       1       1       0   .abs_section_6d
      _RTCMOD                                     6E       1       1       0   .abs_section_6e
-     sync_flag                                  100       1       1       2   .bss        
-     RX_flag                                    101       2       2       3   .common     
-     TX_flag                                    103       2       2       3   .common     
+     sync_flag                                  100       1       1       1   .bss        
+     RX_flag                                    101       2       2       1   .common     
+     TX_flag                                    103       2       2       1   .common     
      _SRS                                      1800       1       1       0   .abs_section_1800
      _SBDFR                                    1801       1       1       0   .abs_section_1801
      _SOPT1                                    1802       1       1       1   .abs_section_1802
@@ -592,13 +612,25 @@ OBJECT LIST SORTED BY ADDRESS
      loadByte                                  E000       E      14       5   .init       
      Init                                      E00E      6D     109       1   .init       
      _Startup                                  E07B       9       9       1   .init       
-     MCU_init                                  E092      5E      94       1   .text       
-     isrVscitx                                 E0F0       9       9       1   .text       
-     isrVscirx                                 E0F9       9       9       1   .text       
-     isrVscierr                                E102       1       1       1   .text       
-     SCI_enviar_cadena                         E103      1B      27       3   .text       
-     menu_inicio                               E11E     17B     379       1   .text       
-     main                                      E299      91     145       1   .text       
+     STRING...Bienvenido..elija..1             E092      21      33       1   .rodata1    
+     STRING....Comandos.para.con.2             E0B3      2F      47       1   .rodata1    
+     STRING.......1..100.....100.3             E0E2      18      24       1   .rodata1    
+     STRING.......2..300.....300.4             E0FA      18      24       1   .rodata1    
+     STRING.......3..1k.....1000.5             E112      18      24       1   .rodata1    
+     STRING.......4..2k.....2000.6             E12A      18      24       1   .rodata1    
+     STRING.......1..100.....100.7             E142      18      24       1   .rodata1    
+     STRING.......1..100.....100.8             E15A      18      24       1   .rodata1    
+     STRING....Comandos.de.contr.9             E172      18      24       1   .rodata1    
+     STRING.......1..ON.....Ence.10            E18A      23      35       1   .rodata1    
+     STRING.......2..OFF.....Apa.11            E1AD      22      34       1   .rodata1    
+     STRING.......3..RESET.....V.12            E1CF      2F      47       1   .rodata1    
+     MCU_init                                  E1FE      5E      94       1   .text       
+     isrVscitx                                 E25C       9       9       1   .text       
+     isrVscirx                                 E265       9       9       1   .text       
+     isrVscierr                                E26E       1       1       1   .text       
+     SCI_enviar_cadena                         E26F      1B      27      12   .text       
+     menu_inicio                               E28A      3D      61       1   .text       
+     main                                      E2C7      6C     108       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -610,13 +642,15 @@ NOT USED PROCEDURES
 main_c.obj:
   delay escribir_buffer leer_buffer leer_comando ejecutar_comando 
 NOT USED VARIABLES
+MCUinit_c.obj:
+  NC 
 main_c.obj:
-  STRING.......2 lleno vacio buffer 
+  STRING.......13 lleno vacio buffer 
 
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE32A ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE333 ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -632,9 +666,14 @@ MCU_init                  USES _SOPT1 _SPMSC1 _SPMSC2 _ICSTRM _ICSSC _ICSC1
 isrVscitx                 USES TX_flag 
 isrVscirx                 USES RX_flag 
 SCI_enviar_cadena         USES _SCIS1 _SCID 
-menu_inicio               USES SCI_enviar_cadena 
-main                      USES MCU_init _PTBD menu_inicio sync_flag RX_flag 
-                                SCI_enviar_cadena TX_flag 
+menu_inicio               USES STRING...Bienvenido..elija..1 SCI_enviar_cadena 
+                                STRING....Comandos.para.con.2 STRING.......1..100.....100.3 
+                                STRING.......2..300.....300.4 STRING.......3..1k.....1000.5 
+                                STRING.......4..2k.....2000.6 STRING.......1..100.....100.7 
+                                STRING.......1..100.....100.8 STRING....Comandos.de.contr.9 
+                                STRING.......1..ON.....Ence.10 STRING.......2..OFF.....Apa.11 
+                                STRING.......3..RESET.....V.12 
+main                      USES MCU_init _PTBD menu_inicio sync_flag 
 _vect                     USES isrVscitx isrVscirx isrVscierr _Startup 
 
 *********************************************************************************************
@@ -647,11 +686,9 @@ DEPENDENCY TREE
  |  +- MCU_init            
  |  |    
  |  +- menu_inicio         
- |  |  | 
- |  |  +- SCI_enviar_cadena   
- |  |       
- |  +- SCI_enviar_cadena    (see above)
- |     
+ |     | 
+ |     +- SCI_enviar_cadena   
+ |          
  +- _Startup            
     | 
     +- Init                
@@ -676,6 +713,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 5
-Total size of all blocks to be downloaded: 878
+Number of blocks to be downloaded: 6
+Total size of all blocks to be downloaded: 887
 

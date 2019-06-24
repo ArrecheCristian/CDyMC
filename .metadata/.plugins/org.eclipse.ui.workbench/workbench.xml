@@ -41,31 +41,62 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/main.c" title="main.c" tooltip="TP3EJPrueba/Sources/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/main.c" title="main.c" tooltip="TP3EJPrueba/Sources/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/main.c"/>
-<editorState selectionLength="0" selectionOffset="2615"/>
+<editorState selectionLength="0" selectionOffset="3991"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" partName="MCUinit.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/MCUinit.c" title="MCUinit.c" tooltip="TP3EJPrueba/Sources/MCUinit.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/MCUinit.c"/>
-<editorState selectionLength="0" selectionOffset="1697"/>
+<editorState selectionLength="0" selectionOffset="7123"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" partName="MCUinit.h" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/MCUinit.h" title="MCUinit.h" tooltip="TP3EJPrueba/Sources/MCUinit.h" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" partName="MCUinit.h" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/MCUinit.h" title="MCUinit.h" tooltip="TP3EJPrueba/Sources/MCUinit.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/MCUinit.h"/>
-<editorState selectionLength="0" selectionOffset="1803"/>
+<editorState selectionLength="0" selectionOffset="0"/>
 </editor>
 </editors>
 <views>
+<view id="com.processorexpert.ui.memorymap.views.MemoryMapView" partName="Memory Map">
+<viewState/>
+</view>
+<view id="com.freescale.targettaskframework.views.TargetTaskView" partName="Target Tasks"/>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
 <viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="8"/>
 </view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.processorexpert.ui.selector.views.BeanSelectorView" partName="Components Library">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" partName="Memory Browser"/>
 <view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables">
+<viewState/>
+</view>
+<view id="com.pemicro.core.chipView" partName="ChipView">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="0" org.eclipse.ui.ide.descriptionField="0" org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.priorityField="0" org.eclipse.ui.ide.resourceField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -76,19 +107,20 @@
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets">
-<viewState/>
-</view>
 <view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
 <viewState/>
 </view>
+<view id="com.freescale.core.debugger.cacheviewer.views.CacheView" partName="Cache">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Targets">
+<viewState/>
+</view>
+<view id="com.processorexpert.ui.inspector.views.InspectorView" partName="Component Inspector">
+<viewState visibility="0"/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" detailsPane="false" detailsPaneDivider="750,250" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -99,49 +131,6 @@
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
-</view>
-<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" partName="Disassembly">
-<viewState/>
-</view>
-<view id="com.processorexpert.ui.targetcpu.views.TargetCpuView" partName="Target CPU">
-<viewState/>
-</view>
-<view id="com.processorexpert.ui.memorymap.views.MemoryMapView" partName="Memory Map">
-<viewState/>
-</view>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-</viewState>
-</view>
-<view id="com.freescale.targettaskframework.views.TargetTaskView" partName="Target Tasks"/>
-<view id="com.processorexpert.ui.selector.views.BeanSelectorView" partName="Components Library">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" partName="Memory Browser"/>
-<view id="com.pemicro.core.chipView" partName="ChipView">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
-<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
-<view id="com.freescale.core.debugger.cacheviewer.views.CacheView" partName="Cache">
-<viewState/>
-</view>
-<view id="com.processorexpert.ui.inspector.views.InspectorView" partName="Component Inspector">
-<viewState visibility="0"/>
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
 <viewState horizontalPosition="78" verticalPosition="0">
@@ -163,8 +152,14 @@
 </customFilters>
 </viewState>
 </view>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" partName="Disassembly">
+<viewState/>
+</view>
+<view id="com.processorexpert.ui.targetcpu.views.TargetCpuView" partName="Target CPU">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="com.processorexpert.ui.targetcpu.views.TargetCpuView" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="com.freescale.analysis.analysisResultsActionSet"/>
@@ -472,42 +467,90 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/TP3EJPrueba/DeviceInitialization.pe"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/MCUinit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/MCUinit.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej2B/Sources/MCUinit.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP2Ej2B/Sources/MCUinit.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/MCUinit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/MCUinit.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.c"/>
 </editors>
 <item historyLabel="main.c" index="0">
-<position/>
+<position info="not_deleted" x="1838" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3388" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3656" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3656" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3656" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3667" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="3680" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1841" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1882" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1923" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1964" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2010" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2062" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2111" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2111" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="DeviceInitialization.pe" index="2">
 <position/>
 </item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6713" y="0"/>
+<position info="not_deleted" x="1697" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1697" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1697" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="507" y="0"/>
 </item>
 <item historyLabel="MCUinit.c" index="3">
 <position/>
@@ -515,116 +558,77 @@
 <item historyLabel="MCUinit.h" index="4">
 <position/>
 </item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6713" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="321" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1672" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3255" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2030" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1645" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1645" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6859" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6859" y="0"/>
-</item>
-<item historyLabel="MCUinit.h" index="2">
-<position info="not_deleted" x="1803" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6859" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="315" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
+<item historyLabel="MCUinit.c" index="7">
 <position info="not_deleted" x="1697" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="347" y="0"/>
+<item historyLabel="MCUinit.h" index="8">
+<position info="not_deleted" x="1803" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2381" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="MCUinit.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2214" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2953" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2339" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2554" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2554" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="MCUinit.h" index="10">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2258" y="0"/>
+<item historyLabel="MCUinit.c" index="9">
+<position info="not_deleted" x="6770" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2277" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2192" y="0"/>
+<item historyLabel="MCUinit.h" index="10">
+<position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2593" y="0"/>
+<item historyLabel="MCUinit.c" index="9">
+<position info="not_deleted" x="1575" y="3"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2449" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2447" y="0"/>
+<item historyLabel="MCUinit.c" index="9">
+<position info="not_deleted" x="1576" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="2774" y="0"/>
+<item historyLabel="main.c" index="11">
+<position/>
+</item>
+<item historyLabel="MCUinit.c" index="9">
+<position info="not_deleted" x="1576" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="303" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="9">
+<position info="not_deleted" x="1576" y="0"/>
+</item>
+<item historyLabel="main.c" index="11">
+<position info="not_deleted" x="3991" y="0"/>
+</item>
+<item historyLabel="MCUinit.h" index="12">
+<position/>
+</item>
+<item historyLabel="MCUinit.c" index="13">
+<position info="not_deleted" x="7123" y="0"/>
+</item>
+<item historyLabel="MCUinit.h" index="12">
+<position/>
+</item>
+<item historyLabel="MCUinit.c" index="13">
+<position info="not_deleted" x="7123" y="0"/>
+</item>
+<item historyLabel="main.c" index="11">
+<position info="not_deleted" x="3991" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="13">
+<position info="not_deleted" x="7123" y="0"/>
+</item>
+<item active="true" historyLabel="MCUinit.h" index="12">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -652,15 +656,6 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP2Ej2B/Sources/MCUinit.h">
-<persistable path="/TP2Ej2B/Sources/MCUinit.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP2Ej2B/Sources/MCUinit.c">
-<persistable path="/TP2Ej2B/Sources/MCUinit.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mc9s08sh8.c" tooltip="TP3EJPrueba/Lib/mc9s08sh8.c">
-<persistable path="/TP3EJPrueba/Lib/mc9s08sh8.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP3EJPrueba/Sources/MCUinit.h">
 <persistable path="/TP3EJPrueba/Sources/MCUinit.h"/>
 </file>
@@ -670,14 +665,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP3EJPrueba/Sources/main.c">
 <persistable path="/TP3EJPrueba/Sources/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP3EJ5/Sources/MCUinit.h">
-<persistable path="/TP3EJ5/Sources/MCUinit.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP3EJ5/Sources/MCUinit.c">
-<persistable path="/TP3EJ5/Sources/MCUinit.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP3EJ5/Sources/main.c">
-<persistable path="/TP3EJ5/Sources/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="PruebaParlante/Sources/MCUinit.h">
+<persistable path="/PruebaParlante/Sources/MCUinit.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="PruebaParlante/Sources/MCUinit.c">
 <persistable path="/PruebaParlante/Sources/MCUinit.c"/>
@@ -685,8 +674,17 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="PruebaParlante/Sources/main.c">
 <persistable path="/PruebaParlante/Sources/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP2Ej2B/Sources/main.c">
-<persistable path="/TP2Ej2B/Sources/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="DeviceInitialization.pe" tooltip="TP3EJPrueba/DeviceInitialization.pe">
+<persistable path="/TP3EJPrueba/DeviceInitialization.pe"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP2Ej2B/Sources/MCUinit.h">
+<persistable path="/TP2Ej2B/Sources/MCUinit.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP2Ej2B/Sources/MCUinit.c">
+<persistable path="/TP2Ej2B/Sources/MCUinit.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mc9s08sh8.c" tooltip="TP3EJPrueba/Lib/mc9s08sh8.c">
+<persistable path="/TP3EJPrueba/Lib/mc9s08sh8.c"/>
 </file>
 </mruList>
 </workbench>

@@ -1476,3 +1476,1137 @@ java.lang.NullPointerException
 
 !ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.690
 !MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+!SESSION 2019-06-24 14:06:47.514 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-06-24 14:07:13.404
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-24 14:07:42.166
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-24 14:07:42.168
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-06-24 14:07:57.912
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.802
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.804
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.844
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.882
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.926
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.957
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:29.990
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.064
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.094
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.122
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.204
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.234
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.259
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:30.325
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.422
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.458
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.491
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.523
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.552
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.581
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.638
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.662
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.688
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.753
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.780
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.806
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:10:40.854
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:10:42.344
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:10:42.372
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:10:42.380
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.088
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.122
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.154
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.183
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.215
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.247
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.279
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.342
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.376
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.411
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.480
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.517
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.546
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:20.600
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:23.874
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:23.898
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:23.927
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:23.957
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:23.985
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.013
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.068
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.096
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.121
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.182
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.210
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.239
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:11:24.292
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2019-06-24 14:21:25.417
+!MESSAGE Contributor com.processorexpert.ui.projectpanel.views.PEProject cannot be created.
+!SESSION 2019-06-24 14:30:45.921 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.processorexpert.core 1 0 2019-06-24 14:30:52.174
+!MESSAGE Plugin com.freescale.processorexpert.core.socketclient ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-24 14:31:08.204
+!MESSAGE NLS unused message: MergeHostsDialog_RSESettings in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-06-24 14:31:08.207
+!MESSAGE NLS missing message: CreateNewHostDialog_3 in: com.freescale.core.ide.rseSettingsCache.internal.messages
+
+!ENTRY org.eclipse.osgi 2 0 2019-06-24 14:31:14.512
+!MESSAGE While loading class "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/ [218]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.freescale.targettaskframework.history.ITargetTaskExecuteHistoryChangedListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.freescale.targettaskframework_7.15.0.FSL_b8720/" by thread "Worker-5".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 93 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:165)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:554)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:524)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:455)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass_LockClassLoader(ClasspathManager.java:443)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:423)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:379)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:455)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.loadClass(BundleLoader.java:324)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1274)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:259)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3959)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3580)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.346
+!MESSAGE ProxyOptionHandler: Option ID does not match expected pattern: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.347
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.377
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.412
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.448
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.485
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.520
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.559
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.663
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.696
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.722
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.816
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.845
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:44.874
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:45.000
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.152
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.189
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.221
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.252
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.277
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.305
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.368
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.396
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.425
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.493
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.521
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.546
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:41:59.595
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:42:05.143
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:42:05.159
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.debugger.cdt 4 120 2019-06-24 14:42:05.165
+!MESSAGE Error logged from CodeWarrior debugger core:
+!STACK 0
+org.omg.PortableServer.POAPackage.ServantAlreadyActive: IDL:omg.org/PortableServer/POA/ServantAlreadyActive:1.0
+	at com.sun.corba.se.impl.oa.poa.POAPolicyMediatorBase_R.activateObject(Unknown Source)
+	at com.sun.corba.se.impl.oa.poa.POAImpl.activate_object(Unknown Source)
+	at com.freescale.cdt.debug.cw.CWCorbaMgr.activateObject(CWCorbaMgr.java:1499)
+	at com.freescale.debugger.ka.osek.OsekPlugin.connectToOSEKAwareRemoteObject(OsekPlugin.java:227)
+	at com.freescale.debugger.ka.osek.OsekPlugin.iorAdded(OsekPlugin.java:202)
+	at com.freescale.cdt.debug.cw.CWIorRegistry.register(CWIorRegistry.java:64)
+	at com.freescale.cdt.debug.cw.CWCallback.ObjectIorRegistered(CWCallback.java:283)
+	at cwdbg.DebuggerCallbackPOA._invoke(DebuggerCallbackPOA.java:242)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatchToServant(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequestRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleInput(Unknown Source)
+	at com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(Unknown Source)
+	at com.sun.corba.se.impl.protocol.CorbaMessageMediatorImpl.handleRequest(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.dispatch(Unknown Source)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.doWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.performWork(Unknown Source)
+	at com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl$WorkerThread.run(Unknown Source)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:41.850
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:41.887
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:41.920
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:41.950
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:41.981
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.009
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.033
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.095
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.128
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.165
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.246
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.276
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.306
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:42.364
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:47.890
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:47.915
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:47.945
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:47.976
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.003
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.032
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.090
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.121
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.145
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.208
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.236
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.264
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:43:48.315
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.087
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.114
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.140
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.166
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.194
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.221
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.281
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.308
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.335
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.400
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.427
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.451
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:14.501
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.791
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.818
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.845
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.873
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.899
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.927
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:37.995
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.022
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.048
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.110
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.135
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.162
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:44:38.214
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.431
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.460
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.488
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.517
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.547
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.575
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.603
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.655
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.685
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.720
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.797
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.827
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.858
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:05.916
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.074
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.098
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.128
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.158
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.186
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.214
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.273
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.301
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.324
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.395
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.427
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.460
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:09.527
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.494
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.524
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.552
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.580
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.612
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.636
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.664
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.726
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.757
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.791
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.865
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.893
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.920
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:53.973
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.077
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.107
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.136
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.166
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.196
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.226
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.362
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.393
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.431
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.518
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.550
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.578
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 14:46:57.629
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'

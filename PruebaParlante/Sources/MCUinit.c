@@ -50,7 +50,7 @@ typedef unsigned long int uint32_t;
 #endif
 
 /* User declarations and definitions */
-unsigned short NC=9091;
+unsigned short NC=15000;
 /*   Code, declarations and definitions here will be preserved during code generation */
 /* End of user declarations and definitions */
 

@@ -44,37 +44,18 @@ void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de m
 
 void menu_inicio(){
 	
-	//Cadenas para mensaje de bienvenida
-	char menu[] = "Bienvenido, elija su comando:\n"
-					" - Comandos para configuracion de frecuencia:\n"
-					"   1) 100 --> 100Hz\n";
-					//"   2) 300 --> 300Hz\n";
-					//"   3) 1k --> 1000Hz\n"
-					//"   4) 2k --> 2000Hz\n"
-					//" - Comandos de control\n"
-					//"   1) ON --> Encender parlante\n"
-					//"   2) OFF --> Apagar parlante\n"
-					//"   3) RESET --> Volver a inicializar el MCU\n";
-	//char linea2[] = "Comandos para configuracion de frecuencia\n";
-	//char linea3[] = "1) 100 --> 100Hz\n";
-	//char linea4[] = "2) 300 --> 300Hz\n";
-	//char linea5[] = "3) 1k --> 1000Hz\n";
-	//char linea6[] = "4) 2k --> 2000Hz\n";
-	//char linea7[] = "- Comandos de control\n";
-	//char linea8[] = "1) ON --> Encender parlante\n";
-	//char linea9[] = "2) OFF --> Apagar parlante";
-	//char linea10[] = "3) RESET --> Volver a inicializar el MCU";
-	
-	SCI_enviar_cadena(menu);
-	//SCI_enviar_cadena(linea2);
-	//SCI_enviar_cadena(linea3);
-	//SCI_enviar_cadena(linea4);
-	//SCI_enviar_cadena(linea5);
-	//SCI_enviar_cadena(linea6);
-	//SCI_enviar_cadena(linea7);
-	//SCI_enviar_cadena(linea8);
-	//SCI_enviar_cadena(linea9);
-	//SCI_enviar_cadena(linea10);
+	SCI_enviar_cadena("\n\n\nBienvenido, elija su comando:\n");
+	SCI_enviar_cadena(" - Comandos para configuracion de frecuencia:\n");
+	SCI_enviar_cadena("      1) 100 --> 100Hz\n");
+	SCI_enviar_cadena("      2) 300 --> 300Hz\n");
+	SCI_enviar_cadena("      3) 1k --> 1000Hz\n");
+	SCI_enviar_cadena("      4) 2k --> 2000Hz\n");
+	SCI_enviar_cadena("      1) 100 --> 100Hz\n");
+	SCI_enviar_cadena("      1) 100 --> 100Hz\n");
+	SCI_enviar_cadena(" - Comandos de control\n");
+	SCI_enviar_cadena("      1) ON --> Encender parlante\n");
+	SCI_enviar_cadena("      2) OFF --> Apagar parlante\n");
+	SCI_enviar_cadena("      3) RESET --> Volver a inicializar el MCU");
 }
 
 
@@ -163,7 +144,7 @@ void main(void) {
 	sync_flag = 0;
 
 	for(;;) {
-			if(RX_flag){
+			/*if(RX_flag){
 				SCI_enviar_cadena(mensaje);
 				RX_flag = 0;
 				//escribir_buffer();
@@ -178,6 +159,6 @@ void main(void) {
 					//enum_comando = convertir_a_enumerativo(comando);
 					//ejecutar_comando(enum_comando);
 				}
-			}	
+			}	*/
 	}
 }

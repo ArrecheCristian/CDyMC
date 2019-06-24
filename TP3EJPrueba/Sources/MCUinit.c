@@ -53,7 +53,7 @@ typedef unsigned long int uint32_t;
 /*   Code, declarations and definitions here will be preserved during code generation */
 volatile short int RX_flag;
 volatile short int TX_flag;
-
+volatile short int NC;
 /* End of user declarations and definitions */
 
 
