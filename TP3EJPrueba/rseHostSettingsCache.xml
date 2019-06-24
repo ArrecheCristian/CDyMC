@@ -21,8 +21,8 @@
 <property key="propertySet.[cw.dbg.ct.targetConnLost].retryPromptUserActionOn" value="true"/>
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].initPath" value=""/>
 <property key="propertySet.[cw.dbg.ct.bareboard].networkUDPPort" value="1234"/>
-<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.hcs08].com.pemicro.mcu.debug.connections.pne.hcs08.Library" value="hcs08_pne_gdi"/>
 <property key="propertySet.[com.pemicro.mcu.debug.connections.pne.hcs08].com.pemicro.mcu.debug.connections.pne.hcs08.PEDEBUG_CURRENTDEVICE" value="MC9S08SH8"/>
+<property key="propertySet.[com.pemicro.mcu.debug.connections.pne.hcs08].com.pemicro.mcu.debug.connections.pne.hcs08.Library" value="hcs08_pne_gdi"/>
 <property key="propertySet.[cw.dbg.main].systemType" value="com.freescale.cw.system.hcs08.HCS08SH.MC9S08SH8"/>
 <property key="propertySet.[cw.dbg.ct.bareboard.ondemand].enableStopTransferIOModelConfig" value="true"/>
 <property key="propertySet.[com.pemicro.mcu.debug.connections.pne.hcs08].com.pemicro.mcu.debug.connections.pne.hcs08.STARTUP_interface_selection" value="1"/>

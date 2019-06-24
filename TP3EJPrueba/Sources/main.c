@@ -9,6 +9,7 @@
 
 void MCU_init(void); /* Device initialization function declaration */
 
+enum comandos{ON, OFF, RESET,FREC};
 
 extern volatile short int RX_flag; //Flag de recepción de datos
 extern volatile short int TX_flag; //Flag de transmision de datos
@@ -44,27 +45,36 @@ void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de m
 void menu_inicio(){
 	
 	//Cadenas para mensaje de bienvenida
-	char linea1[] = "Bienvenido, elija su comando:\n";
-	char linea2[] = "- Ejemplo de comandos para configuración de frecuencia\n";
-	char linea3[] = "1) 100 --> 100Hz\n";
-	char linea4[] = "1) 300 --> 300Hz\n";
-	char linea5[] = "2) 1k --> 1000Hz\n";
-	char linea6[] = "2) 2k --> 2000Hz\n";
-	char linea7[] = "- Comandos de control\n";
-	char linea8[] = "1) ON --> Encender parlante\n";
-	char linea9[] = "2) OFF --> Apagar parlante";
-	char linea10[] = "3) RESET --> Volver a inicializar el MCU";
+	char menu[] = "Bienvenido, elija su comando:\n"
+					" - Comandos para configuracion de frecuencia:\n"
+					"   1) 100 --> 100Hz\n"
+					"   2) 300 --> 300Hz\n";
+					//"   3) 1k --> 1000Hz\n"
+					//"   4) 2k --> 2000Hz\n"
+					//" - Comandos de control\n"
+					//"   1) ON --> Encender parlante\n"
+					//"   2) OFF --> Apagar parlante\n"
+					//"   3) RESET --> Volver a inicializar el MCU\n";
+	//char linea2[] = "Comandos para configuracion de frecuencia\n";
+	//char linea3[] = "1) 100 --> 100Hz\n";
+	//char linea4[] = "2) 300 --> 300Hz\n";
+	//char linea5[] = "3) 1k --> 1000Hz\n";
+	//char linea6[] = "4) 2k --> 2000Hz\n";
+	//char linea7[] = "- Comandos de control\n";
+	//char linea8[] = "1) ON --> Encender parlante\n";
+	//char linea9[] = "2) OFF --> Apagar parlante";
+	//char linea10[] = "3) RESET --> Volver a inicializar el MCU";
 	
-	SCI_enviar_cadena(linea1);
-	SCI_enviar_cadena(linea2);
-	SCI_enviar_cadena(linea3);
-	SCI_enviar_cadena(linea4);
-	SCI_enviar_cadena(linea5);
-	SCI_enviar_cadena(linea6);
-	SCI_enviar_cadena(linea7);
-	SCI_enviar_cadena(linea8);
-	SCI_enviar_cadena(linea9);
-	SCI_enviar_cadena(linea10);
+	SCI_enviar_cadena(menu);
+	//SCI_enviar_cadena(linea2);
+	//SCI_enviar_cadena(linea3);
+	//SCI_enviar_cadena(linea4);
+	//SCI_enviar_cadena(linea5);
+	//SCI_enviar_cadena(linea6);
+	//SCI_enviar_cadena(linea7);
+	//SCI_enviar_cadena(linea8);
+	//SCI_enviar_cadena(linea9);
+	//SCI_enviar_cadena(linea10);
 }
 
 
@@ -102,10 +112,10 @@ void leer_comando(char *comando){
 
 void ejecutar_comando(char *comando){
 	
-	switch(comando){
+	/*switch(comando){
 	
-		case "ON":
-		case "on":
+		case "ON   ":
+		break;
 		{
 			
 		}
@@ -124,25 +134,34 @@ void ejecutar_comando(char *comando){
 			
 		}
 	
-	}
+	}*/
 	
 }
+
+/*enum convertir_a_enumerativo(char* comando){
+	
+	return ;
+}*/
 
 
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
 	
 	char comando[5];
-	
+	char nombre_default[]="AT+NAMEGrupo8Dos\r\n";
+
 	MCU_init();
+	
+	SCI_enviar_cadena(nombre_default);
 	
 	//Espero a que se haga la vinculacion con el dispositivo
 	while(PTBD_PTBD2==0);
 
 	menu_inicio();
-	
+
 	for(;;) {
-			if(RX_flag){
+		//SCI_enviar_cadena(mensaje);
+			/*if(RX_flag){
 				escribir_buffer();
 				sync_flag = 1;
 			}
@@ -150,8 +169,9 @@ void main(void) {
 			if(TX_flag){
 				if(sync_flag){
 					leer_comando(comando);
-					ejecutar_comando(comando);
+					//enum_comando = convertir_a_enumerativo(comando);
+					//ejecutar_comando(enum_comando);
 				}
-			}	
+			}	*/
 	}
 }
