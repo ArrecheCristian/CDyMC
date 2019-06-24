@@ -16,7 +16,7 @@ extern volatile short int TX_flag; //Flag de transmision de datos
 
 unsigned short int lleno = 0;
 unsigned short int vacio = 0;
-unsigned short sync_flag = 0;
+unsigned char sync_flag = 0;
 char buffer[N];
 
 
@@ -47,8 +47,8 @@ void menu_inicio(){
 	//Cadenas para mensaje de bienvenida
 	char menu[] = "Bienvenido, elija su comando:\n"
 					" - Comandos para configuracion de frecuencia:\n"
-					"   1) 100 --> 100Hz\n"
-					"   2) 300 --> 300Hz\n";
+					"   1) 100 --> 100Hz\n";
+					//"   2) 300 --> 300Hz\n";
 					//"   3) 1k --> 1000Hz\n"
 					//"   4) 2k --> 2000Hz\n"
 					//" - Comandos de control\n"
@@ -146,32 +146,38 @@ void ejecutar_comando(char *comando){
 
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
-	
+	char mensaje[] = "Recepcion\n";
+	char mensaje2[] = "Transmision\n";
 	char comando[5];
-	char nombre_default[]="AT+NAMEGrupo8Dos\r\n";
+	//char nombre_default[]="AT+NAMEGrupo8Dos\r\n";
 
 	MCU_init();
 	
-	SCI_enviar_cadena(nombre_default);
+	//SCI_enviar_cadena(nombre_default);
 	
 	//Espero a que se haga la vinculacion con el dispositivo
 	while(PTBD_PTBD2==0);
 
 	menu_inicio();
+	
+	sync_flag = 0;
 
 	for(;;) {
-		//SCI_enviar_cadena(mensaje);
-			/*if(RX_flag){
-				escribir_buffer();
-				sync_flag = 1;
+			if(RX_flag){
+				SCI_enviar_cadena(mensaje);
+				RX_flag = 0;
+				//escribir_buffer();
+				//sync_flag = 1;
 			}
 			
 			if(TX_flag){
 				if(sync_flag){
-					leer_comando(comando);
+					//leer_comando(comando);
+					SCI_enviar_cadena(mensaje2);
+					TX_flag=0;
 					//enum_comando = convertir_a_enumerativo(comando);
 					//ejecutar_comando(enum_comando);
 				}
-			}	*/
+			}	
 	}
 }

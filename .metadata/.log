@@ -118,3 +118,1361 @@ Created Time: 2019-06-24 13:27:28.185
 
 !ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:28:07.007
 !MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.717
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.744
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.768
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.795
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.822
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.852
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.879
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.933
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.960
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:02.986
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:03.067
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:03.095
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:03.123
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:03.172
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.490
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.520
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.544
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.573
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.602
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.629
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.655
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.714
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.742
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.775
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.849
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.876
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.905
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:32:18.954
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY org.eclipse.equinox.registry 4 1 2019-06-24 13:32:30.864
+!MESSAGE Plug-in "org.eclipse.cdt.ui" was unable to instantiate class "org.eclipse.cdt.internal.ui.text.spelling.SpellingEngineDispatcher".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.text.spelling.SpellingEngineDispatcher.<init>(SpellingEngineDispatcher.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:170)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:867)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.ui.texteditor.spelling.SpellingEngineDescriptor.createEngine(SpellingEngineDescriptor.java:104)
+	at org.eclipse.ui.texteditor.spelling.SpellingService.createEngine(SpellingService.java:183)
+	at org.eclipse.ui.texteditor.spelling.SpellingService.check(SpellingService.java:100)
+	at org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.reconcile(SpellingReconcileStrategy.java:198)
+	at org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.initialReconcile(SpellingReconcileStrategy.java:169)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.245
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.284
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.314
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.345
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.373
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.402
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.463
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.487
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.520
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.599
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.630
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.660
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:33:49.713
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:35.941
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:35.970
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:35.999
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.027
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.052
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.080
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.108
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.171
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.203
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.238
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.310
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.335
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.365
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:36.418
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.205
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.237
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.266
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.296
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.324
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.348
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.404
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.432
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.459
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.525
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.553
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.581
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:34:40.630
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.263
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.291
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.319
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.348
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.374
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.402
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.459
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.487
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.515
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.579
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.606
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.633
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:36:44.682
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.067
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.099
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.127
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.156
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.182
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.212
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.241
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.298
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.328
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.365
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.442
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.472
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.506
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:28.561
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.597
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.628
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.658
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.688
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.715
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.741
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.798
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.825
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.854
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.915
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.942
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:31.969
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:39:32.016
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.227
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.257
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.286
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.315
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.341
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.370
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.398
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.456
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.495
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.539
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.617
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.642
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.672
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:28.725
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.341
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.371
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.400
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.430
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.458
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.486
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.537
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.566
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.594
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.656
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.685
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.713
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:40:41.763
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.591
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.622
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.651
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.678
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.707
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.731
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.760
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.815
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.844
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.876
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.961
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:35.990
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:36.015
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:36.066
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.235
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.265
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.293
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.321
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.346
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.374
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.403
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.464
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.493
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.529
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.603
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.628
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.658
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:55.719
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.372
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.403
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.431
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.461
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.490
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.514
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.569
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.597
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.625
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.686
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.714
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.742
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:41:59.798
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.377
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.408
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.436
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.466
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.496
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.524
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.553
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.604
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.636
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.675
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.754
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.792
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.825
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:23.882
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.260
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.284
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.315
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.344
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.372
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.403
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.464
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.492
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.517
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.578
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.607
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.635
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:43:27.689
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.434
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.464
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.494
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.523
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.553
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.577
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.604
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.659
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.688
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.722
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.801
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.832
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.863
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:07.913
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.339
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.366
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.390
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.418
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.446
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.472
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.532
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.559
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.586
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.648
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.672
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.699
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:44:15.746
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:19.945
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:19.975
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:19.998
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.026
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.056
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.085
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.114
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.170
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.199
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.228
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.311
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.341
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.371
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:20.426
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:43.922
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:43.947
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:43.976
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.005
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.035
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.063
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.092
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.155
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.179
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.214
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.287
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.317
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.348
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:47:44.408
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.456
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.487
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.516
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.541
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.569
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.598
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.654
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.682
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.711
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.804
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.841
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.870
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:03.926
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.676
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.706
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.735
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.766
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.790
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.818
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.876
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.904
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:16.931
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:17.004
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:17.033
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:17.057
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:17.110
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.615
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.642
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.665
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.694
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.721
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.748
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.802
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.831
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.858
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.917
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.944
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:35.970
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:48:36.017
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.743
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.773
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.800
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.824
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.854
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.880
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.908
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.964
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:50.991
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:51.024
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:51.098
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:51.123
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:51.151
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:51.203
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.543
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.572
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.601
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.634
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.663
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.687
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.749
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.778
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.806
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.870
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.899
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.927
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:49:55.977
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.228
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.256
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.283
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.309
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.336
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.363
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.421
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.447
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.475
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.535
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.565
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.593
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:50:14.647
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.358
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.388
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.417
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.446
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.476
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.505
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.533
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.587
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.617
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.656
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.731
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.762
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.792
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:25.848
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.378
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.402
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.432
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.462
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.490
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.518
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.574
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.602
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.626
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.688
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.716
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.745
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:51:28.793
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.616
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.647
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.676
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.706
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.736
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.765
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.794
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.851
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.883
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.923
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:33.995
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:34.025
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:34.054
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:34.106
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.651
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.682
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.706
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.737
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.765
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.793
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.851
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.879
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.907
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.968
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:37.997
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:38.025
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:52:38.074
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.572
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.602
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.625
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.654
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.683
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.713
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.741
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.796
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.827
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.857
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.931
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.963
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:28.994
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:29.049
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.087
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.117
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.145
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.171
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.199
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.228
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.290
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.318
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.346
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.502
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.530
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.554
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:53:34.603
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:07.912
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:07.940
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:07.966
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:07.992
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.019
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.046
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.107
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.134
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.160
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.223
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.247
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.273
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:08.321
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.222
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.252
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.276
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.302
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.330
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.356
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.382
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.441
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.468
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.497
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.579
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.608
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.636
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2019-06-24 13:54:37.690
+!MESSAGE ProxyOptionHandler: Corresponding shared option not found: 'null' for proxy: 'hc08.toolchain.proxyoption.none'

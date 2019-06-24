@@ -24,8 +24,8 @@ Entry point: 0xE07B (_Startup)
 _startupData is allocated at 0xE084 and uses 6 Bytes
 extern struct _tagStartup {
   unsigned nofZeroOut     1
-  _Range   pZeroOut       0x100     4
-  _Copy    *toCopyDownBeg 0xE33B
+  _Range   pZeroOut       0x100     5
+  _Copy    *toCopyDownBeg 0xE32A
 } _startupData;
 
 *********************************************************************************************
@@ -34,8 +34,8 @@ Section Name                    Size  Type     From       To       Segment
 ---------------------------------------------------------------------------------------------
 .init                            132     R     0xE000     0xE083   ROM
 .startData                        14     R     0xE084     0xE091   ROM
-.text                            681     R     0xE092     0xE33A   ROM
-.copy                              2     R     0xE33B     0xE33C   ROM
+.text                            664     R     0xE092     0xE329   ROM
+.copy                              2     R     0xE32A     0xE32B   ROM
 .abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
 .abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
 .abs_section_ffc0                 64     R     0xFFC0     0xFFFF   .absSeg2
@@ -132,12 +132,13 @@ Section Name                    Size  Type     From       To       Segment
 .abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg93
 .abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg94
 .abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg95
-.common                            4   R/W      0x100      0x103   RAM
-.stack                            64   R/W      0x104      0x143   RAM
+.bss                               1   R/W      0x100      0x100   RAM
+.common                            4   R/W      0x101      0x104   RAM
+.stack                            64   R/W      0x105      0x144   RAM
 
 Summary of section sizes per section type:
-READ_ONLY (R):         37F (dec:      895)
-READ_WRITE (R/W):       44 (dec:       68)
+READ_ONLY (R):         36E (dec:      878)
+READ_WRITE (R/W):       45 (dec:       69)
 NO_INIT (N/I):          6C (dec:      108)
 
 *********************************************************************************************
@@ -159,14 +160,15 @@ MODULE:                 -- MCUinit_c.obj --
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
-     RX_flag                                    100       2       2       1   .common     
-     TX_flag                                    102       2       2       1   .common     
+     RX_flag                                    101       2       2       3   .common     
+     TX_flag                                    103       2       2       3   .common     
 MODULE:                 -- main_c.obj --
 - PROCEDURES:
-     SCI_enviar_cadena                         E103      1B      27       2   .text       
-     menu_inicio                               E11E     1C1     449       1   .text       
-     main                                      E2DF      5C      92       1   .text       
+     SCI_enviar_cadena                         E103      1B      27       3   .text       
+     menu_inicio                               E11E     17B     379       1   .text       
+     main                                      E299      91     145       1   .text       
 - VARIABLES:
+     sync_flag                                  100       1       1       2   .bss        
 MODULE:                 -- start08_c.obj --
 - PROCEDURES:
      loadByte                                  E000       E      14       5   .init       
@@ -175,7 +177,7 @@ MODULE:                 -- start08_c.obj --
 - VARIABLES:
      _startupData                              E084       6       6       4   .startData  
 - LABELS:
-     __SEG_END_SSTACK                           144       0       0       1               
+     __SEG_END_SSTACK                           145       0       0       1               
 MODULE:                 -- mc9s08sh8_c.obj --
 - PROCEDURES:
 - VARIABLES:
@@ -278,7 +280,7 @@ MODULE STATISTIC
   Name                                      Data   Code  Const
 ---------------------------------------------------------------------------------------------
   MCUinit_c.obj                                4    113     66
-  main_c.obj                                   0    568      0
+  main_c.obj                                   1    551      0
   start08_c.obj                                0    132      0
   mc9s08sh8_c.obj                            108      0      0
   other                                       64     14      2
@@ -288,6 +290,8 @@ SECTION USE IN OBJECT-ALLOCATION SECTION
 ---------------------------------------------------------------------------------------------
 SECTION: ".text"
   MCU_init isrVscitx isrVscirx isrVscierr SCI_enviar_cadena menu_inicio main 
+SECTION: ".bss"
+  sync_flag 
 SECTION: ".init"
   loadByte Init _Startup 
 SECTION: ".abs_section_ffbd"
@@ -547,8 +551,9 @@ OBJECT LIST SORTED BY ADDRESS
      _RTCSC                                      6C       1       1       0   .abs_section_6c
      _RTCCNT                                     6D       1       1       0   .abs_section_6d
      _RTCMOD                                     6E       1       1       0   .abs_section_6e
-     RX_flag                                    100       2       2       1   .common     
-     TX_flag                                    102       2       2       1   .common     
+     sync_flag                                  100       1       1       2   .bss        
+     RX_flag                                    101       2       2       3   .common     
+     TX_flag                                    103       2       2       3   .common     
      _SRS                                      1800       1       1       0   .abs_section_1800
      _SBDFR                                    1801       1       1       0   .abs_section_1801
      _SOPT1                                    1802       1       1       1   .abs_section_1802
@@ -591,9 +596,9 @@ OBJECT LIST SORTED BY ADDRESS
      isrVscitx                                 E0F0       9       9       1   .text       
      isrVscirx                                 E0F9       9       9       1   .text       
      isrVscierr                                E102       1       1       1   .text       
-     SCI_enviar_cadena                         E103      1B      27       2   .text       
-     menu_inicio                               E11E     1C1     449       1   .text       
-     main                                      E2DF      5C      92       1   .text       
+     SCI_enviar_cadena                         E103      1B      27       3   .text       
+     menu_inicio                               E11E     17B     379       1   .text       
+     main                                      E299      91     145       1   .text       
      NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
      NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
      _vect                                     FFC0      40      64       0   .abs_section_ffc0
@@ -606,12 +611,12 @@ main_c.obj:
   delay escribir_buffer leer_buffer leer_comando ejecutar_comando 
 NOT USED VARIABLES
 main_c.obj:
-  STRING.......2 lleno vacio sync_flag buffer 
+  STRING.......2 lleno vacio buffer 
 
 *********************************************************************************************
 COPYDOWN SECTION
 ---------------------------------------------------------------------------------------------
-------- ROM-ADDRESS: 0xE33B ---- SIZE       2 ---
+------- ROM-ADDRESS: 0xE32A ---- SIZE       2 ---
 Filling bytes inserted
  0000
 
@@ -628,7 +633,8 @@ isrVscitx                 USES TX_flag
 isrVscirx                 USES RX_flag 
 SCI_enviar_cadena         USES _SCIS1 _SCID 
 menu_inicio               USES SCI_enviar_cadena 
-main                      USES MCU_init SCI_enviar_cadena _PTBD menu_inicio 
+main                      USES MCU_init _PTBD menu_inicio sync_flag RX_flag 
+                                SCI_enviar_cadena TX_flag 
 _vect                     USES isrVscitx isrVscirx isrVscierr _Startup 
 
 *********************************************************************************************
@@ -640,12 +646,12 @@ DEPENDENCY TREE
  |  | 
  |  +- MCU_init            
  |  |    
- |  +- SCI_enviar_cadena   
- |  |    
  |  +- menu_inicio         
- |     | 
- |     +- SCI_enviar_cadena    (see above)
- |        
+ |  |  | 
+ |  |  +- SCI_enviar_cadena   
+ |  |       
+ |  +- SCI_enviar_cadena    (see above)
+ |     
  +- _Startup            
     | 
     +- Init                
@@ -670,6 +676,6 @@ STATISTIC SECTION
 
 ExeFile:
 --------
-Number of blocks to be downloaded: 6
-Total size of all blocks to be downloaded: 895
+Number of blocks to be downloaded: 5
+Total size of all blocks to be downloaded: 878
 
