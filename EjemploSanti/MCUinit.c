@@ -9,7 +9,7 @@
 **     Processor : MC9S08SH8CPJ
 **     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
-**     Date/Time : 2019-06-24, 16:05, # CodeGen: 1
+**     Date/Time : 2019-06-18, 11:59, # CodeGen: 5
 **     Abstract  :
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.
@@ -49,9 +49,17 @@ typedef unsigned int uint16_t;
 typedef unsigned long int uint32_t;
 #endif
 
+
 /* User declarations and definitions */
-extern volatile short NC;
 /*   Code, declarations and definitions here will be preserved during code generation */
+//volatile char temp[32] = {0};
+extern volatile short NC;
+
+#include "SCI.h"
+//volatile char car;
+//volatile char i = 0;
+//volatile char flag_ent=0;
+
 /* End of user declarations and definitions */
 
 
@@ -125,8 +133,8 @@ void MCU_init(void)
   SCIC2 = 0x2CU;                                      
   /* ### Init_TPM init code */
   (void)(TPM1C1SC == 0U);              /* Channel 0 int. flag clearing (first part) */
-  /* TPM1C1SC: CH1F=0,CH1IE=1,MS1B=0,MS1A=1,ELS1B=0,ELS1A=1 */
-  TPM1C1SC = 0x54U;                    /* Int. flag clearing (2nd part) and channel 0 contr. register setting */
+  /* TPM1C1SC: CH1F=0,CH1IE=0,MS1B=0,MS1A=1,ELS1B=0,ELS1A=1 */
+  TPM1C1SC = 0x14U;                    /* Int. flag clearing (2nd part) and channel 0 contr. register setting */
   TPM1C1V = 0x00U;                     /* Compare 0 value setting */
   /* TPM1SC: TOF=0,TOIE=0,CPWMS=0,CLKSB=0,CLKSA=0,PS2=0,PS1=0,PS0=0 */
   TPM1SC = 0x00U;                      /* Stop and reset counter */
@@ -155,7 +163,7 @@ void MCU_init(void)
 */
 __interrupt void isrVscitx(void)
 {
-  SCI_update();
+	SCI_update();
 }
 /* end of isrVscitx */
 
@@ -172,8 +180,17 @@ __interrupt void isrVscitx(void)
 */
 __interrupt void isrVscirx(void)
 {
+	
   /* Write your interrupt code here ... */
-	escribir_en_bufferRX();
+	SCI_RX_Handler();
+	//	if (SCIS1_RDRF == 1) {
+//		car = SCID;
+//		flag_ent=1;
+//		//if (temp[i] == '\n') {
+//		//	i=0;
+//		//}
+//		//i++;
+//	}
 }
 /* end of isrVscirx */
 
@@ -227,7 +244,8 @@ __interrupt void isrVtpm1ovf(void)
 __interrupt void isrVtpm1ch1(void)
 {
   /* Write your interrupt code here ... */
-	TPM1C1V += NC;
+	TPM1C1V+=NC;
+	//TPM1C1SC;
 	TPM1C1SC_CH1F=0;
 }
 /* end of isrVtpm1ch1 */

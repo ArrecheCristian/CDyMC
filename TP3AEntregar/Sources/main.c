@@ -226,6 +226,7 @@ void main(void) {
 	
 	for(;;) {
 		if(RX_flag){
+			comando = leer_comando();
 			comando_comparable = determinar_comando(comando);
 			ejecutar_comando(comando_comparable);
 			RX_flag = 0;

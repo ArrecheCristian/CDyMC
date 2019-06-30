@@ -1,3 +1,5 @@
-C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:229:error:C1822 Type mismatch (expected 'unsigned char *volatile ', given 'volatile unsigned char ')
-C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:230:error:C2801 ';' missing
-C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:230:error:C2801 ';' missing
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\Buffer.c:72:warning:C1801 Implicit parameter-declaration for 'SCI_escribir_char_al_buffer'
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\Buffer.c:72:warning:C1420 Result of function-call is ignored
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\Buffer.c:92:warning:C1140 This function is already declared and has a different prototype 
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\Buffer.c:92:error:C1019 Incompatible type to previous declaration (found 'void (*) (unsigned char )', expected 'int (*) (int )')
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\Buffer.c:72:information:C1440 This is causing previous message 1019
