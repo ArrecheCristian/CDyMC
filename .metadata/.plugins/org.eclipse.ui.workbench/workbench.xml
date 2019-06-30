@@ -38,30 +38,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/main.c" title="main.c" tooltip="TP3EJPrueba/Sources/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/main.c"/>
-<editorState selectionLength="0" selectionOffset="2601"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" partName="MCUinit.c" path="C:/Users/Federico/workspace/TP3AEntregar/Sources/MCUinit.c" title="MCUinit.c" tooltip="TP3AEntregar/Sources/MCUinit.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3AEntregar/Sources/MCUinit.c"/>
+<editorState selectionLength="0" selectionOffset="1576"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" partName="MCUinit.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/MCUinit.c" title="MCUinit.c" tooltip="TP3EJPrueba/Sources/MCUinit.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/MCUinit.c"/>
-<editorState selectionLength="0" selectionOffset="5512"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Federico/workspace/TP3AEntregar/Sources/main.c" title="main.c" tooltip="TP3AEntregar/Sources/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3AEntregar/Sources/main.c"/>
+<editorState selectionLength="0" selectionOffset="2279"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" partName="MCUinit.h" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/MCUinit.h" title="MCUinit.h" tooltip="TP3EJPrueba/Sources/MCUinit.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/MCUinit.h"/>
-<editorState selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.c" partName="Buffer.c" path="C:/Users/Federico/workspace/TP3AEntregar/Sources/Buffer.c" title="Buffer.c" tooltip="TP3AEntregar/Sources/Buffer.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3AEntregar/Sources/Buffer.c"/>
+<editorState selectionLength="0" selectionOffset="948"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.c" partName="Buffer.c" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/Buffer.c" title="Buffer.c" tooltip="TP3EJPrueba/Sources/Buffer.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/Buffer.c"/>
-<editorState selectionLength="0" selectionOffset="1003"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.h" partName="Buffer.h" path="C:/Users/Federico/workspace/TP3EJPrueba/Sources/Buffer.h" title="Buffer.h" tooltip="TP3EJPrueba/Sources/Buffer.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3EJPrueba/Sources/Buffer.h"/>
-<editorState selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.h" partName="Buffer.h" path="C:/Users/Federico/workspace/TP3AEntregar/Sources/Buffer.h" title="Buffer.h" tooltip="TP3AEntregar/Sources/Buffer.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP3AEntregar/Sources/Buffer.h"/>
+<editorState selectionLength="0" selectionOffset="63"/>
 </editor>
 </editors>
 <views>
@@ -95,6 +90,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" detailsPane="false" detailsPaneDivider="750,250" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
@@ -150,10 +146,14 @@
 <viewState/>
 </view>
 <view id="com.processorexpert.ui.inspector.views.InspectorView" partName="Component Inspector">
-<viewState visibility="0"/>
+<viewState visibility="2"/>
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
-<viewState horizontalPosition="78" verticalPosition="0">
+<viewState horizontalPosition="78" verticalPosition="14">
+<expanded>
+<element path="TP3AEntregar  :  MC9S08SH8"/>
+<element path="TP3AEntregar  :  MC9S08SH8--restore_state_delimiter--Sources"/>
+</expanded>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
@@ -244,6 +244,7 @@
 <view id="org.eclipse.rse.ui.view.systemView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="com.processorexpert.ui.selector.views.BeanSelectorView"/>
+<view id="com.processorexpert.ui.inspector.views.InspectorView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -268,9 +269,11 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@af4a7d" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="com.processorexpert.ui.inspector.views.InspectorView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="com.processorexpert.ui.inspector.views.InspectorView" appearance="2" expanded="2">
+<page content="com.processorexpert.ui.inspector.views.InspectorView" label="Component Inspector"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.7350565" ratioLeft="455" ratioRight="164" relationship="4" relative="org.eclipse.ui.internal.ViewStack@af4a7d">
@@ -369,6 +372,10 @@
 <show_view_action id="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser"/>
 <show_view_action id="org.eclipse.pde.runtime.LogView"/>
 <perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="com.freescale.core.debugger.cacheviewer.views.CacheView"/>
+<view id="org.eclipse.debug.ui.RegisterView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.rse.ui.view.systemView"/>
@@ -385,10 +392,6 @@
 <view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
-<view id="org.eclipse.debug.ui.VariableView"/>
-<view id="org.eclipse.debug.ui.BreakpointView"/>
-<view id="com.freescale.core.debugger.cacheviewer.views.CacheView"/>
-<view id="org.eclipse.debug.ui.RegisterView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -456,7 +459,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.RegisterView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="com.freescale.core.debugger.cacheviewer.views.CacheView" label="Cache"/>
@@ -479,158 +482,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/Buffer.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/Buffer.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3EJPrueba/Sources/MCUinit.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3AEntregar/Sources/MCUinit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3AEntregar/Sources/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3AEntregar/Sources/Buffer.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP3AEntregar/Sources/Buffer.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PruebaParlante/Sources/MCUinit.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2757" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1008" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2757" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="986" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6181" y="0"/>
-</item>
-<item historyLabel="Buffer.h" index="3">
+<item historyLabel="Buffer.h" index="4">
 <position/>
 </item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="986" y="0"/>
-</item>
-<item historyLabel="Buffer.h" index="3">
-<position info="not_deleted" x="13" y="1"/>
-</item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6181" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2865" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6181" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="986" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2460" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2710" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2292" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1693" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2865" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1693" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="Buffer.h" index="3">
 <position/>
 </item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6606" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2865" y="0"/>
-</item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="6606" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2755" y="0"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1693" y="0"/>
-</item>
-<item historyLabel="MCUinit.h" index="4">
+<item historyLabel="MCUinit.c" index="0">
 <position/>
 </item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2755" y="0"/>
-</item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1502" y="0"/>
-</item>
-<item historyLabel="MCUinit.h" index="4">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2755" y="0"/>
+<item historyLabel="MCUinit.c" index="0">
+<position info="not_deleted" x="6570" y="36"/>
 </item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1502" y="0"/>
+<position info="not_deleted" x="7678" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3769" y="0"/>
 </item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="8146" y="0"/>
+<position info="not_deleted" x="7720" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2805" y="21"/>
-</item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="8146" y="0"/>
-</item>
-<item historyLabel="MCUinit.h" index="4">
+<item historyLabel="main.c" index="2">
 <position/>
 </item>
-<item historyLabel="Buffer.c" index="2">
-<position info="not_deleted" x="1003" y="0"/>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1606" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3891" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
 </item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1669" y="27"/>
+<position info="not_deleted" x="9101" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="350" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3891" y="0"/>
 </item>
-<item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1669" y="27"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2460" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
 </item>
 <item historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="1669" y="27"/>
+<position info="not_deleted" x="9102" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2460" y="0"/>
+<item historyLabel="MCUinit.c" index="5">
+<position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2601" y="0"/>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1579" y="0"/>
 </item>
-<item active="true" historyLabel="MCUinit.c" index="1">
-<position info="not_deleted" x="2053" y="8"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1579" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1579" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3867" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3540" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3843" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3843" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1579" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="948" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3824" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="2338" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3520" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="MCUinit.c" index="1">
+<position info="not_deleted" x="1576" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3060" y="0"/>
+</item>
+<item historyLabel="Buffer.c" index="3">
+<position info="not_deleted" x="948" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3060" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="2">
+<position info="not_deleted" x="3293" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -644,6 +648,10 @@
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 <trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@af4a7d"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -658,41 +666,29 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.h" tooltip="TP3EJPrueba/Sources/Buffer.h">
-<persistable path="/TP3EJPrueba/Sources/Buffer.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sci.c" tooltip="TP3EJPrueba/Sources/sci.c">
-<persistable path="/TP3EJPrueba/Sources/sci.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP3EJPrueba/Sources/MCUinit.h">
-<persistable path="/TP3EJPrueba/Sources/MCUinit.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="PruebaParlante/Sources/MCUinit.c">
+<persistable path="/PruebaParlante/Sources/MCUinit.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP3EJPrueba/Sources/MCUinit.c">
 <persistable path="/TP3EJPrueba/Sources/MCUinit.c"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.h" tooltip="TP3EJPrueba/Sources/Buffer.h">
+<persistable path="/TP3EJPrueba/Sources/Buffer.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.c" tooltip="TP3EJPrueba/Sources/Buffer.c">
+<persistable path="/TP3EJPrueba/Sources/Buffer.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.h" tooltip="TP3AEntregar/Sources/Buffer.h">
+<persistable path="/TP3AEntregar/Sources/Buffer.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Buffer.c" tooltip="TP3AEntregar/Sources/Buffer.c">
+<persistable path="/TP3AEntregar/Sources/Buffer.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP3AEntregar/Sources/main.c">
+<persistable path="/TP3AEntregar/Sources/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="TP3EJPrueba/Sources/main.c">
 <persistable path="/TP3EJPrueba/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="PruebaParlante/Sources/MCUinit.h">
-<persistable path="/PruebaParlante/Sources/MCUinit.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="PruebaParlante/Sources/MCUinit.c">
-<persistable path="/PruebaParlante/Sources/MCUinit.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="PruebaParlante/Sources/main.c">
-<persistable path="/PruebaParlante/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="DeviceInitialization.pe" tooltip="TP3EJPrueba/DeviceInitialization.pe">
-<persistable path="/TP3EJPrueba/DeviceInitialization.pe"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.h" tooltip="TP2Ej2B/Sources/MCUinit.h">
-<persistable path="/TP2Ej2B/Sources/MCUinit.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MCUinit.c" tooltip="TP2Ej2B/Sources/MCUinit.c">
-<persistable path="/TP2Ej2B/Sources/MCUinit.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mc9s08sh8.c" tooltip="TP3EJPrueba/Lib/mc9s08sh8.c">
-<persistable path="/TP3EJPrueba/Lib/mc9s08sh8.c"/>
 </file>
 </mruList>
 </workbench>

@@ -4,8 +4,10 @@
 /*uint8 indice_lectura = 0; //Indice de lectura del buffer
 uint8 indice_escritura = 0;//Indice de escritura del buffer
 uint8 buffer[BUFFER_SIZE]; // Buffer para transmision
-//volatile uint8 flag_ent = FALSE; // flag que advierte que está disponible la nueva entrada
+volatile uint8 flag_ent = FALSE; // flag que advierte que está disponible la nueva entrada
 //volatile uint8 Flag_Transmisor = FALSE; // si esta en TRUE indica que el buffer esta ocupado*/
+
+volatile char RX_flag = 0;
 
 extern volatile char comando; //Comando recibido por la terminal
 
@@ -20,9 +22,18 @@ void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de m
   }
 }
 
+void SCI_enviar_cadena(char *cadena){
+	while(*cadena!='\0'){
+		while(SCIS1_TDRE==0);//Si esta en 0, es que esta ocupado asi que tengo que esperar, en 1 el transmisor me avisa que esta listo para transmitir
+		SCID=*cadena;
+		cadena++;
+	}
+}
+
 void escribir_en_buffer(void) {
 	if (SCIS1_RDRF) { //Si esta disponible para leer
 		comando = SCID;//Leo
 	}
+	RX_flag = 1;//Se prende cuando lee todo el string
 }
 

@@ -1,0 +1,3 @@
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:229:error:C1822 Type mismatch (expected 'unsigned char *volatile ', given 'volatile unsigned char ')
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:230:error:C2801 ';' missing
+C:/Users/Federico/workspace/TP3AEntregar/Project_Headers\../Sources\main.c:230:error:C2801 ';' missing

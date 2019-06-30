@@ -51,7 +51,6 @@ typedef unsigned long int uint32_t;
 
 /* User declarations and definitions */
 extern volatile short NC;
-volatile char RX_flag = 0;
 /*   Code, declarations and definitions here will be preserved during code generation */
 /* End of user declarations and definitions */
 
@@ -156,7 +155,7 @@ void MCU_init(void)
 */
 __interrupt void isrVscitx(void)
 {
-  /* Write your interrupt code here ... */
+  SCI_update();
 }
 /* end of isrVscitx */
 
@@ -175,7 +174,6 @@ __interrupt void isrVscirx(void)
 {
   /* Write your interrupt code here ... */
 	escribir_en_buffer();
-	RX_flag = 1;
 }
 /* end of isrVscirx */
 

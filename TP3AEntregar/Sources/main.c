@@ -1,6 +1,7 @@
 #include <hidef.h> /* for EnableInterrupts macro */
 #include "derivative.h" /* include peripheral declarations */
 #include <string.h>
+#include <buffer.h>
 
 #define N 50
 #define FALSE 0
@@ -26,14 +27,6 @@ volatile short NC;
 
 
 // --------------------------------Funciones y programa principal---------------------------------------
-
-void SCI_enviar_cadena(char *cadena){
-	while(*cadena!='\0'){
-		while(SCIS1_TDRE==0);//Si esta en 0, es que esta ocupado asi que tengo que esperar, en 1 el transmisor me avisa que esta listo para transmitir
-		SCID=*cadena;
-		cadena++;
-	}
-}
 
 void menu_inicio(){
 	
@@ -85,6 +78,22 @@ void menu_inicio(){
 		i++;
 	}
 }*/
+
+int comparar_comando(char str1[], char str2[])
+{
+    int ctr=0;
+
+    while(str1[ctr]==str2[ctr])
+    {
+        if(str1[ctr]=='\0'||str2[ctr]=='\0')
+            break;
+        ctr++;
+    }
+    if(str1[ctr]=='\0' && str2[ctr]=='\0')
+        return 1;
+    else
+        return 0;
+}
 
 void ejecutar_comando(char comando){
 	
@@ -151,11 +160,58 @@ void ejecutar_comando(char comando){
 	
 }
 
+char determinar_comando(char command[]){
+	if(comparar_comando(command,"ON")){
+		return 'A';
+	}else{
+	
+	if(comparar_comando(command,"OFF")){
+		return 'B';
+	}else{
+	
+	if(comparar_comando(command,"RESET")){
+		return 'C';
+	}else{
+	
+	if(comparar_comando(command,"100")){
+		return '1';
+	}else{
+		
+	if(comparar_comando(command,"300")){
+			return '2';
+	}else{
+		
+	if(comparar_comando(command,"500")){
+			return '3';
+	}else{
+		
+	if(comparar_comando(command,"1k")){
+			return '4';
+	}else{
+	
+	if(comparar_comando(command,"2k")){
+			return '5';
+	}else{
+	
+	if(comparar_comando(command,"5k")){
+			return '6';
+	}else{
+		
+	if(comparar_comando(command,"10k")){
+			return '7';
+	}else{
+		
+	if(comparar_comando(command,"12k")){
+			return '8';
+	}}}}}}}}}}}
+}
+
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
 	char nombre_default[]="AT+NAMEGrupo8Dos\r\n";
 	char aux;
-
+	char comando_comparable;
+	
 	MCU_init();
 	
 	SCI_enviar_cadena(nombre_default);
@@ -167,11 +223,11 @@ void main(void) {
 	while(PTBD_PTBD2==0);
 	
 	menu_inicio();
-
+	
 	for(;;) {
 		if(RX_flag){
-			aux = comando;
-			ejecutar_comando(comando);
+			comando_comparable = determinar_comando(comando);
+			ejecutar_comando(comando_comparable);
 			RX_flag = 0;
 		}
 	}
