@@ -3,13 +3,13 @@
 #define RX_BUFFER_SIZE 150
 
 //Buffer para transmision y sus indices
-char indice_lectura_TX = 0; //Indice de lectura del buffer TX
-char indice_escritura_TX = 0;//Indice de escritura del buffer TX
+unsigned short indice_lectura_TX = 0; //Indice de lectura del buffer TX
+unsigned short indice_escritura_TX = 0;//Indice de escritura del buffer TX
 char bufferTX[TX_BUFFER_SIZE]; // Buffer para transmision
 
 //Buffer para recepcion y sus indices
-char indice_lectura_RX = 0; //Indice de lectura del buffer RX
-char indice_escritura_RX = 0;//Indice de escritura del buffer RX
+unsigned short indice_lectura_RX = 0; //Indice de lectura del buffer RX
+unsigned short indice_escritura_RX = 0;//Indice de escritura del buffer RX
 char bufferRX[RX_BUFFER_SIZE]; // Buffer para recepcion
 
 
@@ -35,16 +35,15 @@ void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de m
 void escribir_en_bufferRX(void) {
 	char car;
 	if (SCIS1_RDRF) { //Si esta disponible para leer
-				car = SCID;//Leo el primer caracter
+		car = SCID;//Leo el primer caracter
 	}
-	while(car != '\r'){
+	if(car != '\n'){
 		bufferRX[indice_escritura_RX] = car;
 		indice_escritura_RX++;
-		if (SCIS1_RDRF) { //Si esta disponible para leer
-			car = SCID;//Leo
-		}
 	}
-	RX_flag = 1;//Se prende cuando lee todo el string
+	else{
+		RX_flag = 1;//Se prende cuando lee todo el string
+	}
 }
 
 char* leer_comando(void){
@@ -65,6 +64,12 @@ char* leer_comando(void){
 }
 
 
+void SCI_escribir_char_al_buffer(char dato){
+	if (indice_escritura_TX < TX_BUFFER_SIZE) { // si hay lugar en el buffer guarda un dato
+		bufferTX[indice_escritura_TX] = dato; 
+		indice_escritura_TX++;
+	}
+}
 
 
 //Transmision de datos
@@ -91,9 +96,3 @@ void SCI_update(void) {
 	}
 }
 
-void SCI_escribir_char_al_buffer(char dato){
-	if (indice_escritura_TX < TX_BUFFER_SIZE) { // si hay lugar en el buffer guarda un dato
-		bufferTX[indice_escritura_TX] = dato; 
-		indice_escritura_TX++;
-	}
-}

@@ -21,7 +21,6 @@ void MCU_init(void); /* Device initialization function declaration */
 
 
 extern volatile char RX_flag; //Flag de recepción de comando
-volatile char comando;
 volatile short NC;
 
 
@@ -74,7 +73,7 @@ void menu_inicio(){
 	corte = leer_buffer(comando,i);
 	
 	while (!corte && i<5){
-		corte = leer_buffer(comando,i);
+		corte = leer_buffer(comando,i);c
 		i++;
 	}
 }*/
@@ -161,57 +160,65 @@ void ejecutar_comando(char comando){
 }
 
 char determinar_comando(char command[]){
-	if(comparar_comando(command,"ON")){
+	if(comparar_comando(command,"ON\r")){
 		return 'A';
 	}else{
 	
-	if(comparar_comando(command,"OFF")){
+	if(comparar_comando(command,"OFF\r")){
 		return 'B';
 	}else{
 	
-	if(comparar_comando(command,"RESET")){
+	if(comparar_comando(command,"RESET\r")){
 		return 'C';
 	}else{
 	
-	if(comparar_comando(command,"100")){
+	if(comparar_comando(command,"100\r")){
 		return '1';
 	}else{
 		
-	if(comparar_comando(command,"300")){
+	if(comparar_comando(command,"300\r")){
 			return '2';
 	}else{
 		
-	if(comparar_comando(command,"500")){
+	if(comparar_comando(command,"500\r")){
 			return '3';
 	}else{
 		
-	if(comparar_comando(command,"1k")){
+	if(comparar_comando(command,"1k\r")){
 			return '4';
 	}else{
 	
-	if(comparar_comando(command,"2k")){
+	if(comparar_comando(command,"2k\r")){
 			return '5';
 	}else{
 	
-	if(comparar_comando(command,"5k")){
+	if(comparar_comando(command,"5k\r")){
 			return '6';
 	}else{
 		
-	if(comparar_comando(command,"10k")){
+	if(comparar_comando(command,"10k\r")){
 			return '7';
 	}else{
 		
-	if(comparar_comando(command,"12k")){
+	if(comparar_comando(command,"12k\r")){
 			return '8';
 	}}}}}}}}}}}
 }
 
+void SCI_probando_cadena(char *cadena){
+	while(*cadena!='\0'){
+		while(SCIS1_TDRE==0);//Si esta en 0, es que esta ocupado asi que tengo que esperar, en 1 el transmisor me avisa que esta listo para transmitir
+		SCID=*cadena;
+		cadena++;
+	}
+}
+
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
-	char nombre_default[]="AT+NAMEGrupo8Dos\r\n";
+	char nombre_default[]="AT+NAMEG8\r\n";
 	char aux;
 	char comando_comparable;
-	
+	char *comando;
 	MCU_init();
 	
 	SCI_enviar_cadena(nombre_default);
