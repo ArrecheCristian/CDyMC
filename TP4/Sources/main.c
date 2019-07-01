@@ -15,9 +15,8 @@ void main(void) {
   
 
   for(;;) {
-	 TPM1MODL = 0x08;
-	 TPM1C1VL = 0x05;
+	  TPM1C1VL 
+  }
     /* __RESET_WATCHDOG(); By default COP is disabled with device init. When enabling, also reset the watchdog. */
-  } /* loop forever */
+} /* loop forever */
   /* please make sure that you never leave main */
-}
