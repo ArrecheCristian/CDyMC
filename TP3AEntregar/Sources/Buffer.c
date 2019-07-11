@@ -17,8 +17,6 @@ char bufferRX[RX_BUFFER_SIZE]; // Buffer para recepcion
 
 volatile char RX_flag = 0;
 
-extern volatile char comando; //Comando recibido por la terminal
-
 void delay(unsigned short n){//Funcion que recibe por parámetro la cantidad de miliseg de delay
   unsigned short temp;
   unsigned short cant;
@@ -64,6 +62,8 @@ char* leer_comando(void){
 }
 
 
+//Transmision de datos
+
 void SCI_escribir_char_al_buffer(char dato){
 	if (indice_escritura_TX < TX_BUFFER_SIZE) { // si hay lugar en el buffer guarda un dato
 		bufferTX[indice_escritura_TX] = dato; 
@@ -71,16 +71,13 @@ void SCI_escribir_char_al_buffer(char dato){
 	}
 }
 
-
-//Transmision de datos
-
 void SCI_enviar_cadena(char *cadena){
 	while (*cadena != '\0') {
 		SCI_escribir_char_al_buffer(*cadena);//Por lo visto toma este llamado como si fuera un prototipo, y genera el error abajo, lo vemos desp
 		cadena++;
 	}
 	SCIC2_TIE = 1; //Habilita las interrupciones de transmision
-	delay(400);  //Delay de 400ms
+	delay(20);  //Delay de 400ms
 }
 
 void SCI_update(void) {

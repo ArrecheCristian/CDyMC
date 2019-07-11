@@ -226,11 +226,9 @@ __interrupt void isrVtpm1ovf(void)
 */
 __interrupt void isrVtpm1ch1(void)
 {
-  /* Write your interrupt code here ... */
 	TPM1C1V += NC;
 	TPM1C1SC_CH1F=0;
 }
-/* end of isrVtpm1ch1 */
 
 
 /*lint -restore Enable MISRA rule (8.10) checking. */

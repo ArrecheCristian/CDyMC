@@ -21,7 +21,7 @@ void MCU_init(void); /* Device initialization function declaration */
 
 
 extern volatile char RX_flag; //Flag de recepción de comando
-volatile short NC;
+volatile short NC; //Frecuencia actual del parlante
 
 
 
@@ -44,39 +44,6 @@ void menu_inicio(){
 	SCI_enviar_cadena("      B) OFF --> Apagar parlante\n");
 	SCI_enviar_cadena("      C) RESET --> Volver a inicializar el MCU");
 }
-
-
-/*void escribir_buffer(){
-	buffer[vacio] = SCID;
-	vacio = (vacio+1) % N;
-}*/
-
-
-/*unsigned short int leer_buffer(char* comando, unsigned short int i){
-	
-	if(vacio == lleno){
-		return FALSE;
-	}
-	else{
-		comando[i] = buffer[lleno];
-		lleno = (lleno+1) % N;	
-		return TRUE;
-	}
-}*/
-
-
-/*void leer_comando(char *comando){
-	unsigned short int i = 0;
-	unsigned short int corte;
-	comando="     ";
-	
-	corte = leer_buffer(comando,i);
-	
-	while (!corte && i<5){
-		corte = leer_buffer(comando,i);c
-		i++;
-	}
-}*/
 
 int comparar_comando(char str1[], char str2[])
 {
@@ -205,26 +172,18 @@ char determinar_comando(char command[]){
 	}}}}}}}}}}}
 }
 
-void SCI_probando_cadena(char *cadena){
-	while(*cadena!='\0'){
-		while(SCIS1_TDRE==0);//Si esta en 0, es que esta ocupado asi que tengo que esperar, en 1 el transmisor me avisa que esta listo para transmitir
-		SCID=*cadena;
-		cadena++;
-	}
-}
-
 //char comando[]="AT+PIN\r\n";  //Necesita el \r \n, es para ver en que estado esta, deberia responder "OK\r\n" porque esta en modo AT
 void main(void) {
-	char nombre_default[]="AT+NAMEG8\r\n";
+	char nombre_default[]="AT+NAMEG8\r\n"; //Nombre por defecto de nuestro modulo bluetooth
 	char aux;
 	char comando_comparable;
 	char *comando;
 	MCU_init();
 	
-	SCI_enviar_cadena(nombre_default);
+	SCI_enviar_cadena(nombre_default); //Se envía el nombre por defecto al módulo
 	
 	NC = F1;
-	TPM1C1SC = 0;
+	TPM1C1SC = 0;//Desactivo las interrupciones por TPM1 CH1
 	
 	//Espero a que se haga la vinculacion con el dispositivo
 	while(PTBD_PTBD2==0);
