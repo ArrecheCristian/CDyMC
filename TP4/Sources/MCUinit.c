@@ -9,7 +9,7 @@
 **     Processor : MC9S08SH8CPJ
 **     Version   : Component 01.008, Driver 01.08, CPU db: 3.00.066
 **     Datasheet : MC9S08SH8 Rev. 3 6/2008
-**     Date/Time : 2019-07-01, 17:00, # CodeGen: 8
+**     Date/Time : 2019-07-15, 12:49, # CodeGen: 17
 **     Abstract  :
 **         This module contains device initialization code 
 **         for selected on-chip peripherals.
@@ -106,16 +106,16 @@ void MCU_init(void)
   /* PTCDS: PTCDS3=0,PTCDS2=0,PTCDS1=0,PTCDS0=0 */
   PTCDS = 0x00U;                                      
   /* ### Init_ADC init code */
-  /* APCTL1: ADPC7=0,ADPC6=0,ADPC5=0,ADPC4=0,ADPC3=0,ADPC2=1,ADPC1=0,ADPC0=0 */
-  APCTL1 = 0x04U;                                      
+  /* APCTL1: ADPC7=0,ADPC6=0,ADPC5=0,ADPC4=0,ADPC3=0,ADPC2=0,ADPC1=0,ADPC0=0 */
+  APCTL1 = 0x00U;                                      
   /* ADCCFG: ADLPC=0,ADIV1=0,ADIV0=0,ADLSMP=0,MODE1=0,MODE0=0,ADICLK1=0,ADICLK0=0 */
   ADCCFG = 0x00U;                                      
   /* ADCCV: ADCV9=0,ADCV8=0,ADCV7=0,ADCV6=0,ADCV5=0,ADCV4=0,ADCV3=0,ADCV2=0,ADCV1=0,ADCV0=0 */
   ADCCV = 0x00U;                            
   /* ADCSC2: ADACT=0,ADTRG=0,ACFE=0,ACFGT=0 */
   ADCSC2 = 0x00U;                                      
-  /* ADCSC1: COCO=0,AIEN=0,ADCO=1,ADCH4=1,ADCH3=1,ADCH2=1,ADCH1=1,ADCH0=1 */
-  ADCSC1 = 0x3FU;                                      
+  /* ADCSC1: COCO=0,AIEN=0,ADCO=1,ADCH4=0,ADCH3=0,ADCH2=0,ADCH1=1,ADCH0=0 */
+  ADCSC1 = 0x22U;                                      
   /* ### Init_TPM init code */
   (void)(TPM1C1SC == 0U);              /* Channel 0 int. flag clearing (first part) */
   /* TPM1C1SC: CH1F=0,CH1IE=0,MS1B=1,MS1A=0,ELS1B=1,ELS1A=0 */
@@ -148,8 +148,6 @@ void MCU_init(void)
 */
 __interrupt void isrVadc(void)
 {
-  /* Write your interrupt code here ... */
-
 }
 /* end of isrVadc */
 
